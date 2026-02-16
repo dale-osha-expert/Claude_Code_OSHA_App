@@ -3,12 +3,17 @@
 // All content aligned to OSHA Standard 1910.178 (Powered Industrial Trucks)
 // ---------------------------------------------------------------------------
 
-/** Topics derived from the four key areas of 1910.178 */
+/** Topics derived from key areas of OSHA 1910.178 */
 export type Topic =
   | "stability-triangle"
   | "refueling"
   | "load-center"
-  | "pedestrian-safety";
+  | "pedestrian-safety"
+  | "operator-training"
+  | "pre-operation-inspection"
+  | "load-handling"
+  | "truck-types"
+  | "operating-rules";
 
 /** Difficulty tiers map to the 10-question progression */
 export type Difficulty = "easy" | "medium" | "hard";
