@@ -97,7 +97,653 @@ If an accident occurs, the supervisor must be notified immediately. Everyone in 
  * auto-rephrasing via the template in simulateRemediation when a hand-crafted
  * entry does not exist for a given question ID.
  */
-const REPHRASED_QUESTIONS: Record<number, Question> = {};
+const REPHRASED_QUESTIONS: Record<number, Question> = {
+  // ── Question 1 ──────────────────────────────────────────────────────────
+  1: {
+    id: 101,
+    topic: "stability-triangle",
+    difficulty: "easy",
+    questionText:
+      "Which type of incident occurs most frequently when operating a lift truck?",
+    options: [
+      { id: "a", text: "Fallen load" },
+      { id: "b", text: "Truck tipped over" },
+      { id: "c", text: "Pedestrian hit by a lift truck" },
+      { id: "d", text: "A worker hitching a ride fell off the truck" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 2 ──────────────────────────────────────────────────────────
+  2: {
+    id: 102,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "Does certification on a sit-down four-wheel forklift automatically authorize you to operate a stand-up reach truck?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 3 ──────────────────────────────────────────────────────────
+  3: {
+    id: 103,
+    topic: "pre-operation-inspection",
+    difficulty: "easy",
+    questionText:
+      "How often must the pre-operation inspection checklist be completed?",
+    options: [
+      { id: "a", text: "Once a month" },
+      { id: "b", text: "Once a week" },
+      { id: "c", text: "Daily at the beginning of every shift" },
+    ],
+    correctOptionId: "c",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 4 ──────────────────────────────────────────────────────────
+  4: {
+    id: 104,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "Is it permissible for an untrained worker to operate a forklift if a supervisor is present?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 5 ──────────────────────────────────────────────────────────
+  5: {
+    id: 105,
+    topic: "load-center",
+    difficulty: "easy",
+    questionText:
+      "Should a forklift with a missing or illegible data plate be taken out of service?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(o)(2)",
+  },
+  // ── Question 6 ──────────────────────────────────────────────────────────
+  6: {
+    id: 106,
+    topic: "load-handling",
+    difficulty: "easy",
+    questionText:
+      "At what height should the forks be maintained above the floor when carrying a load across a flat surface?",
+    options: [
+      { id: "a", text: "4-6 inches" },
+      { id: "b", text: "2-3 feet" },
+      { id: "c", text: "Eye-level with the operator" },
+      { id: "d", text: "None of the above" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(5)",
+  },
+  // ── Question 7 ──────────────────────────────────────────────────────────
+  7: {
+    id: 107,
+    topic: "load-handling",
+    difficulty: "easy",
+    questionText:
+      "When transporting a load, should the mast be tilted backward to cradle the load against the backrest?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(5)",
+  },
+  // ── Question 8 ──────────────────────────────────────────────────────────
+  8: {
+    id: 108,
+    topic: "pedestrian-safety",
+    difficulty: "easy",
+    questionText:
+      "Under what circumstances is it acceptable to allow a passenger to ride on a forklift?",
+    options: [
+      { id: "a", text: "Never" },
+      { id: "b", text: "As long as they remain under the overhead guard" },
+      { id: "c", text: "If the supervisor says it's OK" },
+      { id: "d", text: "Only when driving very slowly" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(8)",
+  },
+  // ── Question 9 ──────────────────────────────────────────────────────────
+  9: {
+    id: 109,
+    topic: "operating-rules",
+    difficulty: "medium",
+    questionText:
+      "Because forklifts steer from the rear axle, what happens to the back of the truck during a turn?",
+    options: [
+      { id: "a", text: "Is similar to an automobile" },
+      { id: "b", text: "Causes the rear end swing to the outside of the turn" },
+      { id: "c", text: "Causes the front end swing to the out about the same as a car" },
+      { id: "d", text: "Allows the forklift to make sharp turns at high speed" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(n)(3)",
+  },
+  // ── Question 10 ─────────────────────────────────────────────────────────
+  10: {
+    id: 110,
+    topic: "load-handling",
+    difficulty: "medium",
+    questionText:
+      "Should you wait for slack in the mast chains before backing away from a deposited load?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(o)(5)",
+  },
+  // ── Question 11 ─────────────────────────────────────────────────────────
+  11: {
+    id: 111,
+    topic: "truck-types",
+    difficulty: "medium",
+    questionText:
+      "How is the brake engaged on a powered pallet jack?",
+    options: [
+      { id: "a", text: "Allowing the handle to spring back to the upright position or hold it down to the lowest position" },
+      { id: "b", text: "Raising the hydraulic jack" },
+      { id: "c", text: "Taking a sharp turn" },
+      { id: "d", text: "Jumping off the equipment" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(m)(5)",
+  },
+  // ── Question 12 ─────────────────────────────────────────────────────────
+  12: {
+    id: 112,
+    topic: "truck-types",
+    difficulty: "medium",
+    questionText:
+      "Why are Order Picker trucks considered especially valuable in warehouse operations?",
+    options: [
+      { id: "a", text: "They can pick and choose the material, instead of an entire pallet or load" },
+      { id: "b", text: "They can maneuver in very narrow aisles" },
+      { id: "c", text: "Their design can handle small items to very large bulky items" },
+      { id: "d", text: "All of the above" },
+    ],
+    correctOptionId: "d",
+    oshaClause: "1910.178(b)",
+  },
+  // ── Question 13 ─────────────────────────────────────────────────────────
+  13: {
+    id: 113,
+    topic: "truck-types",
+    difficulty: "medium",
+    questionText:
+      "What is the primary application of a Class 7 powered industrial truck?",
+    options: [
+      { id: "a", text: "Has solid cushion tires" },
+      { id: "b", text: "Best for use in narrow aisles" },
+      { id: "c", text: "Best for use on rough terrain" },
+      { id: "d", text: "None of the above" },
+    ],
+    correctOptionId: "c",
+    oshaClause: "1910.178(b)",
+  },
+  // ── Question 14 ─────────────────────────────────────────────────────────
+  14: {
+    id: 114,
+    topic: "load-handling",
+    difficulty: "hard",
+    questionText:
+      "A vertical mast forklift can reach greater heights than many other types — why does this capability also represent its biggest danger?",
+    options: [
+      { id: "a", text: "Its low profile when the masts are in the lowest position obstructs the driver's view." },
+      { id: "b", text: "A vertical mast forklift can lift a load higher than an extended reach forklift. The risk and severity of injuries increases if a falling object strikes the driver or a bystander." },
+      { id: "c", text: "A three-stage mast has a lower profile when the forks are in the lowest position." },
+      { id: "d", text: "There are two types of mast available." },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(o)(1)",
+  },
+  // ── Question 15 ─────────────────────────────────────────────────────────
+  15: {
+    id: 115,
+    topic: "truck-types",
+    difficulty: "medium",
+    questionText:
+      "Which of the following are recognized designs of extended reach forklifts?",
+    options: [
+      { id: "a", text: "Frame leveling" },
+      { id: "b", text: "Outrigger" },
+      { id: "c", text: "Slewing" },
+      { id: "d", text: "All the above" },
+    ],
+    correctOptionId: "d",
+    oshaClause: "1910.178(b)",
+  },
+  // ── Question 16 ─────────────────────────────────────────────────────────
+  16: {
+    id: 116,
+    topic: "load-handling",
+    difficulty: "easy",
+    questionText:
+      "Does carrying a load on a forklift require the operator to brake gradually and smoothly?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(5)",
+  },
+  // ── Question 17 ─────────────────────────────────────────────────────────
+  17: {
+    id: 117,
+    topic: "load-handling",
+    difficulty: "easy",
+    questionText:
+      "Even if items are lightweight, is it safe to stack them higher than the backrest of the forklift?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(o)(2)",
+  },
+  // ── Question 18 ─────────────────────────────────────────────────────────
+  18: {
+    id: 118,
+    topic: "stability-triangle",
+    difficulty: "medium",
+    questionText:
+      "Can operators assume a rough terrain forklift will remain stable regardless of the surface conditions?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 19 ─────────────────────────────────────────────────────────
+  19: {
+    id: 119,
+    topic: "operating-rules",
+    difficulty: "easy",
+    questionText:
+      "Should operators treat all overhead power lines and electrical sources as live and dangerous?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(9)",
+  },
+  // ── Question 20 ─────────────────────────────────────────────────────────
+  20: {
+    id: 120,
+    topic: "operating-rules",
+    difficulty: "medium",
+    questionText:
+      "Must the parking brake be engaged even when the operator is standing within 25 feet of the lift truck they are monitoring?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(m)(5)",
+  },
+  // ── Question 21 ─────────────────────────────────────────────────────────
+  21: {
+    id: 121,
+    topic: "operating-rules",
+    difficulty: "easy",
+    questionText:
+      "In the event of a workplace forklift accident, who must be informed right away?",
+    options: [
+      { id: "a", text: "The supervisor" },
+      { id: "b", text: "Any coworker" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 22 ─────────────────────────────────────────────────────────
+  22: {
+    id: 122,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "What is the primary reason forklift operator safety training is required?",
+    options: [
+      { id: "a", text: "Lift trucks last longer" },
+      { id: "b", text: "Helps prevent accidents" },
+      { id: "c", text: "Makes more profits" },
+      { id: "d", text: "Drivers are more efficient" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 23 ─────────────────────────────────────────────────────────
+  23: {
+    id: 123,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "Do the controls and instrument gauges vary between different models and types of lift trucks?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(l)(3)",
+  },
+  // ── Question 24 ─────────────────────────────────────────────────────────
+  24: {
+    id: 124,
+    topic: "pre-operation-inspection",
+    difficulty: "medium",
+    questionText:
+      "Can a forklift with malfunctioning gauges still be considered safe for operation?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 25 ─────────────────────────────────────────────────────────
+  25: {
+    id: 125,
+    topic: "refueling",
+    difficulty: "medium",
+    questionText:
+      "What personal protective equipment is required when handling the battery of an electric lift truck?",
+    options: [
+      { id: "a", text: "Protective gloves with gauntlets" },
+      { id: "b", text: "Eye or face protection" },
+      { id: "c", text: "An apron resistant to battery acid" },
+      { id: "d", text: "All of the above" },
+    ],
+    correctOptionId: "d",
+    oshaClause: "1910.178(g)(2)",
+  },
+  // ── Question 26 ─────────────────────────────────────────────────────────
+  26: {
+    id: 126,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "Does having a valid automobile driver's license qualify someone to operate a forklift?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 27 ─────────────────────────────────────────────────────────
+  27: {
+    id: 127,
+    topic: "pre-operation-inspection",
+    difficulty: "medium",
+    questionText:
+      "What is the correct course of action when an operator discovers a forklift defect during the pre-shift inspection?",
+    options: [
+      { id: "a", text: "Operate the lift truck anyway and inform the supervisor at the end of the shift" },
+      { id: "b", text: "Inform the supervisor immediately and red-tag or take out of service." },
+      { id: "c", text: "Make repairs yourself" },
+      { id: "d", text: "Inform maintenance and then operate as usual" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 28 ─────────────────────────────────────────────────────────
+  28: {
+    id: 128,
+    topic: "operating-rules",
+    difficulty: "hard",
+    questionText:
+      "Which safety checks must be completed before an operator drives a forklift onto a trailer at a loading dock?",
+    options: [
+      { id: "a", text: "Make sure the trailer is able to handle the additional weight of the lift truck" },
+      { id: "b", text: "Check that the tire blocks are securely in place in front of and behind the trailer tires" },
+      { id: "c", text: "Check that the jack stands for the trailer are in place" },
+      { id: "d", text: "Inspect dock leveler or dock plate" },
+      { id: "e", text: "All of the above" },
+    ],
+    correctOptionId: "e",
+    oshaClause: "1910.178(n)(6)",
+  },
+  // ── Question 29 ─────────────────────────────────────────────────────────
+  29: {
+    id: 129,
+    topic: "stability-triangle",
+    difficulty: "easy",
+    questionText:
+      "On a ramp or incline, should a loaded forklift always be positioned so the load faces uphill?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(7)",
+  },
+  // ── Question 30 ─────────────────────────────────────────────────────────
+  30: {
+    id: 130,
+    topic: "operating-rules",
+    difficulty: "easy",
+    questionText:
+      "Workplace accident prevention is the responsibility of which group?",
+    options: [
+      { id: "a", text: "Truck operator" },
+      { id: "b", text: "Everyone" },
+      { id: "c", text: "Supervisor" },
+      { id: "d", text: "Safety inspector" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)",
+  },
+  // ── Question 31 ─────────────────────────────────────────────────────────
+  31: {
+    id: 131,
+    topic: "pre-operation-inspection",
+    difficulty: "hard",
+    questionText:
+      "Which of the following defects would require a forklift to be immediately removed from service?",
+    options: [
+      { id: "a", text: "Leaking hydraulics hoses" },
+      { id: "b", text: "Faulty brakes" },
+      { id: "c", text: "Steering problem" },
+      { id: "d", text: "Parking brake will not engage" },
+      { id: "e", text: "All of the above" },
+    ],
+    correctOptionId: "e",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 32 ─────────────────────────────────────────────────────────
+  32: {
+    id: 132,
+    topic: "operating-rules",
+    difficulty: "hard",
+    questionText:
+      "When crossing railroad tracks with a forklift, should the operator cross at an angle rather than straight on?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(n)(10)",
+  },
+  // ── Question 33 ─────────────────────────────────────────────────────────
+  33: {
+    id: 133,
+    topic: "load-handling",
+    difficulty: "medium",
+    questionText:
+      "What should an operator do when they encounter a load that looks unstable or improperly arranged on a pallet?",
+    options: [
+      { id: "a", text: "Lift the load carefully and drive slowly" },
+      { id: "b", text: "Re-adjust the load so it is safe to move" },
+      { id: "c", text: "Drive in reverse, so the load does not fall on you" },
+      { id: "d", text: "None of the above" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(o)(2)",
+  },
+  // ── Question 34 ─────────────────────────────────────────────────────────
+  34: {
+    id: 134,
+    topic: "refueling",
+    difficulty: "easy",
+    questionText:
+      "Is it safe to perform a quick opportunity charge on an electric forklift battery outside of a designated charging area?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(g)(1)",
+  },
+  // ── Question 35 ─────────────────────────────────────────────────────────
+  35: {
+    id: 135,
+    topic: "refueling",
+    difficulty: "hard",
+    questionText:
+      "Which of the following practices is acceptable when refueling a gas or diesel powered forklift?",
+    options: [
+      { id: "a", text: "Place your cigarette away from the truck" },
+      { id: "b", text: "Leave the engine running" },
+      { id: "c", text: "Raise the forks 4 to 6 inches off the floor" },
+      { id: "d", text: "Fill the tank until there is a slight overflow" },
+      { id: "e", text: "None of the above" },
+    ],
+    correctOptionId: "e",
+    oshaClause: "1910.178(f)(12)",
+  },
+  // ── Question 36 ─────────────────────────────────────────────────────────
+  36: {
+    id: 136,
+    topic: "stability-triangle",
+    difficulty: "easy",
+    questionText:
+      "Does the center of gravity of a forklift shift when a load is picked up?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 37 ─────────────────────────────────────────────────────────
+  37: {
+    id: 137,
+    topic: "stability-triangle",
+    difficulty: "easy",
+    questionText:
+      "Is a forklift more likely to tip over when it is carrying a load or when it is unloaded?",
+    options: [
+      { id: "a", text: "Loaded" },
+      { id: "b", text: "Unloaded" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(l)(1)",
+  },
+  // ── Question 38 ─────────────────────────────────────────────────────────
+  38: {
+    id: 138,
+    topic: "stability-triangle",
+    difficulty: "hard",
+    questionText:
+      "Compared to the forces of momentum during operation, is exceeding a forklift's rated load capacity an equally serious hazard?",
+    options: [
+      { id: "a", text: "Yes" },
+      { id: "b", text: "No" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(n)(5)",
+  },
+  // ── Question 39 ─────────────────────────────────────────────────────────
+  39: {
+    id: 139,
+    topic: "stability-triangle",
+    difficulty: "hard",
+    questionText:
+      "What is the safest action for an operator to take if their forklift starts tipping over to the side?",
+    options: [
+      { id: "a", text: "Release the seat belt and jump away from the direction the truck is tipping" },
+      { id: "b", text: "Stay in the truck and ride it out, your roll cage and seatbelt will protect you" },
+      { id: "c", text: "Set the parking brake and sound the horn" },
+      { id: "d", text: "None of the above" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(l)(6)",
+  },
+  // ── Question 40 ─────────────────────────────────────────────────────────
+  40: {
+    id: 140,
+    topic: "refueling",
+    difficulty: "medium",
+    questionText:
+      "When replacing an LP-gas cylinder, should the operator close the service valve and let the engine run until it stalls to clear the fuel lines?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(f)(12)",
+  },
+  // ── Question 41 ─────────────────────────────────────────────────────────
+  41: {
+    id: 141,
+    topic: "pre-operation-inspection",
+    difficulty: "hard",
+    questionText:
+      "Under which of the following conditions is it still acceptable to continue operating a forklift?",
+    options: [
+      { id: "a", text: "Manufacturers safety warning decals" },
+      { id: "b", text: "Mast chains are out of adjustment" },
+      { id: "c", text: "No seat belt is present or does not operate properly" },
+      { id: "d", text: "Parking brake does not engage fully" },
+      { id: "e", text: "None of the above" },
+    ],
+    correctOptionId: "e",
+    oshaClause: "1910.178(q)(7)",
+  },
+  // ── Question 42 ─────────────────────────────────────────────────────────
+  42: {
+    id: 142,
+    topic: "pedestrian-safety",
+    difficulty: "easy",
+    questionText:
+      "In a shared workspace, does a forklift have the right-of-way over pedestrians?",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "b",
+    oshaClause: "1910.178(n)(1)",
+  },
+  // ── Question 43 ─────────────────────────────────────────────────────────
+  43: {
+    id: 143,
+    topic: "operator-training",
+    difficulty: "easy",
+    questionText:
+      "A hands-on practical evaluation by a certified trainer on your specific equipment in your specific facility is a mandatory part of completing forklift certification.",
+    options: [
+      { id: "a", text: "True" },
+      { id: "b", text: "False" },
+    ],
+    correctOptionId: "a",
+    oshaClause: "1910.178(l)(2)",
+  },
+};
 
 /**
  * Simulates an AI-generated remediation payload.
