@@ -1,19 +1,9 @@
 // ---------------------------------------------------------------------------
-// ForkliftMastery — Type Definitions
-// All content aligned to OSHA Standard 1910.178 (Powered Industrial Trucks)
+// Safety Certifications Platform — Type Definitions
 // ---------------------------------------------------------------------------
 
-/** Topics derived from key areas of OSHA 1910.178 */
-export type Topic =
-  | "stability-triangle"
-  | "refueling"
-  | "load-center"
-  | "pedestrian-safety"
-  | "operator-training"
-  | "pre-operation-inspection"
-  | "load-handling"
-  | "truck-types"
-  | "operating-rules";
+/** Topic string — each course defines its own topic keys */
+export type Topic = string;
 
 /** Difficulty tiers map to the 10-question progression */
 export type Difficulty = "easy" | "medium" | "hard";
@@ -53,4 +43,19 @@ export interface ExamState {
   isLoading: boolean;
   selectedAnswerId: string | null;
   showFeedback: boolean;
+}
+
+/** A full course definition */
+export interface Course {
+  id: string;
+  slug: string;
+  title: string;
+  topic: string;
+  productLine: string;
+  durationMinutes: number;
+  shortDescription: string;
+  oshaRefs: string[];
+  passingScore: number;
+  questions: Question[];
+  lessons: Record<string, string>;
 }

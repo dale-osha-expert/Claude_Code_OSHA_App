@@ -101,15 +101,17 @@ const REPHRASED_QUESTIONS: Record<number, Question> = {};
 
 /**
  * Simulates an AI-generated remediation payload.
- * Returns a mini-lesson + a rephrased question after a 1-second delay.
+ * Accepts an optional lessons map; falls back to the built-in forklift lessons.
  */
 export async function simulateRemediation(
-  originalQuestion: Question
+  originalQuestion: Question,
+  lessons?: Record<string, string>
 ): Promise<RemediationPayload> {
   return new Promise((resolve) => {
     setTimeout(() => {
+      const lessonMap = lessons ?? LESSONS;
       const lesson =
-        LESSONS[originalQuestion.topic] ??
+        lessonMap[originalQuestion.topic] ??
         "No lesson content available for this topic.";
 
       const rephrased =
