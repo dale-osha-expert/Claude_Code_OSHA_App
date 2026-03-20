@@ -101,11 +101,12 @@ const REPHRASED_QUESTIONS: Record<number, Question> = {};
 
 /**
  * Simulates an AI-generated remediation payload.
- * Accepts an optional lessons map; falls back to the built-in forklift lessons.
+ * Accepts optional per-course lessons and rephrasedQuestions maps.
  */
 export async function simulateRemediation(
   originalQuestion: Question,
-  lessons?: Record<string, string>
+  lessons?: Record<string, string>,
+  rephrasedQuestions?: Record<number, Question>
 ): Promise<RemediationPayload> {
   return new Promise((resolve) => {
     setTimeout(() => {
@@ -114,12 +115,12 @@ export async function simulateRemediation(
         lessonMap[originalQuestion.topic] ??
         "No lesson content available for this topic.";
 
-      const rephrased =
-        REPHRASED_QUESTIONS[originalQuestion.id] ?? {
-          ...originalQuestion,
-          id: originalQuestion.id + 100,
-          questionText: `[Rephrased] ${originalQuestion.questionText}`,
-        };
+      const rephrasedMap = rephrasedQuestions ?? REPHRASED_QUESTIONS;
+      const rephrased = rephrasedMap[originalQuestion.id] ?? {
+        ...originalQuestion,
+        id: originalQuestion.id + 100,
+        questionText: originalQuestion.questionText,
+      };
 
       resolve({ lesson, rephrasedQuestion: rephrased });
     }, 1000);

@@ -58,4 +58,6 @@ export interface Course {
   passingScore: number;
   questions: Question[];
   lessons: Record<string, string>;
+  /** Rephrased versions keyed by original question ID, shown after a wrong answer */
+  rephrasedQuestions: Record<number, Question>;
 }

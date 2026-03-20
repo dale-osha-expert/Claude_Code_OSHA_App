@@ -76,7 +76,8 @@ export default function CoursePage() {
       setState((prev) => ({ ...prev, isLoading: true }));
       const payload: RemediationPayload = await simulateRemediation(
         currentQuestion,
-        course?.lessons
+        course?.lessons,
+        course?.rephrasedQuestions
       );
       setState((prev) => ({
         ...prev,
