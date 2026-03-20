@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ForkliftMastery — OSHA 1910.178 Certification Exam",
+  title: "Safety Certifications — MARCOM Industrial Safety Training",
   description:
-    "Adaptive forklift certification exam with remediation-based learning, aligned to OSHA Standard 1910.178 (Powered Industrial Trucks).",
+    "Adaptive industrial safety certification exams with remediation-based learning, aligned to OSHA standards.",
 };
 
 export default function RootLayout({
