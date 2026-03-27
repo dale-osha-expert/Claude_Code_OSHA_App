@@ -148,7 +148,7 @@ export default function RemediationModal({
                 >
                   {isCorrect
                     ? "Correct! Proceeding to the next question..."
-                    : "Incorrect — restarting the lesson..."}
+                    : "Incorrect — returning to the original question..."}
                 </div>
               )}
             </>

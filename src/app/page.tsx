@@ -112,15 +112,14 @@ export default function ExamPage() {
   }, [state.currentQuestionIndex]);
 
   // ── Remediation: answered the rephrased question incorrectly ──────────
-  // Re-show the lesson (reset the modal to lesson phase)
+  // Close the modal and return the student to the original question
   const handleRemediationIncorrect = useCallback(() => {
     setState((prev) => ({
       ...prev,
-      // Keep isRemediating true, keep the same payload.
-      // The modal will reset its own internal phase to "lesson".
-      remediationPayload: prev.remediationPayload
-        ? { ...prev.remediationPayload }
-        : null,
+      isRemediating: false,
+      remediationPayload: null,
+      selectedAnswerId: null,
+      showFeedback: false,
     }));
   }, []);
 
