@@ -4,12 +4,18 @@ interface ResultsScreenProps {
   score: number;
   totalQuestions: number;
   onRestart: () => void;
+  isCompleting?: boolean;
+  completionError?: string | null;
+  onRetryComplete?: () => void;
 }
 
 export default function ResultsScreen({
   score,
   totalQuestions,
   onRestart,
+  isCompleting,
+  completionError,
+  onRetryComplete,
 }: ResultsScreenProps) {
   const percentage = Math.round((score / totalQuestions) * 100);
   const passed = percentage >= 70;
@@ -48,6 +54,27 @@ export default function ResultsScreen({
               : "A score of 70% or higher is required to pass. Review the OSHA 1910.178 standard, focusing on the areas where remediation was triggered, then retake the exam."}
           </p>
         </div>
+
+        {isCompleting && (
+          <div className="flex items-center justify-center gap-3 mb-6 p-4 bg-blue-50 rounded-xl">
+            <div className="animate-spin h-5 w-5 border-2 border-blue-600 border-t-transparent rounded-full" />
+            <p className="text-blue-700 font-medium">Completing course...</p>
+          </div>
+        )}
+
+        {completionError && (
+          <div className="mb-6 p-4 bg-red-50 rounded-xl">
+            <p className="text-red-700 text-sm mb-3">{completionError}</p>
+            {onRetryComplete && (
+              <button
+                onClick={onRetryComplete}
+                className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+              >
+                Retry Completion
+              </button>
+            )}
+          </div>
+        )}
 
         <button
           onClick={onRestart}

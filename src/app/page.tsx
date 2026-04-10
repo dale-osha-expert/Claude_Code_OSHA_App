@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef, useEffect } from "react";
 import { ExamState, RemediationPayload } from "@/lib/types";
 import { BASE_QUESTIONS } from "@/lib/questions";
 import { simulateRemediation } from "@/lib/remediation";
+import { generateAttemptId, sendCourseEvent, sendCourseComplete } from "@/lib/courseApi";
 import ProgressBar from "@/components/ProgressBar";
 import QuestionCard from "@/components/QuestionCard";
 import RemediationModal from "@/components/RemediationModal";
@@ -27,6 +28,11 @@ function getInitialState(): ExamState {
 
 export default function ExamPage() {
   const [state, setState] = useState<ExamState>(getInitialState);
+  const [isCompleting, setIsCompleting] = useState(false);
+  const [completionError, setCompletionError] = useState<string | null>(null);
+
+  const attemptIdRef = useRef<string>(generateAttemptId());
+  const completionSentRef = useRef<boolean>(false);
 
   const currentQuestion = BASE_QUESTIONS[state.currentQuestionIndex];
 
@@ -49,9 +55,22 @@ export default function ExamPage() {
     await new Promise((resolve) => setTimeout(resolve, 1200));
 
     if (isCorrect) {
+      // Track correct answer and page advance
+      sendCourseEvent(attemptIdRef.current, "question_correct", {
+        pageId: `q-${currentQuestion.id}`,
+        questionId: currentQuestion.id,
+      });
+      sendCourseEvent(attemptIdRef.current, "page_next", {
+        pageId: `q-${currentQuestion.id}`,
+      });
+
       // Correct → advance
       const nextIndex = state.currentQuestionIndex + 1;
       if (nextIndex >= TOTAL_QUESTIONS) {
+        sendCourseEvent(attemptIdRef.current, "exam_submitted", {
+          correctCount: state.score + 1,
+          totalQuestions: TOTAL_QUESTIONS,
+        });
         setState((prev) => ({
           ...prev,
           score: prev.score + 1,
@@ -71,6 +90,12 @@ export default function ExamPage() {
         }));
       }
     } else {
+      // Track incorrect answer
+      sendCourseEvent(attemptIdRef.current, "question_incorrect", {
+        pageId: `q-${currentQuestion.id}`,
+        questionId: currentQuestion.id,
+      });
+
       // Incorrect → enter remediation
       setState((prev) => ({ ...prev, isLoading: true }));
 
@@ -91,8 +116,17 @@ export default function ExamPage() {
 
   // ── Remediation: answered the rephrased question correctly ────────────
   const handleRemediationCorrect = useCallback(() => {
+    const question = BASE_QUESTIONS[state.currentQuestionIndex];
+    sendCourseEvent(attemptIdRef.current, "page_next", {
+      pageId: `q-${question.id}`,
+    });
+
     const nextIndex = state.currentQuestionIndex + 1;
     if (nextIndex >= TOTAL_QUESTIONS) {
+      sendCourseEvent(attemptIdRef.current, "exam_submitted", {
+        correctCount: state.score,
+        totalQuestions: TOTAL_QUESTIONS,
+      });
       setState((prev) => ({
         ...prev,
         isRemediating: false,
@@ -123,8 +157,40 @@ export default function ExamPage() {
     }));
   }, []);
 
+  // ── Complete the course and redirect ──────────────────────────────────
+  const handleComplete = useCallback(async () => {
+    if (completionSentRef.current) return;
+    completionSentRef.current = true;
+    setIsCompleting(true);
+    setCompletionError(null);
+
+    try {
+      const redirectUrl = await sendCourseComplete(
+        attemptIdRef.current,
+        state.score,
+        TOTAL_QUESTIONS,
+      );
+      window.location.href = redirectUrl;
+    } catch (err) {
+      console.error("[CourseAPI] Completion failed:", err);
+      completionSentRef.current = false;
+      setIsCompleting(false);
+      setCompletionError("Failed to complete course. Please try again.");
+    }
+  }, [state.score]);
+
+  useEffect(() => {
+    if (state.isComplete) {
+      handleComplete();
+    }
+  }, [state.isComplete, handleComplete]);
+
   // ── Restart the exam ──────────────────────────────────────────────────
   const handleRestart = useCallback(() => {
+    attemptIdRef.current = generateAttemptId();
+    completionSentRef.current = false;
+    setIsCompleting(false);
+    setCompletionError(null);
     setState(getInitialState());
   }, []);
 
@@ -161,6 +227,9 @@ export default function ExamPage() {
               score={state.score}
               totalQuestions={TOTAL_QUESTIONS}
               onRestart={handleRestart}
+              isCompleting={isCompleting}
+              completionError={completionError}
+              onRetryComplete={handleComplete}
             />
           ) : (
             <>
