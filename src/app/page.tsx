@@ -56,12 +56,18 @@ export default function ExamPage() {
 
     if (isCorrect) {
       // Track correct answer and page advance
+      const answeredSoFar = state.currentQuestionIndex + 1;
+      const scoreSoFar = state.score + 1;
       sendCourseEvent(attemptIdRef.current, "question_correct", {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
+        correctCount: scoreSoFar,
+        totalQuestions: answeredSoFar,
       });
       sendCourseEvent(attemptIdRef.current, "page_next", {
         pageId: `q-${currentQuestion.id}`,
+        correctCount: scoreSoFar,
+        totalQuestions: answeredSoFar,
       });
 
       // Correct → advance
@@ -94,6 +100,8 @@ export default function ExamPage() {
       sendCourseEvent(attemptIdRef.current, "question_incorrect", {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
+        correctCount: state.score,
+        totalQuestions: state.currentQuestionIndex + 1,
       });
 
       // Incorrect → enter remediation
@@ -119,6 +127,8 @@ export default function ExamPage() {
     const question = BASE_QUESTIONS[state.currentQuestionIndex];
     sendCourseEvent(attemptIdRef.current, "page_next", {
       pageId: `q-${question.id}`,
+      correctCount: state.score,
+      totalQuestions: state.currentQuestionIndex + 1,
     });
 
     const nextIndex = state.currentQuestionIndex + 1;

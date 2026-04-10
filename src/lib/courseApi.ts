@@ -50,7 +50,7 @@ function buildPayload(
     event_type: eventType,
     course_id: COURSE_ID,
     page_id: options?.pageId ?? null,
-    lesson_id: null,
+    lesson_id: COURSE_ID,
     timestamp: new Date().toISOString(),
     correct_count: options?.correctCount ?? null,
     total_questions: options?.totalQuestions ?? null,
