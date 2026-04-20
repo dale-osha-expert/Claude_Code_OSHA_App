@@ -329,6 +329,242 @@
       ],
       "correctOptionId": "d",
       "oshaClause": "1910.178(g)(2)"
+    },
+    {
+      "id": 26,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "If you know how to drive a car, you also know how to drive a lift truck.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    {
+      "id": 27,
+      "topic": "pre-operation-inspection",
+      "difficulty": "medium",
+      "questionText": "What should be done if a lift truck is found to be in need of repair, defective or in any way unsafe to operate?",
+      "options": [
+        { "id": "a", "text": "Operate the lift truck anyway and inform the supervisor at the end of the shift" },
+        { "id": "b", "text": "Inform the supervisor immediately and red-tag or take out of service." },
+        { "id": "c", "text": "Make repairs yourself" },
+        { "id": "d", "text": "Inform maintenance and then operate as usual" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    {
+      "id": 28,
+      "topic": "operating-rules",
+      "difficulty": "hard",
+      "questionText": "What should the operator do before driving a lift truck into a trailer?",
+      "options": [
+        { "id": "a", "text": "Make sure the trailer is able to handle the additional weight of the lift truck" },
+        { "id": "b", "text": "Check that the tire blocks are securely in place in front of and behind the trailer tires" },
+        { "id": "c", "text": "Check that the jack stands for the trailer are in place" },
+        { "id": "d", "text": "Inspect dock leveler or dock plate" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(n)(6)"
+    },
+    {
+      "id": 29,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "When traveling up or down a grade or ramp, the load should always point uphill.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(7)"
+    },
+    {
+      "id": 30,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "Who is responsible for preventing accidents in the workplace?",
+      "options": [
+        { "id": "a", "text": "Truck operator" },
+        { "id": "b", "text": "Everyone" },
+        { "id": "c", "text": "Supervisor" },
+        { "id": "d", "text": "Safety inspector" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)"
+    },
+    {
+      "id": 31,
+      "topic": "pre-operation-inspection",
+      "difficulty": "hard",
+      "questionText": "Which of the following items will take your lift truck out of service?",
+      "options": [
+        { "id": "a", "text": "Leaking hydraulics hoses" },
+        { "id": "b", "text": "Faulty brakes" },
+        { "id": "c", "text": "Steering problem" },
+        { "id": "d", "text": "Parking brake will not engage" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    {
+      "id": 32,
+      "topic": "operating-rules",
+      "difficulty": "hard",
+      "questionText": "Railroad tracks should always be crossed straight on and not at an angle.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(n)(10)"
+    },
+    {
+      "id": 33,
+      "topic": "load-handling",
+      "difficulty": "medium",
+      "questionText": "If a load appears to be improperly stacked or unstable:",
+      "options": [
+        { "id": "a", "text": "Lift the load carefully and drive slowly" },
+        { "id": "b", "text": "Re-adjust the load so it is safe to move" },
+        { "id": "c", "text": "Drive in reverse, so the load does not fall on you" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(2)"
+    },
+    {
+      "id": 34,
+      "topic": "refueling",
+      "difficulty": "easy",
+      "questionText": "Is it okay to do a quick battery charge during a lunch break on an electric lift truck?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(g)(1)"
+    },
+    {
+      "id": 35,
+      "topic": "refueling",
+      "difficulty": "hard",
+      "questionText": "When refueling a gas or diesel lift truck:",
+      "options": [
+        { "id": "a", "text": "Place your cigarette away from the truck" },
+        { "id": "b", "text": "Leave the engine running" },
+        { "id": "c", "text": "Raise the forks 4 to 6 inches off the floor" },
+        { "id": "d", "text": "Fill the tank until there is a slight overflow" },
+        { "id": "e", "text": "None of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(f)(12)"
+    },
+    {
+      "id": 36,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "Lift trucks are designed so that the center of gravity remains the same loaded or unloaded.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    {
+      "id": 37,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "When is a lift truck most stable?",
+      "options": [
+        { "id": "a", "text": "Loaded" },
+        { "id": "b", "text": "Unloaded" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    {
+      "id": 38,
+      "topic": "stability-triangle",
+      "difficulty": "hard",
+      "questionText": "Is overloading as serious a problem as momentum?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(n)(5)"
+    },
+    {
+      "id": 39,
+      "topic": "stability-triangle",
+      "difficulty": "hard",
+      "questionText": "If a lift truck begins to tip over sideways, the operator should:",
+      "options": [
+        { "id": "a", "text": "Release the seat belt and jump away from the direction the truck is tipping" },
+        { "id": "b", "text": "Stay in the truck and ride it out, your roll cage and seatbelt will protect you" },
+        { "id": "c", "text": "Set the parking brake and sound the horn" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(6)"
+    },
+    {
+      "id": 40,
+      "topic": "refueling",
+      "difficulty": "medium",
+      "questionText": "Before changing a Liquid Propane bottle, the service valve must be shut off and the engine left running until it stops (in order to purge the lines).",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(f)(12)"
+    },
+    {
+      "id": 41,
+      "topic": "pre-operation-inspection",
+      "difficulty": "hard",
+      "questionText": "It's okay to operate the lift truck when the following is missing or damaged:",
+      "options": [
+        { "id": "a", "text": "Manufacturers safety warning decals" },
+        { "id": "b", "text": "Mast chains are out of adjustment" },
+        { "id": "c", "text": "No seat belt is present or does not operate properly" },
+        { "id": "d", "text": "Parking brake does not engage fully" },
+        { "id": "e", "text": "None of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    {
+      "id": 42,
+      "topic": "pedestrian-safety",
+      "difficulty": "easy",
+      "questionText": "Pedestrians should always yield right-of-way to a lift truck.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(n)(1)"
+    },
+    {
+      "id": 43,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "In order to complete your certification, a certified trainer is required to perform a practical hands-on evaluation so you can demonstrate your knowledge on your specific equipment in your specific facility.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(l)(2)"
     }
   ],
   "lessons": {
@@ -665,6 +901,242 @@
       ],
       "correctOptionId": "d",
       "oshaClause": "1910.178(g)(2)"
+    },
+    "26": {
+      "id": 126,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "Does having a valid automobile driver's license qualify someone to operate a forklift?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    "27": {
+      "id": 127,
+      "topic": "pre-operation-inspection",
+      "difficulty": "medium",
+      "questionText": "What is the correct course of action when an operator discovers a forklift defect during the pre-shift inspection?",
+      "options": [
+        { "id": "a", "text": "Operate the lift truck anyway and inform the supervisor at the end of the shift" },
+        { "id": "b", "text": "Inform the supervisor immediately and red-tag or take out of service." },
+        { "id": "c", "text": "Make repairs yourself" },
+        { "id": "d", "text": "Inform maintenance and then operate as usual" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    "28": {
+      "id": 128,
+      "topic": "operating-rules",
+      "difficulty": "hard",
+      "questionText": "Which safety checks must be completed before an operator drives a forklift onto a trailer at a loading dock?",
+      "options": [
+        { "id": "a", "text": "Make sure the trailer is able to handle the additional weight of the lift truck" },
+        { "id": "b", "text": "Check that the tire blocks are securely in place in front of and behind the trailer tires" },
+        { "id": "c", "text": "Check that the jack stands for the trailer are in place" },
+        { "id": "d", "text": "Inspect dock leveler or dock plate" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(n)(6)"
+    },
+    "29": {
+      "id": 129,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "On a ramp or incline, should a loaded forklift always be positioned so the load faces uphill?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(7)"
+    },
+    "30": {
+      "id": 130,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "Workplace accident prevention is the responsibility of which group?",
+      "options": [
+        { "id": "a", "text": "Truck operator" },
+        { "id": "b", "text": "Everyone" },
+        { "id": "c", "text": "Supervisor" },
+        { "id": "d", "text": "Safety inspector" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)"
+    },
+    "31": {
+      "id": 131,
+      "topic": "pre-operation-inspection",
+      "difficulty": "hard",
+      "questionText": "Which of the following defects would require a forklift to be immediately removed from service?",
+      "options": [
+        { "id": "a", "text": "Leaking hydraulics hoses" },
+        { "id": "b", "text": "Faulty brakes" },
+        { "id": "c", "text": "Steering problem" },
+        { "id": "d", "text": "Parking brake will not engage" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    "32": {
+      "id": 132,
+      "topic": "operating-rules",
+      "difficulty": "hard",
+      "questionText": "When crossing railroad tracks with a forklift, should the operator cross at an angle rather than straight on?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(10)"
+    },
+    "33": {
+      "id": 133,
+      "topic": "load-handling",
+      "difficulty": "medium",
+      "questionText": "What should an operator do when they encounter a load that looks unstable or improperly arranged on a pallet?",
+      "options": [
+        { "id": "a", "text": "Lift the load carefully and drive slowly" },
+        { "id": "b", "text": "Re-adjust the load so it is safe to move" },
+        { "id": "c", "text": "Drive in reverse, so the load does not fall on you" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(2)"
+    },
+    "34": {
+      "id": 134,
+      "topic": "refueling",
+      "difficulty": "easy",
+      "questionText": "Is it safe to perform a quick opportunity charge on an electric forklift battery outside of a designated charging area?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(g)(1)"
+    },
+    "35": {
+      "id": 135,
+      "topic": "refueling",
+      "difficulty": "hard",
+      "questionText": "Which of the following practices is acceptable when refueling a gas or diesel powered forklift?",
+      "options": [
+        { "id": "a", "text": "Place your cigarette away from the truck" },
+        { "id": "b", "text": "Leave the engine running" },
+        { "id": "c", "text": "Raise the forks 4 to 6 inches off the floor" },
+        { "id": "d", "text": "Fill the tank until there is a slight overflow" },
+        { "id": "e", "text": "None of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(f)(12)"
+    },
+    "36": {
+      "id": 136,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "Does the center of gravity of a forklift shift when a load is picked up?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    "37": {
+      "id": 137,
+      "topic": "stability-triangle",
+      "difficulty": "easy",
+      "questionText": "Is a forklift more likely to tip over when it is carrying a load or when it is unloaded?",
+      "options": [
+        { "id": "a", "text": "Loaded" },
+        { "id": "b", "text": "Unloaded" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    "38": {
+      "id": 138,
+      "topic": "stability-triangle",
+      "difficulty": "hard",
+      "questionText": "Compared to the forces of momentum during operation, is exceeding a forklift's rated load capacity an equally serious hazard?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(n)(5)"
+    },
+    "39": {
+      "id": 139,
+      "topic": "stability-triangle",
+      "difficulty": "hard",
+      "questionText": "What is the safest action for an operator to take if their forklift starts tipping over to the side?",
+      "options": [
+        { "id": "a", "text": "Release the seat belt and jump away from the direction the truck is tipping" },
+        { "id": "b", "text": "Stay in the truck and ride it out, your roll cage and seatbelt will protect you" },
+        { "id": "c", "text": "Set the parking brake and sound the horn" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(6)"
+    },
+    "40": {
+      "id": 140,
+      "topic": "refueling",
+      "difficulty": "medium",
+      "questionText": "When replacing an LP-gas cylinder, should the operator close the service valve and let the engine run until it stalls to clear the fuel lines?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(f)(12)"
+    },
+    "41": {
+      "id": 141,
+      "topic": "pre-operation-inspection",
+      "difficulty": "hard",
+      "questionText": "Under which of the following conditions is it still acceptable to continue operating a forklift?",
+      "options": [
+        { "id": "a", "text": "Manufacturers safety warning decals" },
+        { "id": "b", "text": "Mast chains are out of adjustment" },
+        { "id": "c", "text": "No seat belt is present or does not operate properly" },
+        { "id": "d", "text": "Parking brake does not engage fully" },
+        { "id": "e", "text": "None of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    "42": {
+      "id": 142,
+      "topic": "pedestrian-safety",
+      "difficulty": "easy",
+      "questionText": "In a shared workspace, does a forklift have the right-of-way over pedestrians?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(n)(1)"
+    },
+    "43": {
+      "id": 143,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "A hands-on practical evaluation by a certified trainer on your specific equipment in your specific facility is a mandatory part of completing forklift certification.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(l)(2)"
     }
   }
 }
