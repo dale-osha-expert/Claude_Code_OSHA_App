@@ -135,6 +135,200 @@
       ],
       "correctOptionId": "b",
       "oshaClause": "1910.178(o)(5)"
+    },
+    {
+      "id": 11,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "On a powered pallet jack the brake can be applied by doing the following:",
+      "options": [
+        { "id": "a", "text": "Allowing the handle to spring back to the upright position or hold it down to the lowest position" },
+        { "id": "b", "text": "Raising the hydraulic jack" },
+        { "id": "c", "text": "Taking a sharp turn" },
+        { "id": "d", "text": "Jumping off the equipment" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(m)(5)"
+    },
+    {
+      "id": 12,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "What makes an Order Picker truck such a useful tool in a warehouse?",
+      "options": [
+        { "id": "a", "text": "They can pick and choose the material, instead of an entire pallet or load" },
+        { "id": "b", "text": "They can maneuver in very narrow aisles" },
+        { "id": "c", "text": "Their design can handle small items to very large bulky items" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(b)"
+    },
+    {
+      "id": 13,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "Which one of the following is correct for Class 7 lift trucks?",
+      "options": [
+        { "id": "a", "text": "Has solid cushion tires" },
+        { "id": "b", "text": "Best for use in narrow aisles" },
+        { "id": "c", "text": "Best for use on rough terrain" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.178(b)"
+    },
+    {
+      "id": 14,
+      "topic": "load-handling",
+      "difficulty": "hard",
+      "questionText": "What advantage of a vertical mast forklift is also one of its greatest hazards?",
+      "options": [
+        { "id": "a", "text": "Its low profile when the masts are in the lowest position obstructs the driver's view." },
+        { "id": "b", "text": "A vertical mast forklift can lift a load higher than an extended reach forklift. The risk and severity of injuries increases if a falling object strikes the driver or a bystander." },
+        { "id": "c", "text": "A three-stage mast has a lower profile when the forks are in the lowest position." },
+        { "id": "d", "text": "There are two types of mast available." }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(1)"
+    },
+    {
+      "id": 15,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "Which three of the following are types of extended reach forklift?",
+      "options": [
+        { "id": "a", "text": "Frame leveling" },
+        { "id": "b", "text": "Outrigger" },
+        { "id": "c", "text": "Slewing" },
+        { "id": "d", "text": "All the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(b)"
+    },
+    {
+      "id": 16,
+      "topic": "load-handling",
+      "difficulty": "easy",
+      "questionText": "Is smooth braking necessary while carrying a load?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(5)"
+    },
+    {
+      "id": 17,
+      "topic": "load-handling",
+      "difficulty": "easy",
+      "questionText": "Is it okay to stack very light loads above the backrest?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(2)"
+    },
+    {
+      "id": 18,
+      "topic": "stability-triangle",
+      "difficulty": "medium",
+      "questionText": "Rough terrain forklifts are stable on all terrains and surfaces.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    {
+      "id": 19,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "Always assume electrical power sources and overhead lines are energized.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(9)"
+    },
+    {
+      "id": 20,
+      "topic": "operating-rules",
+      "difficulty": "medium",
+      "questionText": "Is it necessary to set the brake if the operator is within 25 feet of an attended lift truck?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(m)(5)"
+    },
+    {
+      "id": 21,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "Who should be immediately notified if an accident occurs?",
+      "options": [
+        { "id": "a", "text": "The supervisor" },
+        { "id": "b", "text": "Any coworker" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    {
+      "id": 22,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "Lift truck operator safety training most important for which of the following reasons?",
+      "options": [
+        { "id": "a", "text": "Lift trucks last longer" },
+        { "id": "b", "text": "Helps prevent accidents" },
+        { "id": "c", "text": "Makes more profits" },
+        { "id": "d", "text": "Drivers are more efficient" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    {
+      "id": 23,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "All lift trucks have the same controls and gauges.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(3)"
+    },
+    {
+      "id": 24,
+      "topic": "pre-operation-inspection",
+      "difficulty": "medium",
+      "questionText": "Is a fork truck considered in good operating condition even if some of the gauges are broken?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    {
+      "id": 25,
+      "topic": "refueling",
+      "difficulty": "medium",
+      "questionText": "The person charging or replacing the battery of an electric lift truck should always wear:",
+      "options": [
+        { "id": "a", "text": "Protective gloves with gauntlets" },
+        { "id": "b", "text": "Eye or face protection" },
+        { "id": "c", "text": "An apron resistant to battery acid" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(g)(2)"
     }
   ],
   "lessons": {
@@ -277,6 +471,200 @@
       ],
       "correctOptionId": "b",
       "oshaClause": "1910.178(o)(5)"
+    },
+    "11": {
+      "id": 111,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "How is the brake engaged on a powered pallet jack?",
+      "options": [
+        { "id": "a", "text": "Allowing the handle to spring back to the upright position or hold it down to the lowest position" },
+        { "id": "b", "text": "Raising the hydraulic jack" },
+        { "id": "c", "text": "Taking a sharp turn" },
+        { "id": "d", "text": "Jumping off the equipment" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(m)(5)"
+    },
+    "12": {
+      "id": 112,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "Why are Order Picker trucks considered especially valuable in warehouse operations?",
+      "options": [
+        { "id": "a", "text": "They can pick and choose the material, instead of an entire pallet or load" },
+        { "id": "b", "text": "They can maneuver in very narrow aisles" },
+        { "id": "c", "text": "Their design can handle small items to very large bulky items" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(b)"
+    },
+    "13": {
+      "id": 113,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "What is the primary application of a Class 7 powered industrial truck?",
+      "options": [
+        { "id": "a", "text": "Has solid cushion tires" },
+        { "id": "b", "text": "Best for use in narrow aisles" },
+        { "id": "c", "text": "Best for use on rough terrain" },
+        { "id": "d", "text": "None of the above" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.178(b)"
+    },
+    "14": {
+      "id": 114,
+      "topic": "load-handling",
+      "difficulty": "hard",
+      "questionText": "A vertical mast forklift can reach greater heights than many other types — why does this capability also represent its biggest danger?",
+      "options": [
+        { "id": "a", "text": "Its low profile when the masts are in the lowest position obstructs the driver's view." },
+        { "id": "b", "text": "A vertical mast forklift can lift a load higher than an extended reach forklift. The risk and severity of injuries increases if a falling object strikes the driver or a bystander." },
+        { "id": "c", "text": "A three-stage mast has a lower profile when the forks are in the lowest position." },
+        { "id": "d", "text": "There are two types of mast available." }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(1)"
+    },
+    "15": {
+      "id": 115,
+      "topic": "truck-types",
+      "difficulty": "medium",
+      "questionText": "Which of the following are recognized designs of extended reach forklifts?",
+      "options": [
+        { "id": "a", "text": "Frame leveling" },
+        { "id": "b", "text": "Outrigger" },
+        { "id": "c", "text": "Slewing" },
+        { "id": "d", "text": "All the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(b)"
+    },
+    "16": {
+      "id": 116,
+      "topic": "load-handling",
+      "difficulty": "easy",
+      "questionText": "Does carrying a load on a forklift require the operator to brake gradually and smoothly?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(5)"
+    },
+    "17": {
+      "id": 117,
+      "topic": "load-handling",
+      "difficulty": "easy",
+      "questionText": "Even if items are lightweight, is it safe to stack them higher than the backrest of the forklift?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(o)(2)"
+    },
+    "18": {
+      "id": 118,
+      "topic": "stability-triangle",
+      "difficulty": "medium",
+      "questionText": "Can operators assume a rough terrain forklift will remain stable regardless of the surface conditions?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    "19": {
+      "id": 119,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "Should operators treat all overhead power lines and electrical sources as live and dangerous?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(n)(9)"
+    },
+    "20": {
+      "id": 120,
+      "topic": "operating-rules",
+      "difficulty": "medium",
+      "questionText": "Must the parking brake be engaged even when the operator is standing within 25 feet of the lift truck they are monitoring?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(m)(5)"
+    },
+    "21": {
+      "id": 121,
+      "topic": "operating-rules",
+      "difficulty": "easy",
+      "questionText": "In the event of a workplace forklift accident, who must be informed right away?",
+      "options": [
+        { "id": "a", "text": "The supervisor" },
+        { "id": "b", "text": "Any coworker" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    "22": {
+      "id": 122,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "What is the primary reason forklift operator safety training is required?",
+      "options": [
+        { "id": "a", "text": "Lift trucks last longer" },
+        { "id": "b", "text": "Helps prevent accidents" },
+        { "id": "c", "text": "Makes more profits" },
+        { "id": "d", "text": "Drivers are more efficient" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(l)(1)"
+    },
+    "23": {
+      "id": 123,
+      "topic": "operator-training",
+      "difficulty": "easy",
+      "questionText": "Do the controls and instrument gauges vary between different models and types of lift trucks?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.178(l)(3)"
+    },
+    "24": {
+      "id": 124,
+      "topic": "pre-operation-inspection",
+      "difficulty": "medium",
+      "questionText": "Can a forklift with malfunctioning gauges still be considered safe for operation?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.178(q)(7)"
+    },
+    "25": {
+      "id": 125,
+      "topic": "refueling",
+      "difficulty": "medium",
+      "questionText": "What personal protective equipment is required when handling the battery of an electric lift truck?",
+      "options": [
+        { "id": "a", "text": "Protective gloves with gauntlets" },
+        { "id": "b", "text": "Eye or face protection" },
+        { "id": "c", "text": "An apron resistant to battery acid" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.178(g)(2)"
     }
   }
 }
