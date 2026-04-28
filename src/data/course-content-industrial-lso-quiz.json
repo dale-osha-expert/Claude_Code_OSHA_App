@@ -1,0 +1,1474 @@
+{
+  "meta": {
+    "courseId": "industrial-lso",
+    "title": "Industrial LSO (Laser Safety Officer) Master Quiz",
+    "oshaStandard": "ANSI Z136.1",
+    "passingGrade": 0.70,
+    "totalQuestions": 68
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "True or false? Class 1 systems are considered to be completely safe, all the time.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.3.1"
+    },
+    {
+      "id": 2,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "True or false? Class 2 systems are considered to be safe as long as the aversion response forces your eye to look away when it is struck by the visible light of the laser.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.3.2"
+    },
+    {
+      "id": 3,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "Class 3R lasers are hazardous if viewed with what type of reflection?",
+      "options": [
+        { "id": "a", "text": "Diffuse" },
+        { "id": "b", "text": "Specular" },
+        { "id": "c", "text": "Diffractive" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.3"
+    },
+    {
+      "id": 4,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "Which of the following laser classifications poses a fire hazard?",
+      "options": [
+        { "id": "a", "text": "Class 3R" },
+        { "id": "b", "text": "Class 3B" },
+        { "id": "c", "text": "Class 4" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §3.3.5"
+    },
+    {
+      "id": 5,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "Who is responsible for classifying a custom-built laser setup?",
+      "options": [
+        { "id": "a", "text": "The Employer" },
+        { "id": "b", "text": "The LSO" },
+        { "id": "c", "text": "The technician who built it" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.1"
+    },
+    {
+      "id": 6,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "Which of the following is the LSO responsible for?",
+      "options": [
+        { "id": "a", "text": "Managing the safety program" },
+        { "id": "b", "text": "Performing hazard evaluation" },
+        { "id": "c", "text": "Applying control measures" },
+        { "id": "d", "text": "Monitoring compliance" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §4.1.1"
+    },
+    {
+      "id": 7,
+      "topic": "laser-basics",
+      "difficulty": "hard",
+      "questionText": "Which of the following is NOT part of the Laser Safety Program?",
+      "options": [
+        { "id": "a", "text": "Training new employees" },
+        { "id": "b", "text": "Training existing employees" },
+        { "id": "c", "text": "Establishing SOPs" },
+        { "id": "d", "text": "Designing custom setups" },
+        { "id": "e", "text": "Implementing hazard controls" },
+        { "id": "f", "text": "Maintaining policies" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.1.2"
+    },
+    {
+      "id": 8,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "True or False? The LSO must verify the classification of manufactured laser equipment that is purchased and installed in the facility.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.1"
+    },
+    {
+      "id": 9,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "The approval of SOPs falls under which category?",
+      "options": [
+        { "id": "a", "text": "Hazard Evaluation" },
+        { "id": "b", "text": "Environmental Controls" },
+        { "id": "c", "text": "Administrative Controls" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.3.2"
+    },
+    {
+      "id": 10,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "Laser work areas should be fitted with which of the following?",
+      "options": [
+        { "id": "a", "text": "Warning Signs" },
+        { "id": "b", "text": "Laser Classification Labels" },
+        { "id": "c", "text": "Audible Alarms" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.5"
+    },
+    {
+      "id": 11,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "In the event of a suspected injury, what should the LSO do?",
+      "options": [
+        { "id": "a", "text": "Perform first aid" },
+        { "id": "b", "text": "Send the employee for a medical examination" },
+        { "id": "c", "text": "Wait for the work period to end" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.4.1"
+    },
+    {
+      "id": 12,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "In the event of a compliance audit, who should accompany inspectors?",
+      "options": [
+        { "id": "a", "text": "The LSO" },
+        { "id": "b", "text": "The employer" },
+        { "id": "c", "text": "The facility supervisor" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.1.3"
+    },
+    {
+      "id": 13,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "The hazard classification level of a laser system is based on what?",
+      "options": [
+        { "id": "a", "text": "Its capability of inducing damage onto any personal, operators or viewers" },
+        { "id": "b", "text": "Level of radiation that is accessible during operation" },
+        { "id": "c", "text": "The beam environment and whether or not it is enclosed" },
+        { "id": "d", "text": "The personnel who may be exposed to it" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §3.3"
+    },
+    {
+      "id": 14,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "The hazard evaluation should be performed at what operating condition of the laser?",
+      "options": [
+        { "id": "a", "text": "The minimum operating radiant output" },
+        { "id": "b", "text": "The nominal operating radiant output" },
+        { "id": "c", "text": "The maximum operating radiant output" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §3.3.1"
+    },
+    {
+      "id": 15,
+      "topic": "hazard-evaluation",
+      "difficulty": "hard",
+      "questionText": "Which factor is NOT an essential optical measurement metric for determining laser hazard classification?",
+      "options": [
+        { "id": "a", "text": "Wavelength(s) of operation" },
+        { "id": "b", "text": "Radiant exposure" },
+        { "id": "c", "text": "Electrical system power consumption" },
+        { "id": "d", "text": "Output divergence angle" },
+        { "id": "e", "text": "Exposure aperture size" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §3.3.2"
+    },
+    {
+      "id": 16,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "True or False? For CW Lasers, continuous-wave output power and exposure duration determine the hazard classification.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.3.3"
+    },
+    {
+      "id": 17,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "Which of the following are essential metrics for pulsed lasers?",
+      "options": [
+        { "id": "a", "text": "Pulse energy" },
+        { "id": "b", "text": "Pulse duration" },
+        { "id": "c", "text": "Pulse repetition frequency" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §3.3.4"
+    },
+    {
+      "id": 18,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "What defines the boundaries of the Nominal Hazard Zone (NHZ)?",
+      "options": [
+        { "id": "a", "text": "The area 3 feet surrounding the laser system" },
+        { "id": "b", "text": "The control measures implemented by the LSO" },
+        { "id": "c", "text": "The extents of the building in which the laser is housed" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.9"
+    },
+    {
+      "id": 19,
+      "topic": "hazard-evaluation",
+      "difficulty": "hard",
+      "questionText": "Which of the following is NOT critical to evaluating the NHZ?",
+      "options": [
+        { "id": "a", "text": "Determining all possible beam paths" },
+        { "id": "b", "text": "Determining all sources of specular reflection" },
+        { "id": "c", "text": "Determining the MPE of diffuse materials" },
+        { "id": "d", "text": "Determining the minimum operating threshold of the laser" },
+        { "id": "e", "text": "Determining how often the operator will be inside the NHZ" },
+        { "id": "f", "text": "Determining whether collecting optics will be available" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.3.9.1"
+    },
+    {
+      "id": 20,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "Rough surfaces produce which type of reflection?",
+      "options": [
+        { "id": "a", "text": "Diffuse" },
+        { "id": "b", "text": "Specular" },
+        { "id": "c", "text": "Lambertian" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.4.1"
+    },
+    {
+      "id": 21,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "Smooth surfaces produce which type of reflection?",
+      "options": [
+        { "id": "a", "text": "Diffuse" },
+        { "id": "b", "text": "Specular" },
+        { "id": "c", "text": "Lambertian" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.2"
+    },
+    {
+      "id": 22,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "Which type of reflection poses a fire hazard?",
+      "options": [
+        { "id": "a", "text": "Diffuse" },
+        { "id": "b", "text": "Specular" },
+        { "id": "c", "text": "Lambertian" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.4.1"
+    },
+    {
+      "id": 23,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "Which type of reflection poses an eye hazard?",
+      "options": [
+        { "id": "a", "text": "Diffuse" },
+        { "id": "b", "text": "Specular" },
+        { "id": "c", "text": "Lambertian" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.2"
+    },
+    {
+      "id": 24,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "Who is the LSO responsible for training?",
+      "options": [
+        { "id": "a", "text": "Laser Operators" },
+        { "id": "b", "text": "Maintenance/Service Personnel" },
+        { "id": "c", "text": "Observers/visitors (to a lesser extent)" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.3.1"
+    },
+    {
+      "id": 25,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Which classifications of lasers require a supervisor during operation?",
+      "options": [
+        { "id": "a", "text": "Class 1" },
+        { "id": "b", "text": "Class 2" },
+        { "id": "c", "text": "Class 3B & Class 4" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.3.1"
+    },
+    {
+      "id": 26,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Laser controlled areas should be fitted with which of the following?",
+      "options": [
+        { "id": "a", "text": "Warning Signs" },
+        { "id": "b", "text": "Labels with Classification Ratings" },
+        { "id": "c", "text": "Interlocks" },
+        { "id": "d", "text": "Protective Enclosures" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §4.5"
+    },
+    {
+      "id": 27,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "True or False? Class 3B and Class 4 lasers systems must be fitted with a key operated master switch (emergency machine off).",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.3.10"
+    },
+    {
+      "id": 28,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "True or False? Viewing windows should diffuse or absorb the amount of transmitted light to ensure the exposure through the window is below the MPE.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.3.7"
+    },
+    {
+      "id": 29,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "For beam paths that are enclosed, where should hazard evaluation be performed?",
+      "options": [
+        { "id": "a", "text": "Only at the output" },
+        { "id": "b", "text": "At every accessible point where light exits the enclosure" },
+        { "id": "c", "text": "One meter from the viewing window" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.5"
+    },
+    {
+      "id": 30,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Emergency Machine Off switches should be fitted where?",
+      "options": [
+        { "id": "a", "text": "Inside the laser area" },
+        { "id": "b", "text": "Outside of the laser area" },
+        { "id": "c", "text": "Both, so they can be shut off by the operator or by someone outside" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.3.10.2"
+    },
+    {
+      "id": 31,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "Laser warning signs should be fitted with which of the following?",
+      "options": [
+        { "id": "a", "text": "Flashing Lights" },
+        { "id": "b", "text": "Audible Alarms" },
+        { "id": "c", "text": "Either of the two above" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.5.1"
+    },
+    {
+      "id": 32,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Alignment SOPs developed by the LSO should have which of the following?",
+      "options": [
+        { "id": "a", "text": "Failure mode mitigation methods" },
+        { "id": "b", "text": "Training on alignment steps" },
+        { "id": "c", "text": "Class 1 sources for simulation of alignment steps" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.3.2.1"
+    },
+    {
+      "id": 33,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "True or False? Laser safety goggles work for all wavelength ranges and power ratings.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.2"
+    },
+    {
+      "id": 34,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "An OD number of 1 corresponds to which throughput percentage?",
+      "options": [
+        { "id": "a", "text": "1% (1/100th)" },
+        { "id": "b", "text": "10% (1/10th)" },
+        { "id": "c", "text": "50% (1/2)" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.2.1"
+    },
+    {
+      "id": 35,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "Personal protective equipment includes which of the following?",
+      "options": [
+        { "id": "a", "text": "Laser safety goggles" },
+        { "id": "b", "text": "Smocks or lab coats" },
+        { "id": "c", "text": "Gloves" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §4.6"
+    },
+    {
+      "id": 36,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Who is responsible for purchasing the PPE?",
+      "options": [
+        { "id": "a", "text": "Employer" },
+        { "id": "b", "text": "LSO" },
+        { "id": "c", "text": "Operator" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    {
+      "id": 37,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Who is responsible for maintaining the PPE?",
+      "options": [
+        { "id": "a", "text": "Employer" },
+        { "id": "b", "text": "LSO" },
+        { "id": "c", "text": "Operator" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    {
+      "id": 38,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Who is responsible for wearing the PPE?",
+      "options": [
+        { "id": "a", "text": "Employer" },
+        { "id": "b", "text": "LSO" },
+        { "id": "c", "text": "Operator" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    {
+      "id": 39,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "Which of the following correctly reflects the hierarchy of control measures for laser safety, from most to least preferred?",
+      "options": [
+        { "id": "a", "text": "PPE → Administrative Controls → Engineering Controls" },
+        { "id": "b", "text": "Engineering Controls → Administrative Controls → PPE" },
+        { "id": "c", "text": "Administrative Controls → PPE → Engineering Controls" },
+        { "id": "d", "text": "PPE → Engineering Controls → Administrative Controls" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3"
+    },
+    {
+      "id": 40,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "Which of the following are required on a laser warning sign message panel for a Laser Controlled Area (LCA)?",
+      "options": [
+        { "id": "a", "text": "The hazard class of the area" },
+        { "id": "b", "text": "The required optical density and wavelength(s) of laser protective eyewear" },
+        { "id": "c", "text": "The name and contact information for the Laser Safety Officer (LSO) or supervisor" },
+        { "id": "d", "text": "Special precautionary instructions, such as \"Do Not Enter When Light is Illuminated\"" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §4.5.3"
+    },
+    {
+      "id": 41,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "Which of the following is the most important reason to select a reputable manufacturer when purchasing a laser cleaning system for outdoor use?",
+      "options": [
+        { "id": "a", "text": "They offer better pricing on replacement parts" },
+        { "id": "b", "text": "Their equipment is easier to transport" },
+        { "id": "c", "text": "They provide verified technical specifications essential for hazard evaluation" },
+        { "id": "d", "text": "Their systems operate at lower power levels" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.2"
+    },
+    {
+      "id": 42,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "True or False? Laser radiation is the only source of hazard from the system.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7"
+    },
+    {
+      "id": 43,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "True or False? Class 4 lasers are capable of releasing hazardous chemicals, plasma, and ions into the air.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.3"
+    },
+    {
+      "id": 44,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "What type of electrical component poses a shock hazard?",
+      "options": [
+        { "id": "a", "text": "Resistors" },
+        { "id": "b", "text": "Capacitors" },
+        { "id": "c", "text": "Inductors" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.4.1"
+    },
+    {
+      "id": 45,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "What type of electrical component poses a thermal hazard?",
+      "options": [
+        { "id": "a", "text": "Resistors" },
+        { "id": "b", "text": "Capacitors" },
+        { "id": "c", "text": "Inductors" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.4.2"
+    },
+    {
+      "id": 46,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "True or False? Any fire extinguisher, regardless of its rating, is adequate to maintain safety around a laser system.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.5"
+    },
+    {
+      "id": 47,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "Electrical control measures are required for circuits containing what voltage?",
+      "options": [
+        { "id": "a", "text": "9 V" },
+        { "id": "b", "text": "12 V" },
+        { "id": "c", "text": "Greater Than 50 V" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §7.4"
+    },
+    {
+      "id": 48,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "Which control measures contribute to electrical safety?",
+      "options": [
+        { "id": "a", "text": "Enclosures" },
+        { "id": "b", "text": "Grounding" },
+        { "id": "c", "text": "Indicator Lights" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §7.4.3"
+    },
+    {
+      "id": 49,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "High power lasers pose which type of Non-Laser Radiation hazards?",
+      "options": [
+        { "id": "a", "text": "Radio Waves" },
+        { "id": "b", "text": "X-Rays" },
+        { "id": "c", "text": "Thermal Radiation" },
+        { "id": "d", "text": "Ionizing Radiation" },
+        { "id": "e", "text": "All of the above" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §7.6"
+    },
+    {
+      "id": 50,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "True or False? UV radiation can cause cataracts over time.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.6.1"
+    },
+    {
+      "id": 51,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "What type of laser poses a fire hazard?",
+      "options": [
+        { "id": "a", "text": "Class 1" },
+        { "id": "b", "text": "Class 2" },
+        { "id": "c", "text": "Class 3" },
+        { "id": "d", "text": "Class 4" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "Z136.1 §7.5"
+    },
+    {
+      "id": 52,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "The use of robotic arms and motorized stages does what to the Nominal Hazard Zone (NHZ)?",
+      "options": [
+        { "id": "a", "text": "Increases its area" },
+        { "id": "b", "text": "Decreases its area" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.7"
+    },
+    {
+      "id": 53,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "Which of the following is NOT an appropriate way to work with hazardous and compressed gases?",
+      "options": [
+        { "id": "a", "text": "Stored properly" },
+        { "id": "b", "text": "Exhausted properly" },
+        { "id": "c", "text": "Labeled properly" },
+        { "id": "d", "text": "Protected from contaminants" },
+        { "id": "e", "text": "Mixed with other gases" },
+        { "id": "f", "text": "Worked around using respiratory protection" }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §7.3.2"
+    },
+    {
+      "id": 54,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "True or False? The LSO is responsible for considering the ergonomics of the SOPs of laser systems, to reduce repetitive injury.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.7.2"
+    },
+    {
+      "id": 55,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "How much room should the worker have in the area surrounding a laser system?",
+      "options": [
+        { "id": "a", "text": "1 foot" },
+        { "id": "b", "text": "3 feet" },
+        { "id": "c", "text": "10 feet" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.7.1"
+    },
+    {
+      "id": 56,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "What is the best way to dispose of an old laser system?",
+      "options": [
+        { "id": "a", "text": "Place it in recycling bin" },
+        { "id": "b", "text": "Stored in a flame proof cabinet" },
+        { "id": "c", "text": "Return it to the manufacturer" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §7.8"
+    },
+    {
+      "id": 57,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "True or False: Engineering control measures, including a warning sign, are required if a surface in the laser control area exceeds 50°C?",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.4.2"
+    }
+  ],
+  "lessons": {
+    "laser-basics": "**Laser Classifications & LSO Responsibilities — ANSI Z136.1**\n\nLasers are classified from Class 1 (safest) through Class 4 (most hazardous). **Class 1** systems cannot produce damaging radiation under normal conditions — either because their output is inherently low or a higher-power source is fully enclosed. **Class 2** lasers emit only visible light (400–700 nm) and rely on the blink/aversion reflex for safety. **Class 3R** systems pose a small risk if the beam is viewed directly or via specular reflection. **Class 4** lasers are the most dangerous — hazardous to eyes and skin, capable of igniting materials, and can generate plasma radiation and air contaminants.\n\nThe **Laser Safety Officer (LSO)** is the central figure in any laser safety program. The LSO is responsible for classifying all laser systems in the facility — including verifying manufacturer classifications and classifying custom-built or modified systems. The LSO manages the overall safety program, performs hazard evaluations, applies control measures, monitors compliance, and approves SOPs for Class 3B and Class 4 systems (an administrative control).\n\nWork areas must have warning signs, classification labels, and audible alarms. In the event of suspected injury, the LSO must immediately send the employee for medical examination — baseline eye exams for new employees are also recommended. The LSO must implement a pre-established action plan for injuries, followed by a detailed report, corrective measures, and follow-up training. During compliance audits, the LSO accompanies inspectors and presents the safety program details.",
+    "hazard-evaluation": "**Hazard Evaluation — ANSI Z136.1**\n\nHazard evaluation is the foundation of laser safety. The classification of a laser system is determined by its potential to cause injury, the accessible radiation level during operation, whether the beam is enclosed, and the personnel who may be exposed. Classifications must be based on properly measured **maximum output power data** across all operating wavelengths — not nominal or minimum output.\n\nFor **CW (continuous-wave) lasers**, classification depends on output power and exposure duration. For **pulsed lasers**, the essential metrics are pulse energy, pulse duration, and pulse repetition frequency. Key optical measurement metrics include wavelength(s), radiant exposure, output divergence angle, and exposure aperture size. Electrical power consumption is not an optical metric used for classification.\n\nThe **Nominal Hazard Zone (NHZ)** is defined by the control measures implemented by the LSO, not by arbitrary distances. When evaluating the NHZ, the LSO must determine all possible beam paths, sources of specular reflection, MPE of diffuse materials, operator exposure frequency, and whether collecting optics are present.\n\n**Diffuse reflection** occurs from rough surfaces and poses a fire hazard as energy is scattered broadly. **Specular reflection** occurs from smooth surfaces and poses an eye hazard because it creates unexpected concentrated beam paths. Understanding both reflection types is critical to proper hazard evaluation and NHZ determination.",
+    "control-measures": "**Control Measures — ANSI Z136.1**\n\nEngineering controls are the first line of defense and the most reliable. **Protective housings** must prevent human access to laser radiation above the applicable MPE during normal operation and maintenance. **Beam enclosures** fully contain the beam path, and **interlocks** disable the laser when a housing panel or door is opened — defeat of interlocks requires LSO authorization and temporary alternative controls.\n\n**Warning systems** include audible alarms that sound before a Class 3B or 4 laser fires, giving personnel time to don PPE or leave the area. **Beam stops and attenuators** terminate or reduce the beam at the end of its useful path, preventing stray radiation. The **beam path** should be kept below or above standing or seated eye level to minimize accidental ocular exposure. Optical tables must be maintained at levels that keep beams away from eye height.\n\n**Administrative controls** complement engineering controls but never replace them. These include Standard Operating Procedures (SOPs) — which the LSO must approve for every Class 3B/4 system — and restricting laser area access to authorized personnel only. Laser Controlled Areas (LCAs) require posted warning signs, limited entry points, and door interlocks or equivalent barriers.\n\n**Personal Protective Equipment (PPE)** is the last layer. **Laser protective eyewear** must be wavelength-matched and have an adequate Optical Density (OD) for the specific laser. OD is logarithmic: OD 1 blocks 90% of incident light, OD 2 blocks 99%, OD 3 blocks 99.9%. The LSO determines the required OD based on MPE calculations and the laser's output parameters. Eyewear must be inspected for damage regularly and replaced if degraded.",
+    "non-beam-hazards": "**Non-Beam Hazards — ANSI Z136.1**\n\nNon-beam hazards are risks associated with laser operations that do not come from the beam itself. These hazards can be just as dangerous — or more so — than direct beam exposure, and the LSO must address them as part of the overall safety program.\n\n**Electrical hazards** are the most common cause of fatalities in laser environments. High-voltage power supplies, capacitor banks, and exposed conductors can deliver lethal shocks. Laser technicians must follow lockout/tagout (LOTO) procedures before servicing equipment, and only qualified personnel should work on energized circuits.\n\n**Laser-Generated Air Contaminants (LGACs)** are produced when high-power lasers interact with target materials. These include particulates, fumes, and gases that may be toxic or carcinogenic — especially when cutting, welding, or ablating metals, plastics, or biological tissue. Adequate ventilation, local exhaust systems, and respiratory protection are required controls.\n\n**Fire hazards** exist because Class 4 lasers can ignite flammable materials, solvents, and even clothing. Work areas must be kept free of combustible materials, and fire extinguishers must be readily accessible. **Explosion risks** arise when lasers are used near flammable gases or volatile solvents.\n\n**Plasma radiation** from high-power laser interactions with targets can produce UV and visible radiation intense enough to cause eye and skin injury to nearby personnel. **Compressed gases** used in laser systems (assist gases, cooling) introduce asphyxiation and high-pressure hazards. **Cryogenic materials** used for cooling pose frostbite and oxygen displacement risks. The LSO must evaluate all non-beam hazards specific to each laser installation and ensure appropriate controls are in place."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "A laser system is labeled Class 1. Can this system cause harm to a person's eyes or skin under normal operating conditions?",
+      "options": [
+        { "id": "a", "text": "No — Class 1 systems are incapable of producing hazardous radiation under normal use" },
+        { "id": "b", "text": "Yes — all laser systems pose some risk of injury" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §3.3.1"
+    },
+    "2": {
+      "id": 102,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "What natural human reflex makes Class 2 lasers safe under normal conditions?",
+      "options": [
+        { "id": "a", "text": "The pupil constriction reflex that blocks all incoming light" },
+        { "id": "b", "text": "The blink/aversion response that causes the viewer to look away from bright visible light" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.2"
+    },
+    "3": {
+      "id": 103,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "A Class 3R laser beam reflects off a polished metal surface into a worker's eyes. What type of reflection caused this hazard?",
+      "options": [
+        { "id": "a", "text": "Diffuse reflection from a rough surface" },
+        { "id": "b", "text": "Specular reflection from a smooth surface" },
+        { "id": "c", "text": "Diffractive scattering through an aperture" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.3"
+    },
+    "4": {
+      "id": 104,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "During a hazard evaluation, the LSO needs to determine which laser classes require fire safety considerations. Which class poses a fire hazard?",
+      "options": [
+        { "id": "a", "text": "Class 2" },
+        { "id": "b", "text": "Class 3B" },
+        { "id": "c", "text": "Class 4" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §3.3.5"
+    },
+    "5": {
+      "id": 105,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "A research lab builds a custom laser system from individual components. Who is responsible for determining its hazard classification?",
+      "options": [
+        { "id": "a", "text": "The employer" },
+        { "id": "b", "text": "The Laser Safety Officer (LSO)" },
+        { "id": "c", "text": "The researcher who assembled it" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.1"
+    },
+    "6": {
+      "id": 106,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "An employer asks the LSO to only handle hazard evaluations, while a supervisor manages the rest of the safety program. Is this an appropriate division of responsibilities?",
+      "options": [
+        { "id": "a", "text": "Yes — the LSO only needs to handle hazard evaluation" },
+        { "id": "b", "text": "No — the LSO is responsible for managing the full safety program, including hazard evaluation, control measures, and compliance monitoring" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.1.1"
+    },
+    "7": {
+      "id": 107,
+      "topic": "laser-basics",
+      "difficulty": "hard",
+      "questionText": "A new LSO is setting up a laser safety program. Which of the following activities should be included?",
+      "options": [
+        { "id": "a", "text": "Training employees, establishing SOPs, implementing hazard controls, and maintaining policies" },
+        { "id": "b", "text": "Training employees, designing custom laser setups, and maintaining policies" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.1.2"
+    },
+    "8": {
+      "id": 108,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "A facility purchases a new commercial laser system with a manufacturer's classification label. Does the LSO still need to verify this classification?",
+      "options": [
+        { "id": "a", "text": "Yes — the LSO must verify the classification of all manufactured equipment installed in the facility" },
+        { "id": "b", "text": "No — manufacturer labels are always sufficient" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §4.1"
+    },
+    "9": {
+      "id": 109,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "The LSO drafts a new set of standard operating procedures for a Class 4 laser. Under which type of control does SOP approval fall?",
+      "options": [
+        { "id": "a", "text": "Engineering controls" },
+        { "id": "b", "text": "Administrative controls" },
+        { "id": "c", "text": "Personal protective equipment" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.2"
+    },
+    "10": {
+      "id": 110,
+      "topic": "laser-basics",
+      "difficulty": "easy",
+      "questionText": "An LSO inspects a laser work area and finds warning signs but no classification labels or audible alarms. Is the area compliant?",
+      "options": [
+        { "id": "a", "text": "Yes — warning signs alone are sufficient" },
+        { "id": "b", "text": "No — the area must also have laser classification labels and audible alarms" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.5"
+    },
+    "11": {
+      "id": 111,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "A worker reports possible exposure to a Class 3B laser beam. The LSO plans to schedule a medical exam for next week. Is this response adequate?",
+      "options": [
+        { "id": "a", "text": "Yes — scheduling within a week is reasonable" },
+        { "id": "b", "text": "No — the employee must be sent for medical examination immediately" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.4.1"
+    },
+    "12": {
+      "id": 112,
+      "topic": "laser-basics",
+      "difficulty": "medium",
+      "questionText": "OSHA inspectors arrive at a facility for a compliance audit of the laser safety program. Who should present the safety program details and accompany the inspectors?",
+      "options": [
+        { "id": "a", "text": "The facility manager" },
+        { "id": "b", "text": "The Laser Safety Officer (LSO)" },
+        { "id": "c", "text": "The HR department" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.1.3"
+    },
+    "13": {
+      "id": 113,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "An LSO is classifying a new laser system. Should the classification consider only the beam's radiation level, or additional factors as well?",
+      "options": [
+        { "id": "a", "text": "Only the radiation level matters for classification" },
+        { "id": "b", "text": "Classification must also consider damage potential, beam environment, enclosure, and exposed personnel" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3"
+    },
+    "14": {
+      "id": 114,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "A laser system can operate at three different power levels. At which level should the hazard evaluation be performed?",
+      "options": [
+        { "id": "a", "text": "The lowest power level" },
+        { "id": "b", "text": "The average power level" },
+        { "id": "c", "text": "The maximum power level" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §3.3.1"
+    },
+    "15": {
+      "id": 115,
+      "topic": "hazard-evaluation",
+      "difficulty": "hard",
+      "questionText": "An LSO is gathering data for hazard classification. Which measurement is relevant: the laser's electrical power draw or its output divergence angle?",
+      "options": [
+        { "id": "a", "text": "Electrical power draw" },
+        { "id": "b", "text": "Output divergence angle" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.2"
+    },
+    "16": {
+      "id": 116,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "For a continuous-wave laser, what two factors determine its hazard classification?",
+      "options": [
+        { "id": "a", "text": "Beam color and lens type" },
+        { "id": "b", "text": "Output power and exposure duration" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.3"
+    },
+    "17": {
+      "id": 117,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "A pulsed laser system is being evaluated. The LSO has measured pulse energy and duration. What additional metric is needed?",
+      "options": [
+        { "id": "a", "text": "The color of the beam" },
+        { "id": "b", "text": "The pulse repetition frequency" },
+        { "id": "c", "text": "The weight of the laser system" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.3.4"
+    },
+    "18": {
+      "id": 118,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "An LSO marks the NHZ boundary as 3 feet around the laser system in every case. Is this correct?",
+      "options": [
+        { "id": "a", "text": "Yes — 3 feet is the standard NHZ boundary" },
+        { "id": "b", "text": "No — the NHZ boundaries are defined by the specific control measures implemented, not a fixed distance" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.9"
+    },
+    "19": {
+      "id": 119,
+      "topic": "hazard-evaluation",
+      "difficulty": "hard",
+      "questionText": "When evaluating the NHZ, an LSO considers beam paths, specular reflections, diffuse MPE, and operator exposure frequency. Is anything missing from a complete evaluation?",
+      "options": [
+        { "id": "a", "text": "No — that covers all critical factors" },
+        { "id": "b", "text": "Yes — the LSO must also determine whether collecting optics will be available" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.9.1"
+    },
+    "20": {
+      "id": 120,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "A laser beam hits an unfinished concrete wall. The wall has a rough texture. What type of reflection will occur?",
+      "options": [
+        { "id": "a", "text": "Specular reflection" },
+        { "id": "b", "text": "Diffuse reflection" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.1"
+    },
+    "21": {
+      "id": 121,
+      "topic": "hazard-evaluation",
+      "difficulty": "easy",
+      "questionText": "A laser beam strikes a polished stainless steel surface. What type of reflection should the LSO expect?",
+      "options": [
+        { "id": "a", "text": "Diffuse reflection" },
+        { "id": "b", "text": "Specular reflection" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.2"
+    },
+    "22": {
+      "id": 122,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "During a hazard evaluation, the LSO identifies rough wooden surfaces in the beam path. What is the primary safety concern?",
+      "options": [
+        { "id": "a", "text": "Eye exposure from reflected beams" },
+        { "id": "b", "text": "Fire hazard from diffuse energy absorption" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.1"
+    },
+    "23": {
+      "id": 123,
+      "topic": "hazard-evaluation",
+      "difficulty": "medium",
+      "questionText": "An LSO discovers a polished metal tool left near a Class 4 laser beam path. What is the primary hazard concern?",
+      "options": [
+        { "id": "a", "text": "Fire hazard from the metal heating up" },
+        { "id": "b", "text": "Eye hazard from specular reflection creating an unexpected beam path" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §3.4.2"
+    },
+    "24": {
+      "id": 124,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A visitor wants to observe a Class 4 laser operation. Does the LSO have any training obligation toward this visitor?",
+      "options": [
+        { "id": "a", "text": "No — visitors are not the LSO's responsibility" },
+        { "id": "b", "text": "Yes — the LSO is responsible for training anyone who may come in contact with the laser system, including visitors" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.1"
+    },
+    "25": {
+      "id": 125,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "A facility operates a Class 3B laser. Is a supervisor required during its operation?",
+      "options": [
+        { "id": "a", "text": "No — only Class 4 lasers need supervision" },
+        { "id": "b", "text": "Yes — both Class 3B and Class 4 require a supervisor during operation" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.1"
+    },
+    "26": {
+      "id": 126,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "A laser controlled area has warning signs and interlocks, but no classification labels or protective enclosures. Is it compliant?",
+      "options": [
+        { "id": "a", "text": "Yes — signs and interlocks are sufficient" },
+        { "id": "b", "text": "No — it must also include classification labels and protective enclosures" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.5"
+    },
+    "27": {
+      "id": 127,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A Class 4 laser has a push-button power switch but no key-operated master switch. Does this meet requirements?",
+      "options": [
+        { "id": "a", "text": "Yes — any power switch is acceptable" },
+        { "id": "b", "text": "No — Class 3B and Class 4 systems require a key-operated master switch" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.10"
+    },
+    "28": {
+      "id": 128,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A viewing window on a laser enclosure allows the full beam intensity to pass through. Is this acceptable?",
+      "options": [
+        { "id": "a", "text": "Yes — viewing windows are just for observation" },
+        { "id": "b", "text": "No — viewing windows must reduce transmitted light to below the MPE" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.7"
+    },
+    "29": {
+      "id": 129,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "An LSO performs a hazard evaluation only at the final output of an enclosed beam path system. Is this sufficient?",
+      "options": [
+        { "id": "a", "text": "Yes — only the output matters for enclosed systems" },
+        { "id": "b", "text": "No — evaluation must be done at every accessible point where light exits the enclosure" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.5"
+    },
+    "30": {
+      "id": 130,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "An EMO switch is installed only inside the laser room. Is this adequate for emergency response?",
+      "options": [
+        { "id": "a", "text": "Yes — the operator inside can handle emergencies" },
+        { "id": "b", "text": "No — EMO switches must be accessible both inside and outside the laser area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.10.2"
+    },
+    "31": {
+      "id": 131,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A laser controlled area has a warning sign but no flashing light or audible alarm. Is the sign complete?",
+      "options": [
+        { "id": "a", "text": "Yes — a sign alone is sufficient" },
+        { "id": "b", "text": "No — warning signs should include either a flashing light or an audible alarm" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.5.1"
+    },
+    "32": {
+      "id": 132,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "An LSO creates an alignment SOP that includes training on alignment steps but omits failure mode mitigation. Is this SOP complete?",
+      "options": [
+        { "id": "a", "text": "Yes — training on steps is the key requirement" },
+        { "id": "b", "text": "No — alignment SOPs must also include failure mode mitigation methods and Class 1 sources for simulation" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3.2.1"
+    },
+    "33": {
+      "id": 133,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A technician grabs any available pair of laser goggles without checking the label. Could this be dangerous?",
+      "options": [
+        { "id": "a", "text": "No — all laser goggles protect against all wavelengths" },
+        { "id": "b", "text": "Yes — goggles are wavelength-specific and the wrong pair may offer no protection" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.2"
+    },
+    "34": {
+      "id": 134,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "A pair of laser safety goggles has an OD rating of 3 for a specific wavelength. What percentage of that laser light passes through?",
+      "options": [
+        { "id": "a", "text": "10% (1/10th)" },
+        { "id": "b", "text": "1% (1/100th)" },
+        { "id": "c", "text": "0.1% (1/1000th)" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.6.2.1"
+    },
+    "35": {
+      "id": 135,
+      "topic": "control-measures",
+      "difficulty": "easy",
+      "questionText": "A worker wears laser goggles but no lab coat or gloves while operating a Class 4 laser. Are they fully protected?",
+      "options": [
+        { "id": "a", "text": "Yes — goggles are the only PPE required" },
+        { "id": "b", "text": "No — full PPE includes goggles, lab coats or smocks, and gloves" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6"
+    },
+    "36": {
+      "id": 136,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "The LSO asks a laser operator to buy their own safety goggles. Is this the correct responsibility assignment?",
+      "options": [
+        { "id": "a", "text": "Yes — operators should purchase their own PPE" },
+        { "id": "b", "text": "No — the employer is responsible for purchasing PPE" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    "37": {
+      "id": 137,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "Laser safety goggles in the lab are scratched and have degraded OD ratings. Whose responsibility is it to inspect and replace them?",
+      "options": [
+        { "id": "a", "text": "The employer" },
+        { "id": "b", "text": "The Laser Safety Officer (LSO)" },
+        { "id": "c", "text": "The individual operator" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    "38": {
+      "id": 138,
+      "topic": "control-measures",
+      "difficulty": "medium",
+      "questionText": "An operator enters a laser controlled area without putting on the required goggles. Who is at fault for not wearing PPE?",
+      "options": [
+        { "id": "a", "text": "The employer" },
+        { "id": "b", "text": "The LSO" },
+        { "id": "c", "text": "The operator" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §4.6.1"
+    },
+    "39": {
+      "id": 139,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "A facility addresses laser hazards by first issuing PPE, then writing procedures, and finally installing enclosures. Is this the correct priority order?",
+      "options": [
+        { "id": "a", "text": "Yes — PPE is the most effective control" },
+        { "id": "b", "text": "No — the correct hierarchy is engineering controls first, then administrative controls, then PPE" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.3"
+    },
+    "40": {
+      "id": 140,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "A laser warning sign for an LCA displays only the hazard class and LSO contact info. Is the sign complete?",
+      "options": [
+        { "id": "a", "text": "Yes — hazard class and LSO contact are sufficient" },
+        { "id": "b", "text": "No — it must also include required eyewear OD/wavelength and special precautionary instructions" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.5.3"
+    },
+    "41": {
+      "id": 141,
+      "topic": "control-measures",
+      "difficulty": "hard",
+      "questionText": "When purchasing a laser cleaning system for outdoor use, why is choosing a reputable manufacturer critical for the LSO?",
+      "options": [
+        { "id": "a", "text": "They offer longer warranties" },
+        { "id": "b", "text": "They provide verified technical specifications that the LSO needs for proper hazard evaluation" },
+        { "id": "c", "text": "Their systems are lighter and easier to set up" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §4.2"
+    },
+    "42": {
+      "id": 142,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "A technician assumes the laser beam is the only hazard to worry about. Is this correct?",
+      "options": [
+        { "id": "a", "text": "Yes — the beam is the sole source of danger" },
+        { "id": "b", "text": "No — laser systems also produce non-beam hazards such as electrical, chemical, and fire risks" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7"
+    },
+    "43": {
+      "id": 143,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "A Class 4 laser is processing material in an enclosed workspace. Could the air quality be affected?",
+      "options": [
+        { "id": "a", "text": "No — laser beams do not interact with air" },
+        { "id": "b", "text": "Yes — Class 4 lasers can produce plasma, ions, and hazardous chemical fumes" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.3"
+    },
+    "44": {
+      "id": 144,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "A pulsed laser system has been powered off. A technician opens the power supply to adjust a component. What electrical hazard should the LSO warn about?",
+      "options": [
+        { "id": "a", "text": "Inductors generating magnetic fields" },
+        { "id": "b", "text": "Capacitors that may still retain a lethal charge" },
+        { "id": "c", "text": "Resistors producing static electricity" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.4.1"
+    },
+    "45": {
+      "id": 145,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "A technician touches a component inside a laser power supply and gets a mild burn, though the laser beam was not involved. What most likely caused this?",
+      "options": [
+        { "id": "a", "text": "A resistive component radiating heat from current flow" },
+        { "id": "b", "text": "A capacitor discharging stored energy" },
+        { "id": "c", "text": "An inductor generating electromagnetic interference" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §7.4.2"
+    },
+    "46": {
+      "id": 146,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "A standard water-based fire extinguisher is placed in a laser controlled area. Is this adequate for all fire scenarios?",
+      "options": [
+        { "id": "a", "text": "Yes — any fire extinguisher will work" },
+        { "id": "b", "text": "No — the extinguisher must be rated specifically for electrical fires" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.5"
+    },
+    "47": {
+      "id": 147,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "A custom laser system uses a 48V power supply. Are electrical control measures required?",
+      "options": [
+        { "id": "a", "text": "Yes — any circuit requires control measures" },
+        { "id": "b", "text": "No — electrical control measures are required only for circuits exceeding 50 volts" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.4"
+    },
+    "48": {
+      "id": 148,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "A laser system has exposed wiring with no enclosure, no grounding, and no indicator lights. Which electrical safety controls are missing?",
+      "options": [
+        { "id": "a", "text": "Only grounding is needed" },
+        { "id": "b", "text": "Only enclosures are needed" },
+        { "id": "c", "text": "All three — enclosures, grounding, and indicator lights" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §7.4.3"
+    },
+    "49": {
+      "id": 149,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "A safety review identifies that a high-power laser system may emit X-rays. Is this considered a non-beam hazard?",
+      "options": [
+        { "id": "a", "text": "No — X-rays are unrelated to laser systems" },
+        { "id": "b", "text": "Yes — non-laser radiation hazards include radio waves, X-rays, thermal radiation, and ionizing radiation" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.6"
+    },
+    "50": {
+      "id": 150,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "An exposed pump lamp on a laser system emits UV radiation. What long-term health risk should the LSO address?",
+      "options": [
+        { "id": "a", "text": "Hearing loss" },
+        { "id": "b", "text": "Cataracts from chronic UV exposure" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.6.1"
+    },
+    "51": {
+      "id": 151,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "A piece of cardboard is accidentally left in the beam path of a Class 4 laser. What hazard does this create?",
+      "options": [
+        { "id": "a", "text": "No hazard — cardboard absorbs laser light harmlessly" },
+        { "id": "b", "text": "A fire hazard — Class 4 beams can ignite flammable materials" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.5"
+    },
+    "52": {
+      "id": 152,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "A laser cutting system is upgraded from a fixed beam path to a robotic arm delivery. How does this affect the NHZ?",
+      "options": [
+        { "id": "a", "text": "The NHZ stays the same since the laser power hasn't changed" },
+        { "id": "b", "text": "The NHZ increases because the beam can now reach a larger area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.7"
+    },
+    "53": {
+      "id": 153,
+      "topic": "non-beam-hazards",
+      "difficulty": "hard",
+      "questionText": "Two different compressed gases used in a laser system are stored together in the same cabinet. Is this acceptable?",
+      "options": [
+        { "id": "a", "text": "Yes — as long as both containers are properly sealed" },
+        { "id": "b", "text": "No — different gases must be stored separately" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.3.2"
+    },
+    "54": {
+      "id": 154,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "An operator complains of wrist pain from repetitive alignment procedures. Is this within the LSO's scope of responsibility?",
+      "options": [
+        { "id": "a", "text": "No — ergonomics is not a laser safety concern" },
+        { "id": "b", "text": "Yes — the LSO should consider ergonomics of SOPs to reduce repetitive injury" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.7.2"
+    },
+    "55": {
+      "id": 155,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "A laser workstation has only 1 foot of clearance on each side, with cables on the floor. Is this workspace adequate?",
+      "options": [
+        { "id": "a", "text": "Yes — 1 foot of clearance is sufficient" },
+        { "id": "b", "text": "No — at least 3 feet of clearance is recommended and the workspace must be free of obstacles" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.7.1"
+    },
+    "56": {
+      "id": 156,
+      "topic": "non-beam-hazards",
+      "difficulty": "medium",
+      "questionText": "An old laser system is no longer needed. A technician suggests throwing it in the dumpster. Is this appropriate?",
+      "options": [
+        { "id": "a", "text": "Yes — it can be disposed of like any other electronic waste" },
+        { "id": "b", "text": "No — laser systems contain hazardous materials and should be returned to the manufacturer" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.8"
+    },
+    "57": {
+      "id": 157,
+      "topic": "non-beam-hazards",
+      "difficulty": "easy",
+      "questionText": "A metal surface inside a laser controlled area reaches 60°C during operation. Are any safety measures required?",
+      "options": [
+        { "id": "a", "text": "No — this is a normal operating temperature" },
+        { "id": "b", "text": "Yes — engineering controls and a warning sign are required for surfaces exceeding 50°C" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §7.4.2"
+    }
+  }
+}
