@@ -763,13 +763,160 @@
       ],
       "correctOptionId": "a",
       "oshaClause": "Z136.1 §7.4.2"
+    },
+    {
+      "id": 58,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "Where can you find the maximum permissible exposure (MPE) limits?",
+      "options": [
+        { "id": "a", "text": "OSHA's website" },
+        { "id": "b", "text": "The American National Standards Institute (ANSI)" },
+        { "id": "c", "text": "Physics textbooks" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.1"
+    },
+    {
+      "id": 59,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "Which beam characteristics are critical for measuring the MPE?",
+      "options": [
+        { "id": "a", "text": "Aperture Size" },
+        { "id": "b", "text": "Source Distance" },
+        { "id": "c", "text": "Outgoing Cone Angle" },
+        { "id": "d", "text": "Wavelength" },
+        { "id": "e", "text": "Exposure Time" },
+        { "id": "f", "text": "All of the above" }
+      ],
+      "correctOptionId": "f",
+      "oshaClause": "Z136.1 §8.2"
+    },
+    {
+      "id": 60,
+      "topic": "eye-skin-exposure",
+      "difficulty": "hard",
+      "questionText": "What cone angle constitutes a collimated beam?",
+      "options": [
+        { "id": "a", "text": "Less than 1 degree" },
+        { "id": "b", "text": "Less than 1.5 mrad (0.1 degree)" },
+        { "id": "c", "text": "Less than 10 degrees" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.2.1"
+    },
+    {
+      "id": 61,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "What happens when collimated beams enter the eye?",
+      "options": [
+        { "id": "a", "text": "The eye's pupil blocks the beam." },
+        { "id": "b", "text": "The viewer instinctively blinks." },
+        { "id": "c", "text": "The beam forms a very small spot with high energy density." }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §8.2.1"
+    },
+    {
+      "id": 62,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "Which wavelengths constitute the visible range?",
+      "options": [
+        { "id": "a", "text": "0–400 nm" },
+        { "id": "b", "text": "400–700 nm" },
+        { "id": "c", "text": "700–1400 nm" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.3"
+    },
+    {
+      "id": 63,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "What type of beam profile do diverging lasers typically have?",
+      "options": [
+        { "id": "a", "text": "Newtonian" },
+        { "id": "b", "text": "Cartesian" },
+        { "id": "c", "text": "Gaussian" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §8.2.2"
+    },
+    {
+      "id": 64,
+      "topic": "eye-skin-exposure",
+      "difficulty": "hard",
+      "questionText": "Which of the following is NOT necessary for measuring a wide spectrum laser source?",
+      "options": [
+        { "id": "a", "text": "Consider the thermal risks of each wavelength." },
+        { "id": "b", "text": "Consider the photochemical risks of each wavelength." },
+        { "id": "c", "text": "Measure the wavelengths separately." },
+        { "id": "d", "text": "Treat the MPE's of each wavelength as additive." },
+        { "id": "e", "text": "Measure only the highest energy wavelength." }
+      ],
+      "correctOptionId": "e",
+      "oshaClause": "Z136.1 §8.2.3"
+    },
+    {
+      "id": 65,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "What is the maximum exposure duration for near IR lasers (700–1400 nm)?",
+      "options": [
+        { "id": "a", "text": "0.25 seconds" },
+        { "id": "b", "text": "1 second" },
+        { "id": "c", "text": "10 seconds" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §8.3.1"
+    },
+    {
+      "id": 66,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "What is the maximum exposure duration for visible lasers (400–700 nm)?",
+      "options": [
+        { "id": "a", "text": "0.25 seconds" },
+        { "id": "b", "text": "1 second" },
+        { "id": "c", "text": "10 seconds" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §8.3.2"
+    },
+    {
+      "id": 67,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "Skin exposure poses what type of risk?",
+      "options": [
+        { "id": "a", "text": "Thermal" },
+        { "id": "b", "text": "Photochemical" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §8.4"
+    },
+    {
+      "id": 68,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "Eye exposure poses what type of risk?",
+      "options": [
+        { "id": "a", "text": "Thermal" },
+        { "id": "b", "text": "Photochemical" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.4"
     }
   ],
   "lessons": {
     "laser-basics": "**Laser Classifications & LSO Responsibilities — ANSI Z136.1**\n\nLasers are classified from Class 1 (safest) through Class 4 (most hazardous). **Class 1** systems cannot produce damaging radiation under normal conditions — either because their output is inherently low or a higher-power source is fully enclosed. **Class 2** lasers emit only visible light (400–700 nm) and rely on the blink/aversion reflex for safety. **Class 3R** systems pose a small risk if the beam is viewed directly or via specular reflection. **Class 4** lasers are the most dangerous — hazardous to eyes and skin, capable of igniting materials, and can generate plasma radiation and air contaminants.\n\nThe **Laser Safety Officer (LSO)** is the central figure in any laser safety program. The LSO is responsible for classifying all laser systems in the facility — including verifying manufacturer classifications and classifying custom-built or modified systems. The LSO manages the overall safety program, performs hazard evaluations, applies control measures, monitors compliance, and approves SOPs for Class 3B and Class 4 systems (an administrative control).\n\nWork areas must have warning signs, classification labels, and audible alarms. In the event of suspected injury, the LSO must immediately send the employee for medical examination — baseline eye exams for new employees are also recommended. The LSO must implement a pre-established action plan for injuries, followed by a detailed report, corrective measures, and follow-up training. During compliance audits, the LSO accompanies inspectors and presents the safety program details.",
     "hazard-evaluation": "**Hazard Evaluation — ANSI Z136.1**\n\nHazard evaluation is the foundation of laser safety. The classification of a laser system is determined by its potential to cause injury, the accessible radiation level during operation, whether the beam is enclosed, and the personnel who may be exposed. Classifications must be based on properly measured **maximum output power data** across all operating wavelengths — not nominal or minimum output.\n\nFor **CW (continuous-wave) lasers**, classification depends on output power and exposure duration. For **pulsed lasers**, the essential metrics are pulse energy, pulse duration, and pulse repetition frequency. Key optical measurement metrics include wavelength(s), radiant exposure, output divergence angle, and exposure aperture size. Electrical power consumption is not an optical metric used for classification.\n\nThe **Nominal Hazard Zone (NHZ)** is defined by the control measures implemented by the LSO, not by arbitrary distances. When evaluating the NHZ, the LSO must determine all possible beam paths, sources of specular reflection, MPE of diffuse materials, operator exposure frequency, and whether collecting optics are present.\n\n**Diffuse reflection** occurs from rough surfaces and poses a fire hazard as energy is scattered broadly. **Specular reflection** occurs from smooth surfaces and poses an eye hazard because it creates unexpected concentrated beam paths. Understanding both reflection types is critical to proper hazard evaluation and NHZ determination.",
     "control-measures": "**Control Measures — ANSI Z136.1**\n\nEngineering controls are the first line of defense and the most reliable. **Protective housings** must prevent human access to laser radiation above the applicable MPE during normal operation and maintenance. **Beam enclosures** fully contain the beam path, and **interlocks** disable the laser when a housing panel or door is opened — defeat of interlocks requires LSO authorization and temporary alternative controls.\n\n**Warning systems** include audible alarms that sound before a Class 3B or 4 laser fires, giving personnel time to don PPE or leave the area. **Beam stops and attenuators** terminate or reduce the beam at the end of its useful path, preventing stray radiation. The **beam path** should be kept below or above standing or seated eye level to minimize accidental ocular exposure. Optical tables must be maintained at levels that keep beams away from eye height.\n\n**Administrative controls** complement engineering controls but never replace them. These include Standard Operating Procedures (SOPs) — which the LSO must approve for every Class 3B/4 system — and restricting laser area access to authorized personnel only. Laser Controlled Areas (LCAs) require posted warning signs, limited entry points, and door interlocks or equivalent barriers.\n\n**Personal Protective Equipment (PPE)** is the last layer. **Laser protective eyewear** must be wavelength-matched and have an adequate Optical Density (OD) for the specific laser. OD is logarithmic: OD 1 blocks 90% of incident light, OD 2 blocks 99%, OD 3 blocks 99.9%. The LSO determines the required OD based on MPE calculations and the laser's output parameters. Eyewear must be inspected for damage regularly and replaced if degraded.",
-    "non-beam-hazards": "**Non-Beam Hazards — ANSI Z136.1**\n\nNon-beam hazards are risks associated with laser operations that do not come from the beam itself. These hazards can be just as dangerous — or more so — than direct beam exposure, and the LSO must address them as part of the overall safety program.\n\n**Electrical hazards** are the most common cause of fatalities in laser environments. High-voltage power supplies, capacitor banks, and exposed conductors can deliver lethal shocks. Laser technicians must follow lockout/tagout (LOTO) procedures before servicing equipment, and only qualified personnel should work on energized circuits.\n\n**Laser-Generated Air Contaminants (LGACs)** are produced when high-power lasers interact with target materials. These include particulates, fumes, and gases that may be toxic or carcinogenic — especially when cutting, welding, or ablating metals, plastics, or biological tissue. Adequate ventilation, local exhaust systems, and respiratory protection are required controls.\n\n**Fire hazards** exist because Class 4 lasers can ignite flammable materials, solvents, and even clothing. Work areas must be kept free of combustible materials, and fire extinguishers must be readily accessible. **Explosion risks** arise when lasers are used near flammable gases or volatile solvents.\n\n**Plasma radiation** from high-power laser interactions with targets can produce UV and visible radiation intense enough to cause eye and skin injury to nearby personnel. **Compressed gases** used in laser systems (assist gases, cooling) introduce asphyxiation and high-pressure hazards. **Cryogenic materials** used for cooling pose frostbite and oxygen displacement risks. The LSO must evaluate all non-beam hazards specific to each laser installation and ensure appropriate controls are in place."
+    "non-beam-hazards": "**Non-Beam Hazards — ANSI Z136.1**\n\nNon-beam hazards are risks associated with laser operations that do not come from the beam itself. These hazards can be just as dangerous — or more so — than direct beam exposure, and the LSO must address them as part of the overall safety program.\n\n**Electrical hazards** are the most common cause of fatalities in laser environments. High-voltage power supplies, capacitor banks, and exposed conductors can deliver lethal shocks. Laser technicians must follow lockout/tagout (LOTO) procedures before servicing equipment, and only qualified personnel should work on energized circuits.\n\n**Laser-Generated Air Contaminants (LGACs)** are produced when high-power lasers interact with target materials. These include particulates, fumes, and gases that may be toxic or carcinogenic — especially when cutting, welding, or ablating metals, plastics, or biological tissue. Adequate ventilation, local exhaust systems, and respiratory protection are required controls.\n\n**Fire hazards** exist because Class 4 lasers can ignite flammable materials, solvents, and even clothing. Work areas must be kept free of combustible materials, and fire extinguishers must be readily accessible. **Explosion risks** arise when lasers are used near flammable gases or volatile solvents.\n\n**Plasma radiation** from high-power laser interactions with targets can produce UV and visible radiation intense enough to cause eye and skin injury to nearby personnel. **Compressed gases** used in laser systems (assist gases, cooling) introduce asphyxiation and high-pressure hazards. **Cryogenic materials** used for cooling pose frostbite and oxygen displacement risks. The LSO must evaluate all non-beam hazards specific to each laser installation and ensure appropriate controls are in place.",
+    "eye-skin-exposure": "**Eye & Skin Exposure — ANSI Z136.1**\n\nThe **Maximum Permissible Exposure (MPE)** is the highest level of laser radiation to which the eye or skin may be exposed without adverse effects. MPE limits are published by the **American National Standards Institute (ANSI)** in Z136.1 and vary by wavelength, exposure duration, and laser type.\n\nMeasuring MPE requires knowledge of several beam characteristics: **aperture size, source distance, outgoing cone angle, wavelength, and exposure time**. A beam is considered **collimated** if its divergence angle is less than **1.5 mrad (0.1°)** — these are treated as point sources. When a collimated beam enters the eye, the lens focuses it into a very small spot on the retina with extremely high energy density, causing serious photochemical damage.\n\nThe **visible range** spans 400–700 nm. The broader **retinal hazard region** extends from 400 nm to 1400 nm. For **near-IR lasers (700–1400 nm)**, the maximum exposure duration used in MPE calculations is **10 seconds**, because the eye's natural movements and aversion impulse provide some protection. For **visible CW lasers (400–700 nm)**, the maximum exposure duration drops to **0.25 seconds** due to the blink/aversion reflex.\n\n**Diverging lasers** (uncollimated beams, laser arrays, diffuse sources) typically have a **Gaussian beam profile**, and MPE calculations must account for this intensity distribution. For **wide-spectrum sources** with multiple wavelengths, the LSO must consider the thermal and photochemical risk of each wavelength, measure each separately, and treat the MPEs as **additive** — measuring only the highest-energy wavelength is insufficient.\n\n**Skin exposure** poses primarily a **thermal** damage risk, while **eye exposure** poses primarily a **photochemical** damage risk. Both must be evaluated in the hazard analysis."
   },
   "rephrasedQuestions": {
     "1": {
@@ -1469,6 +1616,139 @@
       ],
       "correctOptionId": "b",
       "oshaClause": "Z136.1 §7.4.2"
+    },
+    "58": {
+      "id": 158,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "A technician wants to look up the MPE for a 532 nm laser. Which organization publishes the authoritative MPE tables?",
+      "options": [
+        { "id": "a", "text": "OSHA" },
+        { "id": "b", "text": "ANSI — the American National Standards Institute" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.1"
+    },
+    "59": {
+      "id": 159,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "An LSO is calculating the MPE for a new laser. Which of the following can be safely ignored?",
+      "options": [
+        { "id": "a", "text": "Wavelength" },
+        { "id": "b", "text": "Exposure time" },
+        { "id": "c", "text": "None — aperture size, source distance, cone angle, wavelength, and exposure time are all required" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Z136.1 §8.2"
+    },
+    "60": {
+      "id": 160,
+      "topic": "eye-skin-exposure",
+      "difficulty": "hard",
+      "questionText": "A laser beam has a divergence of 0.05 mrad. Is this beam considered collimated?",
+      "options": [
+        { "id": "a", "text": "No — the divergence is too small to be a true collimated beam" },
+        { "id": "b", "text": "Yes — any divergence less than 1.5 mrad (0.1°) qualifies as collimated" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.2.1"
+    },
+    "61": {
+      "id": 161,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "A collimated laser beam accidentally enters a worker's eye. Why is this particularly dangerous?",
+      "options": [
+        { "id": "a", "text": "The pupil will dilate, letting in more light" },
+        { "id": "b", "text": "The eye's lens focuses the collimated beam into an extremely small, high-energy-density spot on the retina" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.2.1"
+    },
+    "62": {
+      "id": 162,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "A laser operates at 550 nm. Does this fall within the visible spectrum?",
+      "options": [
+        { "id": "a", "text": "No — 550 nm is in the ultraviolet range" },
+        { "id": "b", "text": "Yes — the visible range is 400–700 nm" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.3"
+    },
+    "63": {
+      "id": 163,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "An LSO is calculating the MPE for a diverging laser diode array. What beam profile must the calculation account for?",
+      "options": [
+        { "id": "a", "text": "Flat-top (uniform)" },
+        { "id": "b", "text": "Gaussian" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.2.2"
+    },
+    "64": {
+      "id": 164,
+      "topic": "eye-skin-exposure",
+      "difficulty": "hard",
+      "questionText": "A multi-wavelength laser emits at 532 nm and 1064 nm. An LSO measures only the 1064 nm output since it has more energy. Is this sufficient?",
+      "options": [
+        { "id": "a", "text": "Yes — the highest energy wavelength determines the overall MPE" },
+        { "id": "b", "text": "No — each wavelength must be measured separately and the MPEs treated as additive" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.2.3"
+    },
+    "65": {
+      "id": 165,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "A near-IR laser at 900 nm accidentally illuminates a worker's eye. For MPE calculations, what maximum exposure duration applies?",
+      "options": [
+        { "id": "a", "text": "0.25 seconds" },
+        { "id": "b", "text": "10 seconds — the eye's natural aversion and movement provide some protection in the near-IR range" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.3.1"
+    },
+    "66": {
+      "id": 166,
+      "topic": "eye-skin-exposure",
+      "difficulty": "medium",
+      "questionText": "A CW visible laser at 635 nm is being evaluated. What maximum exposure duration is used for the MPE calculation?",
+      "options": [
+        { "id": "a", "text": "0.25 seconds — the blink reflex limits exposure for visible CW lasers" },
+        { "id": "b", "text": "10 seconds" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §8.3.2"
+    },
+    "67": {
+      "id": 167,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "A Class 4 laser beam grazes a technician's forearm. What type of damage is most likely?",
+      "options": [
+        { "id": "a", "text": "Thermal burn — skin exposure is primarily a thermal risk" },
+        { "id": "b", "text": "Photochemical damage" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Z136.1 §8.4"
+    },
+    "68": {
+      "id": 168,
+      "topic": "eye-skin-exposure",
+      "difficulty": "easy",
+      "questionText": "A worker's eye is briefly exposed to a laser beam. What is the primary damage mechanism for eye exposure?",
+      "options": [
+        { "id": "a", "text": "Thermal" },
+        { "id": "b", "text": "Photochemical — eye exposure is primarily a photochemical risk" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Z136.1 §8.4"
     }
   }
 }
