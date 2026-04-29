@@ -73,6 +73,16 @@ function ExamPage() {
   const attemptIdRef = useRef<string>(generateAttemptId());
   const completionSentRef = useRef<boolean>(false);
 
+  // ── Parent-frame height reporting (iframe resize support) ────────────────
+  useEffect(() => {
+    function handleMessage(e: MessageEvent) {
+      if (e.origin !== "https://secure.certifyme.net") return;
+      parent.postMessage("height:" + document.documentElement.scrollHeight, "*");
+    }
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
+
   // ── Load course on mount ────────────────────────────────────────────────
   useEffect(() => {
     if (!session) {
