@@ -42,6 +42,20 @@ export interface RemediationPayload {
   rephrasedQuestion: Question;
 }
 
+/** Full course payload returned by /api/course/load */
+export interface CourseContent {
+  meta: {
+    courseId: string;
+    title: string;
+    oshaStandard: string;
+    passingGrade: number;
+    totalQuestions: number;
+  };
+  questions: Question[];
+  lessons: Record<string, string>;
+  rephrasedQuestions: Record<string, Question>;
+}
+
 /** Overall exam state managed by the page component */
 export interface ExamState {
   currentQuestionIndex: number;

@@ -1,16 +1,48 @@
 "use client";
 
-import { useState, useCallback, useRef, useEffect } from "react";
-import { ExamState, RemediationPayload } from "@/lib/types";
-import { BASE_QUESTIONS } from "@/lib/questions";
+import { useState, useCallback, useRef, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
+import { ExamState, RemediationPayload, CourseContent } from "@/lib/types";
 import { simulateRemediation } from "@/lib/remediation";
-import { generateAttemptId, sendCourseEvent, sendCourseComplete } from "@/lib/courseApi";
+import {
+  generateAttemptId,
+  loadCourse,
+  sendCourseEvent,
+  sendCourseComplete,
+} from "@/lib/courseApi";
 import ProgressBar from "@/components/ProgressBar";
 import QuestionCard from "@/components/QuestionCard";
 import RemediationModal from "@/components/RemediationModal";
 import ResultsScreen from "@/components/ResultsScreen";
 
-const TOTAL_QUESTIONS = BASE_QUESTIONS.length;
+// ── Loading screen ────────────────────────────────────────────────────────
+
+function LoadingScreen({ message }: { message: string }) {
+  return (
+    <main className="min-h-screen bg-industrial-50 flex items-center justify-center">
+      <div className="text-center">
+        <div className="animate-spin h-12 w-12 border-4 border-safety-orange border-t-transparent rounded-full mx-auto mb-4" />
+        <p className="text-industrial-600 font-medium">{message}</p>
+      </div>
+    </main>
+  );
+}
+
+// ── Error screen ──────────────────────────────────────────────────────────
+
+function ErrorScreen({ message }: { message: string }) {
+  return (
+    <main className="min-h-screen bg-industrial-50 flex items-center justify-center">
+      <div className="bg-white rounded-2xl shadow-lg border border-red-100 p-10 max-w-md text-center">
+        <span className="text-4xl mb-4 block">&#9888;</span>
+        <h2 className="text-xl font-bold text-industrial-900 mb-2">Unable to load course</h2>
+        <p className="text-industrial-600 text-sm">{message}</p>
+      </div>
+    </main>
+  );
+}
+
+// ── Exam state helpers ────────────────────────────────────────────────────
 
 function getInitialState(): ExamState {
   return {
@@ -26,7 +58,14 @@ function getInitialState(): ExamState {
   };
 }
 
-export default function ExamPage() {
+// ── Main exam component ───────────────────────────────────────────────────
+
+function ExamPage() {
+  const searchParams = useSearchParams();
+  const session = searchParams.get("session") ?? "";
+
+  const [courseContent, setCourseContent] = useState<CourseContent | null>(null);
+  const [courseError, setCourseError] = useState<string | null>(null);
   const [state, setState] = useState<ExamState>(getInitialState);
   const [isCompleting, setIsCompleting] = useState(false);
   const [completionError, setCompletionError] = useState<string | null>(null);
@@ -34,7 +73,32 @@ export default function ExamPage() {
   const attemptIdRef = useRef<string>(generateAttemptId());
   const completionSentRef = useRef<boolean>(false);
 
-  const currentQuestion = BASE_QUESTIONS[state.currentQuestionIndex];
+  // ── Parent-frame height reporting (iframe resize support) ────────────────
+  useEffect(() => {
+    function handleMessage(e: MessageEvent) {
+      if (e.origin !== "https://secure.certifyme.net") return;
+      parent.postMessage("height:" + document.documentElement.scrollHeight, "*");
+    }
+    window.addEventListener("message", handleMessage);
+    return () => window.removeEventListener("message", handleMessage);
+  }, []);
+
+  // ── Load course on mount ────────────────────────────────────────────────
+  useEffect(() => {
+    if (!session) {
+      setCourseError("No session provided. Please access this course through the correct link.");
+      return;
+    }
+
+    loadCourse(session)
+      .then(setCourseContent)
+      .catch((err: Error) => setCourseError(err.message));
+  }, [session]);
+
+  const questions = courseContent?.questions ?? [];
+  const totalQuestions = questions.length;
+  const courseId = courseContent?.meta.courseId ?? "";
+  const currentQuestion = questions[state.currentQuestionIndex];
 
   // ── Select an answer option ───────────────────────────────────────────
   const handleSelectAnswer = useCallback((answerId: string) => {
@@ -45,37 +109,31 @@ export default function ExamPage() {
   const handleSubmit = useCallback(async () => {
     if (!state.selectedAnswerId || !currentQuestion) return;
 
-    const isCorrect =
-      state.selectedAnswerId === currentQuestion.correctOptionId;
+    const isCorrect = state.selectedAnswerId === currentQuestion.correctOptionId;
 
-    // Show visual feedback
     setState((prev) => ({ ...prev, showFeedback: true }));
-
-    // Delay to let the user see the result highlight
     await new Promise((resolve) => setTimeout(resolve, 1200));
 
     if (isCorrect) {
-      // Track correct answer and page advance
       const answeredSoFar = state.currentQuestionIndex + 1;
       const scoreSoFar = state.score + 1;
-      sendCourseEvent(attemptIdRef.current, "question_correct", {
+      sendCourseEvent(attemptIdRef.current, "question_correct", session, courseId, {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
         correctCount: scoreSoFar,
         totalQuestions: answeredSoFar,
       });
-      sendCourseEvent(attemptIdRef.current, "page_next", {
+      sendCourseEvent(attemptIdRef.current, "page_next", session, courseId, {
         pageId: `q-${currentQuestion.id}`,
         correctCount: scoreSoFar,
         totalQuestions: answeredSoFar,
       });
 
-      // Correct → advance
       const nextIndex = state.currentQuestionIndex + 1;
-      if (nextIndex >= TOTAL_QUESTIONS) {
-        sendCourseEvent(attemptIdRef.current, "exam_submitted", {
+      if (nextIndex >= totalQuestions) {
+        sendCourseEvent(attemptIdRef.current, "exam_submitted", session, courseId, {
           correctCount: state.score + 1,
-          totalQuestions: TOTAL_QUESTIONS,
+          totalQuestions,
         });
         setState((prev) => ({
           ...prev,
@@ -96,19 +154,18 @@ export default function ExamPage() {
         }));
       }
     } else {
-      // Track incorrect answer
-      sendCourseEvent(attemptIdRef.current, "question_incorrect", {
+      sendCourseEvent(attemptIdRef.current, "question_incorrect", session, courseId, {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
         correctCount: state.score,
         totalQuestions: state.currentQuestionIndex + 1,
       });
 
-      // Incorrect → enter remediation
       setState((prev) => ({ ...prev, isLoading: true }));
 
       const payload: RemediationPayload = await simulateRemediation(
-        currentQuestion
+        currentQuestion,
+        courseContent ?? undefined,
       );
 
       setState((prev) => ({
@@ -120,22 +177,21 @@ export default function ExamPage() {
         selectedAnswerId: null,
       }));
     }
-  }, [state.selectedAnswerId, state.currentQuestionIndex, currentQuestion]);
+  }, [state, currentQuestion, session, courseId, courseContent, totalQuestions]);
 
-  // ── Remediation: answered the rephrased question correctly ────────────
+  // ── Remediation: answered correctly ──────────────────────────────────
   const handleRemediationCorrect = useCallback(() => {
-    const question = BASE_QUESTIONS[state.currentQuestionIndex];
-    sendCourseEvent(attemptIdRef.current, "page_next", {
-      pageId: `q-${question.id}`,
+    sendCourseEvent(attemptIdRef.current, "page_next", session, courseId, {
+      pageId: `q-${currentQuestion?.id}`,
       correctCount: state.score,
       totalQuestions: state.currentQuestionIndex + 1,
     });
 
     const nextIndex = state.currentQuestionIndex + 1;
-    if (nextIndex >= TOTAL_QUESTIONS) {
-      sendCourseEvent(attemptIdRef.current, "exam_submitted", {
+    if (nextIndex >= totalQuestions) {
+      sendCourseEvent(attemptIdRef.current, "exam_submitted", session, courseId, {
         correctCount: state.score,
-        totalQuestions: TOTAL_QUESTIONS,
+        totalQuestions,
       });
       setState((prev) => ({
         ...prev,
@@ -153,10 +209,9 @@ export default function ExamPage() {
         answeredCorrectly: [...prev.answeredCorrectly, false],
       }));
     }
-  }, [state.currentQuestionIndex]);
+  }, [state.currentQuestionIndex, state.score, totalQuestions, session, courseId, currentQuestion]);
 
-  // ── Remediation: answered the rephrased question incorrectly ──────────
-  // Close the modal and return the student to the original question
+  // ── Remediation: answered incorrectly ────────────────────────────────
   const handleRemediationIncorrect = useCallback(() => {
     setState((prev) => ({
       ...prev,
@@ -167,7 +222,7 @@ export default function ExamPage() {
     }));
   }, []);
 
-  // ── Complete the course and redirect ──────────────────────────────────
+  // ── Complete the course ───────────────────────────────────────────────
   const handleComplete = useCallback(async () => {
     if (completionSentRef.current) return;
     completionSentRef.current = true;
@@ -178,7 +233,9 @@ export default function ExamPage() {
       const redirectUrl = await sendCourseComplete(
         attemptIdRef.current,
         state.score,
-        TOTAL_QUESTIONS,
+        totalQuestions,
+        session,
+        courseId,
       );
       window.location.href = redirectUrl;
     } catch (err) {
@@ -187,15 +244,13 @@ export default function ExamPage() {
       setIsCompleting(false);
       setCompletionError("Failed to complete course. Please try again.");
     }
-  }, [state.score]);
+  }, [state.score, totalQuestions, session, courseId]);
 
   useEffect(() => {
-    if (state.isComplete) {
-      handleComplete();
-    }
+    if (state.isComplete) handleComplete();
   }, [state.isComplete, handleComplete]);
 
-  // ── Restart the exam ──────────────────────────────────────────────────
+  // ── Restart ───────────────────────────────────────────────────────────
   const handleRestart = useCallback(() => {
     attemptIdRef.current = generateAttemptId();
     completionSentRef.current = false;
@@ -204,7 +259,13 @@ export default function ExamPage() {
     setState(getInitialState());
   }, []);
 
-  // ── Render ────────────────────────────────────────────────────────────
+  // ── Render: loading / error / exam ────────────────────────────────────
+  if (courseError) return <ErrorScreen message={courseError} />;
+  if (!courseContent) return <LoadingScreen message="Loading your course..." />;
+
+  const courseTitle = courseContent.meta.title;
+  const oshaStandard = courseContent.meta.oshaStandard;
+
   return (
     <main className="min-h-screen bg-industrial-50 flex flex-col">
       {/* Top bar */}
@@ -213,12 +274,8 @@ export default function ExamPage() {
           <div className="flex items-center gap-3">
             <span className="text-2xl">&#9888;</span>
             <div>
-              <h1 className="font-bold text-lg leading-tight">
-                ForkliftMastery
-              </h1>
-              <p className="text-industrial-400 text-xs">
-                OSHA 1910.178 Certification Exam
-              </p>
+              <h1 className="font-bold text-lg leading-tight">{courseTitle}</h1>
+              <p className="text-industrial-400 text-xs">{oshaStandard}</p>
             </div>
           </div>
           {!state.isComplete && (
@@ -235,7 +292,7 @@ export default function ExamPage() {
           {state.isComplete ? (
             <ResultsScreen
               score={state.score}
-              totalQuestions={TOTAL_QUESTIONS}
+              totalQuestions={totalQuestions}
               onRestart={handleRestart}
               isCompleting={isCompleting}
               completionError={completionError}
@@ -245,7 +302,7 @@ export default function ExamPage() {
             <>
               <ProgressBar
                 currentIndex={state.currentQuestionIndex}
-                totalQuestions={TOTAL_QUESTIONS}
+                totalQuestions={totalQuestions}
                 difficulty={currentQuestion.difficulty}
                 score={state.score}
               />
@@ -283,8 +340,18 @@ export default function ExamPage() {
 
       {/* Footer */}
       <footer className="bg-industrial-900 text-industrial-500 text-center text-xs py-3">
-        Content derived from OSHA Standard 1910.178 — Powered Industrial Trucks
+        {oshaStandard}
       </footer>
     </main>
+  );
+}
+
+// ── Root export — Suspense required for useSearchParams ───────────────────
+
+export default function Page() {
+  return (
+    <Suspense fallback={<LoadingScreen message="Loading your course..." />}>
+      <ExamPage />
+    </Suspense>
   );
 }

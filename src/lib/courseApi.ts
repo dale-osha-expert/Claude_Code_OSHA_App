@@ -1,8 +1,11 @@
 // ---------------------------------------------------------------------------
-// ForkliftMastery — CertifyMe Course Tracking API Integration
+// ForkliftMastery — Course API Integration
 // ---------------------------------------------------------------------------
 
+import type { CourseContent } from "./types";
+
 interface CourseEventPayload {
+  session: string;
   attempt_id: string;
   event_type:
     | "page_next"
@@ -26,8 +29,6 @@ interface CourseCompleteResponse {
 
 const API_BASE_URL =
   process.env.NEXT_PUBLIC_COURSE_API_BASE_URL ?? "https://secure.certifyme.net";
-const COURSE_ID =
-  process.env.NEXT_PUBLIC_COURSE_ID ?? "osha-1910-178";
 
 // ── Helpers ────────────────────────────────────────────────────────────────
 
@@ -36,6 +37,8 @@ export function generateAttemptId(): string {
 }
 
 function buildPayload(
+  session: string,
+  courseId: string,
   attemptId: string,
   eventType: CourseEventPayload["event_type"],
   options?: {
@@ -46,11 +49,12 @@ function buildPayload(
   },
 ): CourseEventPayload {
   return {
+    session,
     attempt_id: attemptId,
     event_type: eventType,
-    course_id: COURSE_ID,
+    course_id: courseId,
     page_id: options?.pageId ?? null,
-    lesson_id: COURSE_ID,
+    lesson_id: courseId,
     timestamp: new Date().toISOString(),
     correct_count: options?.correctCount ?? null,
     total_questions: options?.totalQuestions ?? null,
@@ -59,11 +63,35 @@ function buildPayload(
   };
 }
 
+// ── Course loader ──────────────────────────────────────────────────────────
+
+export async function loadCourse(session: string): Promise<CourseContent> {
+  const response = await fetch(`${API_BASE_URL}/api/course/load`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ session }),
+  });
+
+  if (!response.ok) {
+    throw new Error(`Course load failed: ${response.status}`);
+  }
+
+  const data = await response.json();
+
+  if (data.error) {
+    throw new Error(data.message ?? "Invalid session");
+  }
+
+  return data as CourseContent;
+}
+
 // ── Fire-and-forget event sender ───────────────────────────────────────────
 
 export function sendCourseEvent(
   attemptId: string,
   eventType: "page_next" | "question_correct" | "question_incorrect" | "exam_submitted",
+  session: string,
+  courseId: string,
   options?: {
     pageId?: string;
     questionId?: number;
@@ -71,7 +99,7 @@ export function sendCourseEvent(
     totalQuestions?: number;
   },
 ): void {
-  const payload = buildPayload(attemptId, eventType, options);
+  const payload = buildPayload(session, courseId, attemptId, eventType, options);
   fetch(`${API_BASE_URL}/api/course/event`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -87,8 +115,10 @@ export async function sendCourseComplete(
   attemptId: string,
   correctCount: number,
   totalQuestions: number,
+  session: string,
+  courseId: string,
 ): Promise<string> {
-  const payload = buildPayload(attemptId, "course_complete", {
+  const payload = buildPayload(session, courseId, attemptId, "course_complete", {
     correctCount,
     totalQuestions,
   });
