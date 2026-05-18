@@ -1,0 +1,436 @@
+{
+  "meta": {
+    "courseId": "bloodborne-pathogens",
+    "title": "Bloodborne Pathogens in Commercial and Industrial Facilities",
+    "oshaStandard": "OSHA 29 CFR 1910.1030",
+    "passingGrade": 0.70,
+    "totalQuestions": 15
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "What are bloodborne pathogens?",
+      "options": [
+        { "id": "a", "text": "Airborne particles that cause respiratory illness" },
+        { "id": "b", "text": "Disease-causing microorganisms that are present in human blood and can cause disease in humans" },
+        { "id": "c", "text": "Chemicals found in industrial cleaning products" },
+        { "id": "d", "text": "Pathogens that only affect animals" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 2,
+      "topic": "exposure-control-plan",
+      "difficulty": "easy",
+      "questionText": "Which OSHA standard specifically addresses bloodborne pathogens in the workplace?",
+      "options": [
+        { "id": "a", "text": "29 CFR 1910.147" },
+        { "id": "b", "text": "29 CFR 1926.62" },
+        { "id": "c", "text": "29 CFR 1910.1030" },
+        { "id": "d", "text": "29 CFR 1910.134" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 3,
+      "topic": "exposure-routes",
+      "difficulty": "easy",
+      "questionText": "True or False: Bloodborne pathogen exposure can occur in commercial and industrial facilities, not just healthcare settings.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 4,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a common bloodborne pathogen?",
+      "options": [
+        { "id": "a", "text": "Hepatitis B (HBV)" },
+        { "id": "b", "text": "Influenza virus" },
+        { "id": "c", "text": "Streptococcus bacteria" },
+        { "id": "d", "text": "Asbestos fibers" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 5,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "Standard Precautions means:",
+      "options": [
+        { "id": "a", "text": "Taking precautions only when a worker appears visibly ill" },
+        { "id": "b", "text": "Treating all blood and certain body fluids as if they are infectious, regardless of the person's diagnosis" },
+        { "id": "c", "text": "Using precautions only in healthcare or clinical settings" },
+        { "id": "d", "text": "Wearing PPE only during surgical or medical procedures" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 6,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "After removing contaminated gloves, you should:",
+      "options": [
+        { "id": "a", "text": "Immediately proceed to your next task" },
+        { "id": "b", "text": "Wash your hands thoroughly with soap and water" },
+        { "id": "c", "text": "Apply hand sanitizer only" },
+        { "id": "d", "text": "Wipe your hands on your work uniform" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 7,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "True or False: It is acceptable to eat or drink in areas where bloodborne pathogen exposure may occur, as long as you are wearing gloves.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 8,
+      "topic": "ppe-controls",
+      "difficulty": "easy",
+      "questionText": "Which of the following is an example of Personal Protective Equipment (PPE) used against bloodborne pathogen exposure?",
+      "options": [
+        { "id": "a", "text": "Gloves" },
+        { "id": "b", "text": "Hard hat" },
+        { "id": "c", "text": "Steel-toed boots" },
+        { "id": "d", "text": "High-visibility vest" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 9,
+      "topic": "housekeeping-waste",
+      "difficulty": "medium",
+      "questionText": "Contaminated disposable materials (such as used gloves or absorbent materials) should be placed in:",
+      "options": [
+        { "id": "a", "text": "Regular trash receptacles" },
+        { "id": "b", "text": "Recycling bins" },
+        { "id": "c", "text": "Approved regulated waste containers" },
+        { "id": "d", "text": "Any sealed plastic bag" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 10,
+      "topic": "housekeeping-waste",
+      "difficulty": "hard",
+      "questionText": "You are about to service a machine and notice dried blood on its surface. What should you do?",
+      "options": [
+        { "id": "a", "text": "Clean it up quickly with a paper towel and proceed with the repair" },
+        { "id": "b", "text": "Ignore it since dried blood is no longer a risk" },
+        { "id": "c", "text": "Stop, report the contamination, and follow your facility's bloodborne pathogen procedures before proceeding" },
+        { "id": "d", "text": "Wipe it down with your gloved hand since you are in an industrial, not a medical, setting" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 11,
+      "topic": "ppe-controls",
+      "difficulty": "medium",
+      "questionText": "A coworker has a bleeding cut on their hand and asks for help. What should you do first?",
+      "options": [
+        { "id": "a", "text": "Put on gloves and other appropriate PPE before assisting" },
+        { "id": "b", "text": "Apply direct pressure to the wound with your bare hands" },
+        { "id": "c", "text": "Wrap the wound with your shirt or cloth" },
+        { "id": "d", "text": "Ask the coworker to take care of it themselves to avoid exposure" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 12,
+      "topic": "exposure-response",
+      "difficulty": "medium",
+      "questionText": "After a potential bloodborne pathogen exposure incident (such as a needlestick), you should:",
+      "options": [
+        { "id": "a", "text": "Wait to see if symptoms develop before reporting" },
+        { "id": "b", "text": "Report the incident immediately and follow your facility's post-exposure procedures" },
+        { "id": "c", "text": "Wash the area and continue working without reporting" },
+        { "id": "d", "text": "Only report it if blood was visibly transferred" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 13,
+      "topic": "housekeeping-waste",
+      "difficulty": "easy",
+      "questionText": "True or False: Contaminated laundry should be handled as little as possible and bagged at the location where it was used.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 14,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "Which bloodborne pathogen has a vaccine available?",
+      "options": [
+        { "id": "a", "text": "HIV" },
+        { "id": "b", "text": "Hepatitis B (HBV)" },
+        { "id": "c", "text": "Hepatitis C (HCV)" },
+        { "id": "d", "text": "All bloodborne pathogens have vaccines" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    {
+      "id": 15,
+      "topic": "exposure-control-plan",
+      "difficulty": "medium",
+      "questionText": "What is the main purpose of an Exposure Control Plan?",
+      "options": [
+        { "id": "a", "text": "To document the history of workplace injuries at the facility" },
+        { "id": "b", "text": "To describe how the facility will reduce or eliminate employee exposure to bloodborne pathogens" },
+        { "id": "c", "text": "To provide a list of all employees who have previously been exposed" },
+        { "id": "d", "text": "To satisfy general safety recordkeeping requirements unrelated to bloodborne pathogens" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    }
+  ],
+  "lessons": {
+    "bbp-basics": "**Bloodborne Pathogen Basics — OSHA 29 CFR 1910.1030**\n\nBloodborne pathogens are microorganisms — viruses and bacteria — that are present in human blood and can cause disease when they enter another person's body. The three most significant bloodborne pathogens in the workplace are Hepatitis B (HBV), Hepatitis C (HCV), and the Human Immunodeficiency Virus (HIV).\n\nHepatitis B is highly contagious and can survive outside the body on surfaces for up to seven days. Fortunately, a safe and effective vaccine series exists for HBV, and OSHA requires employers to offer it to all workers with occupational exposure at no cost. Hepatitis C is also highly prevalent and is the leading cause of liver transplants in the United States, though no vaccine currently exists. HIV attacks the immune system and can lead to AIDS, though medical advances have significantly extended the lives of people living with HIV.\n\nExposure to bloodborne pathogens can occur through contact with infected blood or other potentially infectious materials (OPIM), including certain body fluids. Common routes of workplace exposure include needlestick injuries, cuts from contaminated sharp objects, splashes to the eyes, nose, or mouth, and contact with broken or non-intact skin. Understanding what these pathogens are and how they spread is the first step in protecting yourself.",
+    "exposure-routes": "**How Bloodborne Pathogen Exposure Occurs — OSHA 29 CFR 1910.1030**\n\nBloodborne pathogen exposure in the workplace does not occur only in hospitals or clinics. Any commercial or industrial facility may have situations where workers encounter blood or other potentially infectious materials — from first aid incidents involving injured coworkers, to maintenance work on contaminated equipment, to emergency response situations.\n\nExposure can occur through percutaneous injury — a needlestick or cut from a contaminated sharp object that punctures the skin. It can also occur through mucous membrane exposure, when blood or body fluid splashes into the eyes, nose, or mouth. Contact with non-intact skin — skin with cuts, rashes, abrasions, or dermatitis — is another recognized route. Even intact skin is considered at risk in some circumstances when contact is prolonged or involves large surface areas.\n\nOther potentially infectious materials (OPIM) include certain body fluids such as saliva (in dental procedures), semen, vaginal secretions, cerebrospinal fluid, synovial fluid, and any body fluid visibly contaminated with blood. Workers should treat any unknown body fluid as potentially infectious. Recognizing the exposure routes helps workers understand when precautions are needed and how to apply them consistently.",
+    "exposure-control-plan": "**The Exposure Control Plan — OSHA 29 CFR 1910.1030**\n\nOSHA's Bloodborne Pathogens standard (29 CFR 1910.1030) requires employers to develop and implement a written Exposure Control Plan (ECP) for any workplace where employees may have occupational exposure to blood or other potentially infectious materials. The ECP is the cornerstone of the employer's bloodborne pathogen compliance program.\n\nThe plan must identify the job classifications and tasks in which occupational exposure occurs, describe the protective controls the employer will use, and specify procedures for evaluating exposure incidents. It must also outline how the employer will implement engineering controls, work practice controls, and personal protective equipment. Importantly, the ECP must be accessible to employees and their representatives during their shift.\n\nThe Exposure Control Plan must be reviewed and updated at least annually and whenever new or modified tasks create additional exposure risk. When reviewing the plan, employers must consider and implement safer medical devices and document that input was solicited from non-managerial employees involved in direct patient care or exposure-prone tasks. Knowing what your facility's ECP contains — and where to find it — is an important part of staying protected.",
+    "standard-precautions": "**Standard Precautions — OSHA 29 CFR 1910.1030**\n\nStandard Precautions is the approach that treats all human blood and specified body fluids as potentially infectious, regardless of the source. Under Standard Precautions, a worker does not rely on knowing whether a person is infected — every contact with blood is treated as a potential exposure risk. This approach is the foundation of bloodborne pathogen protection in all settings.\n\nKey Standard Precautions practices include wearing appropriate PPE before any anticipated contact with blood or OPIM; washing hands immediately after removing gloves and after any skin contact with blood; never recapping used needles by hand; never eating, drinking, smoking, applying cosmetics, or handling contact lenses in areas where exposure may occur; and minimizing the creation of splashes or sprays when working with infectious materials.\n\nHand hygiene is one of the most critical elements of Standard Precautions. Hands must be washed with soap and water immediately after gloves are removed, even if the gloves appeared intact. When soap and water are not available, alcohol-based hand sanitizer may be used as a temporary measure, but hand washing with soap and water should follow as soon as possible. These practices, applied consistently, significantly reduce the risk of infection.",
+    "ppe-controls": "**Personal Protective Equipment and Engineering Controls — OSHA 29 CFR 1910.1030**\n\nPersonal Protective Equipment (PPE) creates a barrier between the worker and potentially infectious materials. For bloodborne pathogen protection, PPE typically includes gloves, gowns or aprons, eye protection (safety glasses, goggles, or face shields), and face masks. Employers are required to provide appropriate PPE to workers with occupational exposure at no cost to the employee.\n\nGloves must be worn when there is any reasonably anticipated contact with blood, OPIM, mucous membranes, or non-intact skin, and when handling contaminated items or surfaces. Gloves should be replaced if torn, punctured, or visibly contaminated, and must be removed properly — peeling from the wrist to avoid contact with the outer surface — before touching clean surfaces. After glove removal, hands must be washed immediately.\n\nEngineering controls are physical or mechanical safeguards designed to isolate or remove the hazard. These include sharps disposal containers, self-sheathing needles, needleless IV systems, and safety-engineered sharp devices. Engineering controls take priority over work practice controls and PPE because they eliminate or reduce exposure at the source, rather than relying solely on the worker's behavior. When engineering controls exist, they must be used.",
+    "housekeeping-waste": "**Housekeeping, Decontamination, and Waste Disposal — OSHA 29 CFR 1910.1030**\n\nMaintaining a clean work environment is a critical component of bloodborne pathogen protection. Work surfaces that may have been contaminated with blood or OPIM must be cleaned and decontaminated with an appropriate disinfectant after completing tasks, when surfaces are visibly contaminated, and at the end of each work shift. Contaminated equipment must be decontaminated before servicing or shipping unless decontamination is impossible, in which case the contamination must be labeled and communicated.\n\nRegulated waste — items containing liquid or semi-liquid blood, contaminated sharps, and pathological waste — must be placed in closable, leak-proof containers that are labeled with the biohazard symbol or color-coded red. Sharps must be placed in closable, puncture-resistant, leak-proof containers immediately after use. Containers must not be overfilled and must be disposed of in accordance with applicable regulations.\n\nContaminated laundry must be handled as little as possible and with minimum agitation. It must be bagged or containerized at the location where it was used, and must not be sorted or rinsed there. Bags must be labeled with the biohazard symbol or color-coded unless the facility uses universal precautions and all laundry is treated as contaminated. Workers handling contaminated laundry must wear appropriate PPE.",
+    "exposure-response": "**Responding to a Bloodborne Pathogen Exposure Incident — OSHA 29 CFR 1910.1030**\n\nIf a bloodborne pathogen exposure incident occurs — such as a needlestick, cut from a contaminated sharp, splash to the eyes or mouth, or contact with blood on broken skin — the response must be immediate. Delay in reporting reduces the effectiveness of post-exposure treatment options, some of which must begin within hours of exposure.\n\nFirst, the exposure site should be washed thoroughly. Puncture wounds and cuts should be washed with soap and water. Splashes to the eyes, nose, or mouth should be flushed with water. The worker must then report the incident to a supervisor and seek a confidential medical evaluation as soon as possible. OSHA requires employers to make confidential medical evaluation and follow-up available to any employee who experiences an exposure incident.\n\nThe post-exposure evaluation includes documentation of the route and circumstances of exposure, identification and testing of the source individual (if feasible and legally permitted), testing of the exposed worker's blood (with consent), counseling, and evaluation of any reported illness. Prophylactic treatment for HBV and HIV may be available depending on the source and timing. All information gathered during a post-exposure evaluation is kept confidential. Workers should never hesitate to report an exposure incident — early response can make a significant difference in outcomes."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following best describes how bloodborne pathogens can be transmitted to another person?",
+      "options": [
+        { "id": "a", "text": "Through contaminated food and water" },
+        { "id": "b", "text": "Via contact with infected blood or other potentially infectious materials" },
+        { "id": "c", "text": "Only through direct blood transfusions in medical facilities" },
+        { "id": "d", "text": "By touching contaminated surfaces with intact, unbroken skin" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "2": {
+      "id": 102,
+      "topic": "exposure-control-plan",
+      "difficulty": "easy",
+      "questionText": "An employer is required to maintain a written Exposure Control Plan under which regulation?",
+      "options": [
+        { "id": "a", "text": "OSHA 29 CFR 1910.147 — Control of Hazardous Energy" },
+        { "id": "b", "text": "OSHA 29 CFR 1910.132 — PPE General Requirements" },
+        { "id": "c", "text": "OSHA 29 CFR 1910.1030 — Bloodborne Pathogens" },
+        { "id": "d", "text": "OSHA 29 CFR 1910.1000 — Air Contaminants" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "3": {
+      "id": 103,
+      "topic": "exposure-routes",
+      "difficulty": "easy",
+      "questionText": "Which of the following workers may be at risk of bloodborne pathogen exposure on the job?",
+      "options": [
+        { "id": "a", "text": "Only doctors and nurses in hospitals" },
+        { "id": "b", "text": "Only emergency medical technicians responding to accidents" },
+        { "id": "c", "text": "Only workers who handle needles or syringes" },
+        { "id": "d", "text": "Any worker who may encounter blood or other potentially infectious materials, including in commercial or industrial settings" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "4": {
+      "id": 104,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following is NOT caused by a bloodborne pathogen?",
+      "options": [
+        { "id": "a", "text": "Hepatitis B" },
+        { "id": "b", "text": "Hepatitis C" },
+        { "id": "c", "text": "HIV/AIDS" },
+        { "id": "d", "text": "Tuberculosis" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "5": {
+      "id": 105,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "Under the Standard Precautions approach, a worker should assume:",
+      "options": [
+        { "id": "a", "text": "Only visibly ill people pose an infection risk" },
+        { "id": "b", "text": "Blood from any person could potentially be infectious" },
+        { "id": "c", "text": "Precautions are only necessary in clinical or medical settings" },
+        { "id": "d", "text": "Healthy-looking coworkers' blood is safe to handle without PPE" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "6": {
+      "id": 106,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "Which hand hygiene practice should be performed immediately after removing gloves worn during a potentially infectious task?",
+      "options": [
+        { "id": "a", "text": "Apply alcohol-based hand sanitizer only and return to work" },
+        { "id": "b", "text": "Rinse with cold water only" },
+        { "id": "c", "text": "Wash hands with soap and water for at least 20 seconds" },
+        { "id": "d", "text": "Wipe hands dry with a paper towel" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "7": {
+      "id": 107,
+      "topic": "standard-precautions",
+      "difficulty": "easy",
+      "questionText": "Which of the following behaviors is PROHIBITED in areas where bloodborne pathogen exposure may occur?",
+      "options": [
+        { "id": "a", "text": "Wearing gloves when cleaning contaminated surfaces" },
+        { "id": "b", "text": "Using a face shield when handling infectious materials" },
+        { "id": "c", "text": "Eating a snack at your workstation in a potentially contaminated area" },
+        { "id": "d", "text": "Changing gloves between different exposure tasks" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "8": {
+      "id": 108,
+      "topic": "ppe-controls",
+      "difficulty": "easy",
+      "questionText": "Your employer is required to provide which of the following at no cost to you when you have occupational exposure to bloodborne pathogens?",
+      "options": [
+        { "id": "a", "text": "Steel-toed boots" },
+        { "id": "b", "text": "Respiratory protection for chemical vapors" },
+        { "id": "c", "text": "Personal protective equipment such as gloves and face shields" },
+        { "id": "d", "text": "Anti-fatigue floor mats" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "9": {
+      "id": 109,
+      "topic": "housekeeping-waste",
+      "difficulty": "medium",
+      "questionText": "What is the correct way to dispose of a contaminated absorbent cloth used to clean up a blood spill?",
+      "options": [
+        { "id": "a", "text": "Place it in the regular trash" },
+        { "id": "b", "text": "Rinse it and place it in the laundry bin" },
+        { "id": "c", "text": "Place it in a labeled regulated waste container" },
+        { "id": "d", "text": "Leave it on-site for the night cleaning crew to remove" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "10": {
+      "id": 110,
+      "topic": "housekeeping-waste",
+      "difficulty": "hard",
+      "questionText": "Before beginning maintenance work on equipment that has visible blood contamination, a worker should:",
+      "options": [
+        { "id": "a", "text": "Put on gloves and proceed with the repair immediately to minimize downtime" },
+        { "id": "b", "text": "Ask a coworker to wipe the surface with a wet rag before starting" },
+        { "id": "c", "text": "Follow the facility's decontamination and reporting procedures before starting work" },
+        { "id": "d", "text": "Determine visually whether the blood has dried before deciding on a course of action" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "11": {
+      "id": 111,
+      "topic": "ppe-controls",
+      "difficulty": "medium",
+      "questionText": "When responding to an injured coworker who is actively bleeding, you should put on PPE:",
+      "options": [
+        { "id": "a", "text": "After providing initial first aid in order to save time" },
+        { "id": "b", "text": "Before making any contact with the injured person or their blood" },
+        { "id": "c", "text": "Only if the injury appears to be severe" },
+        { "id": "d", "text": "Only if the injured coworker asks you to wear it" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "12": {
+      "id": 112,
+      "topic": "exposure-response",
+      "difficulty": "medium",
+      "questionText": "If you sustain a needlestick injury at work, which action is most appropriate?",
+      "options": [
+        { "id": "a", "text": "Monitor yourself for symptoms at home before deciding whether to report" },
+        { "id": "b", "text": "Disinfect the wound thoroughly and return to work without filing a report" },
+        { "id": "c", "text": "Report to your supervisor and seek a confidential medical evaluation as soon as possible" },
+        { "id": "d", "text": "Wait until the end of your shift to file an incident report" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "13": {
+      "id": 113,
+      "topic": "housekeeping-waste",
+      "difficulty": "easy",
+      "questionText": "When handling contaminated laundry, workers should:",
+      "options": [
+        { "id": "a", "text": "Shake it lightly to remove debris before placing it in the hamper" },
+        { "id": "b", "text": "Sort it by type and rinse before bagging" },
+        { "id": "c", "text": "Handle it as little as possible and bag it at the point of use without sorting or rinsing" },
+        { "id": "d", "text": "Wash it in hot water with regular laundry" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "14": {
+      "id": 114,
+      "topic": "bbp-basics",
+      "difficulty": "easy",
+      "questionText": "Receiving a Hepatitis B vaccination series is recommended for workers with occupational exposure risk because:",
+      "options": [
+        { "id": "a", "text": "It also provides immunity against Hepatitis C and HIV" },
+        { "id": "b", "text": "HBV is the only common bloodborne pathogen for which a vaccine is available" },
+        { "id": "c", "text": "It is required by law for all commercial and industrial workers" },
+        { "id": "d", "text": "It eliminates the need for wearing PPE during high-risk tasks" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.1030"
+    },
+    "15": {
+      "id": 115,
+      "topic": "exposure-control-plan",
+      "difficulty": "medium",
+      "questionText": "An Exposure Control Plan must be reviewed and updated:",
+      "options": [
+        { "id": "a", "text": "Only when a new employee is hired" },
+        { "id": "b", "text": "Every five years" },
+        { "id": "c", "text": "At least annually and whenever tasks or procedures change in ways that affect exposure risk" },
+        { "id": "d", "text": "Only after a documented exposure incident has occurred" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.1030"
+    }
+  }
+}
