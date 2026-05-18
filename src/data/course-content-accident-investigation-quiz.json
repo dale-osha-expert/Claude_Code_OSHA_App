@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "courseId": "accident-investigation",
+    "title": "Accident Investigation",
+    "oshaStandard": "OSHA 29 CFR 1960.29",
+    "passingGrade": 0.70,
+    "totalQuestions": 12
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "investigation-purpose",
+      "difficulty": "easy",
+      "questionText": "What is the main purpose of an accident investigation?",
+      "options": [
+        { "id": "a", "text": "To determine who should be disciplined" },
+        { "id": "b", "text": "To assign blame to the injured worker" },
+        { "id": "c", "text": "To determine the cause and prevent recurrence" },
+        { "id": "d", "text": "To delay work until OSHA arrives" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 2,
+      "topic": "investigation-purpose",
+      "difficulty": "easy",
+      "questionText": "True or False: Accident investigations should focus on blaming the person closest to the incident.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 3,
+      "topic": "immediate-response",
+      "difficulty": "easy",
+      "questionText": "What should be the first priority after an accident occurs?",
+      "options": [
+        { "id": "a", "text": "Take photographs" },
+        { "id": "b", "text": "Care for injured persons" },
+        { "id": "c", "text": "Interview witnesses" },
+        { "id": "d", "text": "Complete paperwork" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 4,
+      "topic": "evidence-preservation",
+      "difficulty": "easy",
+      "questionText": "Why should an accident scene be secured?",
+      "options": [
+        { "id": "a", "text": "To prevent employees from learning what happened" },
+        { "id": "b", "text": "To preserve evidence and prevent tampering" },
+        { "id": "c", "text": "To keep supervisors away" },
+        { "id": "d", "text": "To make cleanup faster" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 5,
+      "topic": "evidence-preservation",
+      "difficulty": "medium",
+      "questionText": "Which of the following may be useful evidence in an accident investigation?",
+      "options": [
+        { "id": "a", "text": "Photographs" },
+        { "id": "b", "text": "Measurements" },
+        { "id": "c", "text": "Equipment condition" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 6,
+      "topic": "root-cause-analysis",
+      "difficulty": "medium",
+      "questionText": "What is root cause analysis?",
+      "options": [
+        { "id": "a", "text": "A method for identifying who caused the accident" },
+        { "id": "b", "text": "A review of only the injured employee's actions" },
+        { "id": "c", "text": "An examination of the chain of events that led to an accident" },
+        { "id": "d", "text": "A replacement for employee training" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 7,
+      "topic": "root-cause-analysis",
+      "difficulty": "hard",
+      "questionText": "Scenario: A worker slips on a wet floor. There was no warning sign. The investigation finds there was no policy requiring signs during floor cleaning. What is the likely root cause?",
+      "options": [
+        { "id": "a", "text": "The floor was wet" },
+        { "id": "b", "text": "The worker walked too fast" },
+        { "id": "c", "text": "The lack of a warning-sign policy" },
+        { "id": "d", "text": "The restroom was cleaned too often" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 8,
+      "topic": "corrective-actions",
+      "difficulty": "hard",
+      "questionText": "Scenario: A new electrician is shocked while working on equipment that was not locked out. The facility has a lockout/tagout program, but the worker had not yet received training. What corrective action is most appropriate?",
+      "options": [
+        { "id": "a", "text": "Tell workers to be more careful" },
+        { "id": "b", "text": "Eliminate all electrical equipment" },
+        { "id": "c", "text": "Require lockout/tagout training before employees perform affected work" },
+        { "id": "d", "text": "Stop investigating after identifying electricity as the cause" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 9,
+      "topic": "corrective-actions",
+      "difficulty": "medium",
+      "questionText": "Which three areas should commonly be reviewed when preventing a similar accident?",
+      "options": [
+        { "id": "a", "text": "Policies, equipment, and training" },
+        { "id": "b", "text": "Payroll, scheduling, and parking" },
+        { "id": "c", "text": "Uniforms, attendance, and production" },
+        { "id": "d", "text": "Weather, paperwork, and seniority" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 10,
+      "topic": "near-miss-reporting",
+      "difficulty": "easy",
+      "questionText": "True or False: A near miss should be reported even if no one was injured.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 11,
+      "topic": "near-miss-reporting",
+      "difficulty": "medium",
+      "questionText": "Scenario: A pallet falls from a forklift and lands next to an employee, but no one is hurt. What should happen?",
+      "options": [
+        { "id": "a", "text": "Ignore it because no injury occurred" },
+        { "id": "b", "text": "Report it as a near miss" },
+        { "id": "c", "text": "Wait until it happens again" },
+        { "id": "d", "text": "Move the pallet and say nothing" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    {
+      "id": 12,
+      "topic": "interviews",
+      "difficulty": "medium",
+      "questionText": "What should an employee do during an investigation interview?",
+      "options": [
+        { "id": "a", "text": "Guess if they are unsure" },
+        { "id": "b", "text": "Only say what they think management wants to hear" },
+        { "id": "c", "text": "Be honest and provide as much factual detail as possible" },
+        { "id": "d", "text": "Refuse to discuss unsafe conditions" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    }
+  ],
+  "lessons": {
+    "investigation-purpose": "**The Purpose of Accident Investigation — OSHA 29 CFR 1960.29**\n\nAccidents can happen even in workplaces that make strong efforts to operate safely. When something goes wrong, how the employer responds matters. The primary purpose of an accident investigation is to determine what happened, identify why it happened, and prevent a similar incident from occurring again. It is not about finding someone to blame.\n\nAccidents rarely have a single cause. An obvious condition such as a wet floor or an energized machine is often only part of the picture. Underlying factors such as missing policies, inadequate training, poor communication, defective equipment, or production pressure may all contribute to an incident. Stopping at the obvious answer can leave serious hazards uncorrected.\n\nOSHA-aligned safety programs rely on identifying hazards, correcting unsafe conditions, training employees, and preventing repeat incidents. Accident investigation supports these goals by turning incidents into corrective action. When employees understand that investigations are focused on prevention — not punishment — they are more likely to participate honestly, which leads to better outcomes for everyone.",
+    "immediate-response": "**Immediate Response After an Accident — OSHA 29 CFR 1960.29**\n\nThe first priority after any workplace accident is the safety and medical care of the people involved. Injured employees must receive medical attention immediately. This takes precedence over paperwork, notifications, and investigation activities.\n\nOnce injured persons are being cared for and immediate hazards are controlled, the accident scene should be secured. This means using caution tape, barricades, cones, or signs to prevent unauthorized entry. Equipment should remain in its current position. Tools, materials, and other items should not be moved unless necessary to protect life or prevent further harm.\n\nThe appropriate supervisor, safety manager, or emergency contact must be notified promptly. Quick action protects people, preserves the scene for investigation, and helps ensure that hazards are corrected before work resumes. Delay, scene disturbance, or failure to notify supervision can make it much harder to determine what actually happened.",
+    "evidence-preservation": "**Preserving Evidence and Supporting the Investigation — OSHA 29 CFR 1960.29**\n\nAn accident scene contains evidence that may explain exactly what happened. Evidence can include tools, equipment, machine settings, guards, warning signs, PPE condition, floor surfaces, lighting, noise levels, weather, and work instructions. Small details that seem unimportant can be critical to understanding the chain of events.\n\nPhotographs and measurements should be taken before anything is moved. Investigators may also review maintenance records, training records, and written procedures. If the scene is disturbed before investigators arrive — even with good intentions — key evidence may be lost permanently.\n\nEmployees familiar with the work area or the job task may be asked to help even if they did not directly witness the accident. Their knowledge of day-to-day conditions, equipment quirks, prior problems, or common shortcuts can provide information that does not appear in any written record. Supporting the investigation by preserving the scene and sharing accurate information helps ensure that the real cause is found and corrected.",
+    "interviews": "**Interviews and Employee Participation — OSHA 29 CFR 1960.29**\n\nInterviews are one of the most important tools in an accident investigation. Investigators may speak with the injured employee, direct witnesses, nearby coworkers, supervisors, maintenance staff, and employees familiar with the work area — even if they were not present when the accident occurred.\n\nThe goal of an interview is to gather facts, not to assign blame. Employees should describe what they directly observed, heard, or knew before the incident. It is acceptable — and important — to say \"I don't know\" or \"I didn't see that part\" rather than guessing. Speculation and rumors are not helpful and can misdirect the investigation.\n\nDetails about equipment condition, work procedures, housekeeping, noise levels, lighting, prior complaints, production pressure, and training gaps are all potentially relevant. Workers often understand the day-to-day realities of a job better than anyone else. When employees participate honestly, investigators are better equipped to identify underlying hazards and develop corrective actions that actually work.",
+    "root-cause-analysis": "**Root Cause Analysis — OSHA 29 CFR 1960.29**\n\nRoot cause analysis is an examination of the chain of events and conditions that allowed an accident to occur. Most accidents result from more than one factor. The immediate cause — the wet floor, the energized equipment, the missing fall protection — is often only the starting point of the investigation.\n\nRoot causes frequently involve systemic issues: a policy that does not exist, a training requirement that was not completed, equipment that was not maintained, supervision that was not enforced, or production pressure that led workers to take shortcuts. Stopping at the immediate cause without asking why that condition existed means the underlying hazard remains uncorrected.\n\nA useful technique is to ask \"why\" repeatedly until the system-level failure is identified. Why did the worker slip? The floor was wet. Why was there no warning sign? There was no policy requiring one. Why was there no policy? No one had identified it as a gap. Each answer points deeper toward the real correction needed. Effective corrective action must address root causes, not just symptoms, or the same type of incident will occur again.",
+    "corrective-actions": "**Corrective Actions — Policies, Equipment, and Training — OSHA 29 CFR 1960.29**\n\nIdentifying the root cause of an accident is only part of the job. The workplace must then act. Corrective actions are the steps taken to eliminate or control the hazards that allowed the accident to occur, and they must match the root cause — not just the obvious symptom.\n\nThree areas are most commonly involved. First, policies may need to be created, updated, clarified, or more consistently enforced. Second, equipment may need to be repaired, replaced, inspected, or removed from service. Third, employees may need initial training, refresher training, or job-specific instruction. In many cases, all three areas require attention.\n\nCorrective actions should be documented with assigned responsibilities and due dates, then followed up to ensure completion. Communicating lessons learned to affected employees closes the loop and demonstrates that the investigation produced real change. OSHA-aligned safety programs require employers to identify hazards, take corrective action, and verify that the corrections are effective.",
+    "near-miss-reporting": "**Near Miss Reporting — OSHA 29 CFR 1960.29**\n\nA near miss is an incident that could have caused injury, illness, property damage, or equipment damage under slightly different circumstances. A pallet that falls next to — but not on — a worker. A machine that starts unexpectedly but injures no one. A worker who almost slips but catches the wall in time. These events are warnings, not lucky breaks.\n\nNear misses should be reported and investigated with the same seriousness as actual accidents. They reveal hazards before someone is hurt. Reporting a near miss gives the workplace an opportunity to correct the underlying condition before it results in a recordable injury or worse. Near-miss reporting should be encouraged and never penalized — workers who report near misses are helping protect their coworkers.\n\nThe investigation of a near miss follows the same process as an injury investigation: secure the scene if applicable, gather evidence, interview witnesses, identify root causes, and implement corrective action. A workplace that takes near misses seriously is one that prevents injuries before they happen."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "investigation-purpose",
+      "difficulty": "easy",
+      "questionText": "An accident investigation is conducted primarily to:",
+      "options": [
+        { "id": "a", "text": "Identify and discipline the responsible employee" },
+        { "id": "b", "text": "Complete required paperwork before OSHA arrives" },
+        { "id": "c", "text": "Identify what happened and prevent it from recurring" },
+        { "id": "d", "text": "Document that the employer followed all procedures" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "2": {
+      "id": 102,
+      "topic": "investigation-purpose",
+      "difficulty": "easy",
+      "questionText": "Should an accident investigation focus on finding fault with the worker closest to the incident?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "3": {
+      "id": 103,
+      "topic": "immediate-response",
+      "difficulty": "easy",
+      "questionText": "A worker is seriously injured on the job. What is the first action that must be taken?",
+      "options": [
+        { "id": "a", "text": "Photograph the scene before anything is disturbed" },
+        { "id": "b", "text": "Provide medical care for the injured person" },
+        { "id": "c", "text": "File an incident report with the safety manager" },
+        { "id": "d", "text": "Notify OSHA within 24 hours" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "4": {
+      "id": 104,
+      "topic": "evidence-preservation",
+      "difficulty": "easy",
+      "questionText": "What is the most important reason to restrict access to an accident scene immediately after an incident?",
+      "options": [
+        { "id": "a", "text": "To comply with the employer's public relations policy" },
+        { "id": "b", "text": "To protect evidence so investigators can determine what happened" },
+        { "id": "c", "text": "So management can review the scene privately first" },
+        { "id": "d", "text": "To prevent other employees from filing complaints" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "5": {
+      "id": 105,
+      "topic": "evidence-preservation",
+      "difficulty": "medium",
+      "questionText": "An investigator arrives at an accident scene. Which of the following should be documented as potential evidence?",
+      "options": [
+        { "id": "a", "text": "The condition of the equipment involved" },
+        { "id": "b", "text": "The position of tools and materials at the time of the incident" },
+        { "id": "c", "text": "Lighting and environmental conditions" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "6": {
+      "id": 106,
+      "topic": "root-cause-analysis",
+      "difficulty": "medium",
+      "questionText": "Which statement best describes the goal of root cause analysis?",
+      "options": [
+        { "id": "a", "text": "To create a record of who was on duty at the time of the accident" },
+        { "id": "b", "text": "To uncover the underlying conditions and decisions that allowed the accident to occur" },
+        { "id": "c", "text": "To replace existing safety training programs" },
+        { "id": "d", "text": "To satisfy documentation requirements without changing any procedures" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "7": {
+      "id": 107,
+      "topic": "root-cause-analysis",
+      "difficulty": "hard",
+      "questionText": "A worker slips on a freshly mopped floor. Investigation reveals the cleaning crew had no procedure requiring wet floor warning signs. Which of the following best represents the root cause?",
+      "options": [
+        { "id": "a", "text": "The mop was left in the hallway" },
+        { "id": "b", "text": "The worker was not paying attention" },
+        { "id": "c", "text": "The absence of a policy requiring wet floor warning signs during cleaning" },
+        { "id": "d", "text": "The floor was cleaned during business hours" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "8": {
+      "id": 108,
+      "topic": "corrective-actions",
+      "difficulty": "hard",
+      "questionText": "An apprentice electrician receives a shock while servicing energized equipment. The employer has a written lockout/tagout policy, but the employee never received this training. What corrective action would best prevent this from happening again?",
+      "options": [
+        { "id": "a", "text": "Post additional warning signs near all electrical panels" },
+        { "id": "b", "text": "Require employees to complete lockout/tagout training before performing any electrical work" },
+        { "id": "c", "text": "Discipline the employee for not asking about the training requirement" },
+        { "id": "d", "text": "Assign a supervisor to watch all electrical work going forward" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "9": {
+      "id": 109,
+      "topic": "corrective-actions",
+      "difficulty": "medium",
+      "questionText": "After investigating an accident, a safety manager is developing a corrective action plan. Which three areas should be evaluated to prevent the same incident from happening again?",
+      "options": [
+        { "id": "a", "text": "Attendance, morale, and overtime records" },
+        { "id": "b", "text": "Policies, equipment, and training" },
+        { "id": "c", "text": "Productivity targets, wages, and scheduling" },
+        { "id": "d", "text": "Uniforms, seniority, and parking assignments" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "10": {
+      "id": 110,
+      "topic": "near-miss-reporting",
+      "difficulty": "easy",
+      "questionText": "A worker almost trips over a power cord but catches themselves before falling. No injury occurs. Should this incident be reported?",
+      "options": [
+        { "id": "a", "text": "Yes, as a near miss" },
+        { "id": "b", "text": "No, because no one was hurt" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "11": {
+      "id": 111,
+      "topic": "near-miss-reporting",
+      "difficulty": "medium",
+      "questionText": "A forklift operator notices their load shifted dangerously but stops in time before anything falls. No one is hurt and no damage occurs. What is the correct response?",
+      "options": [
+        { "id": "a", "text": "Say nothing since the situation was handled safely" },
+        { "id": "b", "text": "Report the incident to a supervisor as a near miss" },
+        { "id": "c", "text": "Wait to see if the same thing happens again before reporting" },
+        { "id": "d", "text": "Mention it only to a trusted coworker" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    },
+    "12": {
+      "id": 112,
+      "topic": "interviews",
+      "difficulty": "medium",
+      "questionText": "During an investigation interview, you are unsure about one specific detail. What should you do?",
+      "options": [
+        { "id": "a", "text": "Make your best guess to appear more helpful" },
+        { "id": "b", "text": "Describe only what you personally observed and state clearly that you are unsure about the rest" },
+        { "id": "c", "text": "Decline to answer any questions about the incident" },
+        { "id": "d", "text": "Agree with whatever version of events the investigator suggests" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1960.29"
+    }
+  }
+}
