@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "courseId": "back-safety",
+    "title": "Back Safety",
+    "oshaStandard": "OSHA Section 5(a)(1) — General Duty Clause",
+    "passingGrade": 0.70,
+    "totalQuestions": 12
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "Which of the following is one of the best ways to prevent back injuries during lifting?",
+      "options": [
+        { "id": "a", "text": "Bend at the waist and lift quickly" },
+        { "id": "b", "text": "Hold the load away from your body" },
+        { "id": "c", "text": "Keep your back aligned and lift with your legs" },
+        { "id": "d", "text": "Twist at the waist to change direction" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 2,
+      "topic": "back-safety-basics",
+      "difficulty": "easy",
+      "questionText": "True or False: Back injuries can occur in office environments as well as industrial or construction environments.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 3,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "Before lifting a load, employees should:",
+      "options": [
+        { "id": "a", "text": "Assume they can lift it if it looks small" },
+        { "id": "b", "text": "Estimate its weight and determine whether help or equipment is needed" },
+        { "id": "c", "text": "Lift it quickly to reduce the time under strain" },
+        { "id": "d", "text": "Hold their breath and pull hard" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 4,
+      "topic": "safe-lifting",
+      "difficulty": "medium",
+      "questionText": "An employee needs to move a large box that is not extremely heavy but is bulky and difficult to grip. What should the employee do?",
+      "options": [
+        { "id": "a", "text": "Carry it alone since it is not heavy" },
+        { "id": "b", "text": "Get help or use a mechanical aid such as a cart, dolly, or hand truck" },
+        { "id": "c", "text": "Hold it away from the body so the grip is easier" },
+        { "id": "d", "text": "Rush the move to minimize the time spent holding it" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 5,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "What should you do if you need to turn while carrying a load?",
+      "options": [
+        { "id": "a", "text": "Twist your waist while keeping your feet still" },
+        { "id": "b", "text": "Swing the load around quickly" },
+        { "id": "c", "text": "Change direction by moving your feet" },
+        { "id": "d", "text": "Lean backward and pivot" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 6,
+      "topic": "posture-workstation",
+      "difficulty": "easy",
+      "questionText": "True or False: Sitting still for long periods can place stress on the back.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 7,
+      "topic": "posture-workstation",
+      "difficulty": "easy",
+      "questionText": "Which item should be kept within easy reach to reduce back strain?",
+      "options": [
+        { "id": "a", "text": "Frequently used tools and materials" },
+        { "id": "b", "text": "Only emergency supplies" },
+        { "id": "c", "text": "Only lightweight items" },
+        { "id": "d", "text": "Items used once per year" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 8,
+      "topic": "injury-reporting",
+      "difficulty": "medium",
+      "questionText": "A worker feels sharp lower-back pain while lifting. The pain improves after a short rest. What should the worker do next?",
+      "options": [
+        { "id": "a", "text": "Continue working since the pain went away on its own" },
+        { "id": "b", "text": "Report the discomfort and avoid lifting until the situation is evaluated" },
+        { "id": "c", "text": "Take a longer break and then resume the same task" },
+        { "id": "d", "text": "Apply a back belt and continue working" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 9,
+      "topic": "back-care-recovery",
+      "difficulty": "medium",
+      "questionText": "Which sleeping position is generally discouraged because it twists the neck and can strain the spine?",
+      "options": [
+        { "id": "a", "text": "Sleeping on the side with knees supported" },
+        { "id": "b", "text": "Sleeping on the back with knees supported" },
+        { "id": "c", "text": "Sleeping on the stomach" },
+        { "id": "d", "text": "Sleeping on the side with a pillow between the knees" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 10,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "True or False: Using a back belt guarantees that an employee will not suffer a back injury.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 11,
+      "topic": "back-safety-basics",
+      "difficulty": "medium",
+      "questionText": "Which of the following is an employer responsibility related to back safety?",
+      "options": [
+        { "id": "a", "text": "Ignore discomfort reports unless an injury has already occurred" },
+        { "id": "b", "text": "Provide training and arrange work to reduce recognized back injury hazards" },
+        { "id": "c", "text": "Require employees to manually lift every load" },
+        { "id": "d", "text": "Store the heaviest materials on the floor whenever possible" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    {
+      "id": 12,
+      "topic": "posture-workstation",
+      "difficulty": "hard",
+      "questionText": "A supervisor notices employees frequently bending to the floor to retrieve heavy parts. What is the most effective corrective action?",
+      "options": [
+        { "id": "a", "text": "Post a reminder sign telling workers to bend their knees" },
+        { "id": "b", "text": "Store heavy or frequently used parts at waist height and provide carts or lift tables" },
+        { "id": "c", "text": "Require employees to wear back belts during all retrievals" },
+        { "id": "d", "text": "Reduce the number of parts stored in the area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    }
+  ],
+  "lessons": {
+    "back-safety-basics": "**Back Safety in the Workplace — OSHA General Duty Clause, Section 5(a)(1)**\n\nBack injuries can occur in almost any type of workplace. They affect warehouse workers, office employees, drivers, healthcare staff, maintenance workers, and construction crews alike. Back problems may develop from a single incident such as lifting a heavy load, or gradually from repeated stress, poor posture, or awkward work positions over time.\n\nOSHA's General Duty Clause requires employers to identify and address recognized hazards that are likely to cause serious harm. Back injury risks are recognized hazards. Employers are expected to train employees, arrange work to reduce unnecessary lifting and awkward postures, provide mechanical aids, and take discomfort reports seriously.\n\nEmployees who understand back safety can protect themselves by recognizing risky tasks, using proper technique, asking for help when needed, and reporting problems early. Back injuries can cause pain, lost time, reduced mobility, and long-term disability — many of which are preventable with consistent safe work practices.",
+    "safe-lifting": "**Safe Lifting Principles — OSHA General Duty Clause, Section 5(a)(1)**\n\nLifting is one of the most common causes of workplace back injuries. The lower back is especially vulnerable when loads are lifted from the floor, held away from the body, or when the spine is twisted during the movement. A back belt does not guarantee protection — proper technique is the foundation of injury prevention.\n\nBefore lifting, evaluate the load. Check the weight, size, shape, and stability. If the load is too heavy, too bulky, or too awkward to grip safely, use a cart, dolly, hand truck, or hoist, or ask for a team lift. Heavy and frequently used items should be stored at waist height — not on the floor or above the shoulders.\n\nWhen lifting, keep the back straight and maintain the spine's natural curve. Get close to the load. Bend the knees to lower the body. Grip the load firmly. Lift smoothly using the leg muscles — avoid jerking or yanking. Never twist at the waist while lifting or carrying. To change direction, move the feet and turn the whole body.",
+    "posture-workstation": "**Posture and Workstation Setup — OSHA General Duty Clause, Section 5(a)(1)**\n\nSitting or standing still for extended periods can place significant strain on the back, even without any lifting. Good posture means keeping the spine in a neutral position — neither slumped nor overly arched. When posture is compromised by a poorly arranged workstation, the back must work harder to maintain balance and support throughout the day.\n\nChairs should provide lumbar support, allow feet to rest flat on the floor or a footrest, and position arms at a comfortable level. Frequently used tools, controls, and materials should be within easy reach to avoid repeated bending, twisting, or overreaching. Heavier items should be stored between knee and shoulder height to eliminate unnecessary bending to the floor.\n\nNo single posture, however correct, should be held for too long. Employees should change positions regularly, take short movement breaks, and stretch when appropriate. Adjusting the workstation — raising a surface, repositioning a monitor, moving a tool closer — can make a significant difference in reducing cumulative daily back strain.",
+    "injury-reporting": "**Reporting Back Discomfort and Responding to Symptoms — OSHA General Duty Clause, Section 5(a)(1)**\n\nBack pain should not be ignored, even when it seems minor. Early reporting gives supervisors the opportunity to evaluate the work area, adjust tasks, and prevent a minor problem from becoming a serious injury. Many back injuries worsen over time when the warning signs — aching, stiffness, tingling, or sharp pain — are dismissed and the same risky behavior continues.\n\nSymptoms such as pain that radiates down the leg, numbness, tingling, or weakness may indicate nerve involvement and should prompt immediate medical evaluation. Pain that improves briefly after rest but returns when the task resumes does not mean the back has healed — it may indicate an injury that needs professional assessment before work continues.\n\nEmployees should report discomfort to their supervisor, describe the task and conditions involved, and avoid continuing activities that aggravate symptoms until the situation is evaluated. Supervisors should respond without pressure or retaliation, document the report, and review the work area for hazard controls that can be improved.",
+    "back-care-recovery": "**Back Care, Recovery, and Life Outside Work — OSHA General Duty Clause, Section 5(a)(1)**\n\nBack health is a 24-hour responsibility. The same poor posture and unsafe movement habits that cause injuries at work can cause injury at home, during recreation, or during a commute. Driving with a slumped posture, shoveling without bending the knees, picking up a child without keeping them close — all of these strain the same spinal structures that lifting at work affects.\n\nSleep posture also matters. Sleeping on the stomach is generally discouraged because it requires the neck to rotate to one side for hours, straining the spine. Sleeping on the side with a pillow between the knees, or on the back with support under the knees, helps maintain a more neutral spinal position. A supportive mattress reduces pressure on the spine throughout the night.\n\nAfter a back injury, return to activity gradually. Prolonged bed rest can slow recovery, but returning too quickly to heavy lifting or poor posture can cause reinjury. Ice may help reduce swelling in the first day or two; heat may ease stiffness later. Persistent, recurring, or worsening back pain should be evaluated by a qualified healthcare professional rather than managed with rest and self-treatment alone."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "Which lifting technique best protects the lower back from injury?",
+      "options": [
+        { "id": "a", "text": "Bend at the waist and lift in one quick motion" },
+        { "id": "b", "text": "Keep the back straight and push up through the legs" },
+        { "id": "c", "text": "Hold the load far from the body to protect the chest" },
+        { "id": "d", "text": "Keep the feet together and twist to face the destination" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "2": {
+      "id": 102,
+      "topic": "back-safety-basics",
+      "difficulty": "easy",
+      "questionText": "Are back injuries limited to physically demanding jobs such as construction or warehousing?",
+      "options": [
+        { "id": "a", "text": "Yes, only workers who do heavy lifting are at risk" },
+        { "id": "b", "text": "No, back injuries can affect workers in any type of environment including offices" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "3": {
+      "id": 103,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "A worker is about to pick up a large box. What is the most important first step before attempting the lift?",
+      "options": [
+        { "id": "a", "text": "Grab the box and assess the weight while lifting" },
+        { "id": "b", "text": "Evaluate the load to determine if it can be lifted safely alone or requires help or equipment" },
+        { "id": "c", "text": "Lift it quickly to avoid prolonged strain on the back" },
+        { "id": "d", "text": "Ask a coworker to watch in case something goes wrong" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "4": {
+      "id": 104,
+      "topic": "safe-lifting",
+      "difficulty": "medium",
+      "questionText": "An employee is moving a wide, awkward container that is difficult to grip but is not very heavy. What is the safest approach?",
+      "options": [
+        { "id": "a", "text": "Carry it alone since the weight is manageable" },
+        { "id": "b", "text": "Use a mechanical aid such as a cart or dolly, or ask a second person to assist" },
+        { "id": "c", "text": "Hold it away from the body to get a better view of the travel path" },
+        { "id": "d", "text": "Rush the move to minimize time spent holding an awkward load" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "5": {
+      "id": 105,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "A worker is carrying a heavy load and needs to change direction. What is the correct technique?",
+      "options": [
+        { "id": "a", "text": "Twist at the hips to redirect while keeping the feet planted" },
+        { "id": "b", "text": "Swing the load to one side to build momentum for the turn" },
+        { "id": "c", "text": "Reposition the feet and turn the whole body in the new direction" },
+        { "id": "d", "text": "Hold the load with one hand and pivot on one foot" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "6": {
+      "id": 106,
+      "topic": "posture-workstation",
+      "difficulty": "easy",
+      "questionText": "Does sitting in the same position for an extended period place stress on the back?",
+      "options": [
+        { "id": "a", "text": "Yes" },
+        { "id": "b", "text": "No, only lifting causes back strain" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "7": {
+      "id": 107,
+      "topic": "posture-workstation",
+      "difficulty": "easy",
+      "questionText": "To minimize back strain during a work task, where should frequently used tools and materials be placed?",
+      "options": [
+        { "id": "a", "text": "On the floor where they are easy to find" },
+        { "id": "b", "text": "On high shelves to keep the work surface clear" },
+        { "id": "c", "text": "Within easy reach to avoid repeated bending, twisting, or overreaching" },
+        { "id": "d", "text": "At a central location shared by the whole team" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "8": {
+      "id": 108,
+      "topic": "injury-reporting",
+      "difficulty": "medium",
+      "questionText": "A worker experiences sharp back pain during a lift, rests briefly, and the pain eases. What is the appropriate next step?",
+      "options": [
+        { "id": "a", "text": "Resume the task since the pain resolved on its own" },
+        { "id": "b", "text": "Apply a back belt and continue with a modified technique" },
+        { "id": "c", "text": "Report the discomfort and pause the task until it is assessed" },
+        { "id": "d", "text": "Finish the job and mention the pain at the end of the shift" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "9": {
+      "id": 109,
+      "topic": "back-care-recovery",
+      "difficulty": "medium",
+      "questionText": "Which sleeping position puts the most strain on the neck and spine and is generally not recommended for back health?",
+      "options": [
+        { "id": "a", "text": "On the side with a pillow between the knees" },
+        { "id": "b", "text": "On the back with a pillow under the knees" },
+        { "id": "c", "text": "On the stomach" },
+        { "id": "d", "text": "On the side with knees drawn slightly upward" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "10": {
+      "id": 110,
+      "topic": "safe-lifting",
+      "difficulty": "easy",
+      "questionText": "A worker wears a back belt during all lifting tasks. Does this guarantee they will not sustain a back injury?",
+      "options": [
+        { "id": "a", "text": "Yes, back belts fully prevent back injuries when worn correctly" },
+        { "id": "b", "text": "No, back belts do not replace safe lifting technique and do not guarantee protection" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "11": {
+      "id": 111,
+      "topic": "back-safety-basics",
+      "difficulty": "medium",
+      "questionText": "What is a key employer responsibility when it comes to preventing workplace back injuries?",
+      "options": [
+        { "id": "a", "text": "Accept injury reports only after medical treatment has already started" },
+        { "id": "b", "text": "Expect employees to develop safe lifting habits on their own through experience" },
+        { "id": "c", "text": "Identify hazardous tasks and provide training and equipment to reduce back injury risk" },
+        { "id": "d", "text": "Allow employees to store materials wherever they find most convenient" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "Section 5(a)(1)"
+    },
+    "12": {
+      "id": 112,
+      "topic": "posture-workstation",
+      "difficulty": "hard",
+      "questionText": "Employees in a work area repeatedly bend to knee level to retrieve parts stored on low shelves. Which change would most effectively reduce back injury risk?",
+      "options": [
+        { "id": "a", "text": "Hang a poster reminding workers to bend their knees when retrieving parts" },
+        { "id": "b", "text": "Raise storage to between knee and shoulder height and provide lift tables or carts" },
+        { "id": "c", "text": "Require employees to wear back support belts while retrieving parts" },
+        { "id": "d", "text": "Reduce the number of retrieval trips by having workers carry more at once" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "Section 5(a)(1)"
+    }
+  }
+}
