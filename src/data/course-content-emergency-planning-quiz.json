@@ -1,0 +1,433 @@
+{
+  "meta": {
+    "courseId": "emergency-planning",
+    "title": "Emergency Planning",
+    "oshaStandard": "OSHA 29 CFR 1910.38 — Emergency Action Plans",
+    "passingGrade": 0.70,
+    "totalQuestions": 15
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "What is the primary purpose of an Emergency Action Plan?",
+      "options": [
+        { "id": "a", "text": "To assign blame after an emergency occurs" },
+        { "id": "b", "text": "To provide procedures that help employees respond safely and effectively" },
+        { "id": "c", "text": "To replace the need for outside emergency responders" },
+        { "id": "d", "text": "To eliminate all workplace hazards permanently" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 2,
+      "topic": "emergency-prevention",
+      "difficulty": "easy",
+      "questionText": "True or False: An emergency can become worse if one problem spreads to another area or triggers additional hazards.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 3,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "Which OSHA standard is the primary compliance anchor for Emergency Action Plans in general industry?",
+      "options": [
+        { "id": "a", "text": "29 CFR 1910.38" },
+        { "id": "b", "text": "29 CFR 1910.147" },
+        { "id": "c", "text": "29 CFR 1926.451" },
+        { "id": "d", "text": "29 CFR 1910.1200" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 4,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following must be included in an OSHA Emergency Action Plan when applicable?",
+      "options": [
+        { "id": "a", "text": "Procedures for reporting fires and other emergencies" },
+        { "id": "b", "text": "Evacuation procedures and exit route assignments" },
+        { "id": "c", "text": "Procedures to account for employees after evacuation" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 5,
+      "topic": "evacuation",
+      "difficulty": "easy",
+      "questionText": "True or False: Employees should wait until a real emergency occurs before learning their evacuation routes.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 6,
+      "topic": "evacuation",
+      "difficulty": "medium",
+      "questionText": "During an evacuation, you find your assigned exit route blocked by smoke. What should you do?",
+      "options": [
+        { "id": "a", "text": "Return to your workstation and wait for the smoke to clear" },
+        { "id": "b", "text": "Push through the smoke to avoid delaying the evacuation" },
+        { "id": "c", "text": "Use a safe alternate exit route, proceed to the assembly area, and report the blocked route to emergency personnel" },
+        { "id": "d", "text": "Wait at the blocked exit until a responder arrives to escort you out" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 7,
+      "topic": "alarms-communication",
+      "difficulty": "easy",
+      "questionText": "Why are distinctive alarm signals important?",
+      "options": [
+        { "id": "a", "text": "They make alarms louder in large facilities" },
+        { "id": "b", "text": "They help employees know what action to take based on the type of emergency" },
+        { "id": "c", "text": "They prevent all emergencies from occurring" },
+        { "id": "d", "text": "They replace the need for emergency training" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.165"
+    },
+    {
+      "id": 8,
+      "topic": "employee-roles",
+      "difficulty": "easy",
+      "questionText": "True or False: Employees should only perform rescue, medical, shutdown, or emergency response duties if they are trained and assigned to do so.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 9,
+      "topic": "facility-maintenance",
+      "difficulty": "medium",
+      "questionText": "You notice that a security door near a hazardous materials area will not latch properly. What should you do?",
+      "options": [
+        { "id": "a", "text": "Prop it open with a door wedge since it will not stay shut on its own" },
+        { "id": "b", "text": "Notify a coworker and assume someone will eventually handle it" },
+        { "id": "c", "text": "Report it through the facility's established procedure so it can be corrected and considered in emergency planning" },
+        { "id": "d", "text": "Leave it as is since security doors are not part of the Emergency Action Plan" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 10,
+      "topic": "evacuation",
+      "difficulty": "easy",
+      "questionText": "What is the purpose of a head count after evacuation?",
+      "options": [
+        { "id": "a", "text": "To determine who left work early" },
+        { "id": "b", "text": "To account for employees and identify anyone who may be missing" },
+        { "id": "c", "text": "To decide who caused the emergency" },
+        { "id": "d", "text": "To determine payroll and attendance status" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 11,
+      "topic": "drills-exercises",
+      "difficulty": "easy",
+      "questionText": "True or False: Drills and tabletop exercises help identify weaknesses in the Emergency Action Plan before a real emergency occurs.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 12,
+      "topic": "media-communications",
+      "difficulty": "medium",
+      "questionText": "A reporter asks you what caused the emergency while you are standing at the assembly area. What should you do?",
+      "options": [
+        { "id": "a", "text": "Share what you observed so the public has accurate information" },
+        { "id": "b", "text": "Politely decline to comment and refer the reporter to the company's designated communications representative" },
+        { "id": "c", "text": "Tell the reporter who you believe is responsible for the emergency" },
+        { "id": "d", "text": "Invite the reporter into the facility to see the situation directly" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 13,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "When must an employer review the Emergency Action Plan with covered employees?",
+      "options": [
+        { "id": "a", "text": "When the plan is developed or the employee is initially assigned to a job" },
+        { "id": "b", "text": "When the employee's responsibilities under the plan change" },
+        { "id": "c", "text": "When the plan itself changes" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 14,
+      "topic": "facility-maintenance",
+      "difficulty": "easy",
+      "questionText": "True or False: Facility changes, such as new equipment, modified layouts, or blocked access roads, can affect emergency response procedures.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 15,
+      "topic": "emergency-prevention",
+      "difficulty": "easy",
+      "questionText": "Which daily action supports emergency preparedness?",
+      "options": [
+        { "id": "a", "text": "Keeping emergency exits clear" },
+        { "id": "b", "text": "Reporting damaged alarms or extinguishers" },
+        { "id": "c", "text": "Participating in drills" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.38"
+    }
+  ],
+  "lessons": {
+    "eap-basics": "**Emergency Action Plans — OSHA 29 CFR 1910.38**\n\nAn Emergency Action Plan (EAP) is a written document required by OSHA that describes how employees, supervisors, and the organization will respond to workplace emergencies. The primary purpose of an EAP is not to assign blame or replace emergency responders — it is to provide clear, practiced procedures that allow employees to respond safely and effectively before, during, and after an emergency.\n\nOSHA 29 CFR 1910.38 identifies the minimum elements required in an EAP, including procedures for reporting emergencies (fires, releases, medical events), evacuation procedures and exit route assignments by emergency type, procedures to account for all employees after evacuation, procedures for employees who remain to perform critical shutdown or rescue duties, and the names or job titles of people who can be contacted for more information. For facilities with ten or fewer employees, the plan may be communicated verbally rather than in writing.\n\nEmployers must review the EAP with employees when the plan is first developed, when new employees are initially assigned, when employee responsibilities under the plan change, and whenever the plan itself is updated. An EAP is only as valuable as employees' knowledge of it. A plan that exists only in a filing cabinet provides no protection when an alarm sounds.",
+    "alarms-communication": "**Alarms, Warning Signals, and Emergency Communication — OSHA 29 CFR 1910.165**\n\nEffective emergency response depends on employees understanding what an alarm means and knowing what to do when they hear it. OSHA 29 CFR 1910.165 requires that employee alarm systems use distinctive signals for each type of emergency — different tones, patterns, or voice announcements — so employees can take the correct immediate action based on the specific signal they receive. An alarm that sounds identical for a fire evacuation and a shelter-in-place event causes confusion and can direct employees into greater danger.\n\nAlarm systems must be maintained in working order, tested regularly, and repaired promptly when defects are identified. Employees who discover a malfunctioning alarm, a warning light that is burned out, or a notification system that is not functioning should report it immediately through established facility procedures so it can be corrected before it is needed.\n\nCommunication during an emergency extends beyond alarms. Emergency communication may also include supervisor instructions, public address announcements, radio communications, site sirens, or electronic notification systems. Employees should know how they will be notified of an emergency, what signals mean, and what communication channels will be used to provide updates or all-clear announcements. Clarity of communication in the first seconds of an emergency can determine how quickly and safely everyone responds.",
+    "evacuation": "**Evacuation Procedures and Assembly Areas — OSHA 29 CFR 1910.38 / Subpart E**\n\nEvacuation is one of the most critical components of emergency response. Employees who do not know their exit routes, assembly areas, or the correct procedure for reporting to their designated meeting point cannot evacuate safely or efficiently when an emergency occurs. Learning evacuation routes must happen before an emergency — not during one.\n\nEvery employee should know the primary and alternate exit routes from their work area, the location of the designated assembly area or marshalling point, and what to do if their primary exit route is blocked. If smoke, fire, structural damage, or crowds make a primary route impassable, employees should immediately use a safe alternate route without hesitation. They should never use an elevator during a fire or other structural emergency, should not re-enter the building until authorized by emergency personnel, and must proceed directly to the assembly area so an accurate head count can be conducted.\n\nHead counts at assembly areas are essential. They allow emergency response teams to confirm that all employees are accounted for and to identify anyone who may be missing and still inside the building. Employees should report to their designated assembly location promptly and notify their supervisor or emergency warden if they know of any coworker who may be unaccounted for. Any blocked exit route discovered during an evacuation should be reported to emergency personnel immediately so it can be addressed.",
+    "employee-roles": "**Employee Roles During an Emergency — OSHA 29 CFR 1910.38**\n\nNot all employees have the same role during an emergency. The EAP distinguishes between general employee responsibilities and assigned emergency roles. General employees are expected to respond to alarms, follow evacuation or shelter-in-place procedures, proceed to assembly areas, and cooperate with emergency personnel. They should not attempt rescue, firefighting, medical treatment, equipment shutdown, or hazardous material response unless they are specifically trained and assigned to perform those duties.\n\nAttempting emergency response tasks without training can create additional victims, slow the professional response, and make a dangerous situation more dangerous. A well-intentioned but untrained employee who attempts to retrieve a colleague from a smoke-filled area may become incapacitated themselves, requiring additional rescue resources. Employees who encounter colleagues who need help should report the location and status to trained emergency responders rather than acting unilaterally.\n\nEmployees with assigned emergency roles — fire wardens, emergency response team members, first aid providers, shutdown crew — must understand their responsibilities, be trained to perform them safely, and be prepared to carry them out under real emergency conditions. These employees are identified in the EAP by name or job title and should be known to other employees in the facility.",
+    "emergency-prevention": "**Preventing the Domino Effect — OSHA 29 CFR 1910.38**\n\nEmergencies rarely stay contained to a single area or a single hazard. When one event triggers another — a fire spreads to a chemical storage area, a gas leak migrates to an ignition source, or an injured person blocks an exit used by everyone else — the scale of the event grows rapidly. This escalation, often called the domino effect, is one of the primary reasons emergency prevention and containment are treated as seriously as response.\n\nPreventing escalation starts before an emergency occurs. Employees who report damaged equipment, malfunctioning safety systems, blocked exits, or chemical spills promptly give the organization an opportunity to correct problems before they combine into a larger event. Keeping exits clear, maintaining equipment, storing materials properly, and following all established safety procedures reduces the probability that a single incident becomes a complex emergency.\n\nDuring an emergency, containment also matters. Employees who follow shutdown procedures, close fire doors, avoid creating additional ignition sources, and communicate accurately about hazard locations help prevent the emergency from spreading. Daily preparedness actions — keeping exits clear, reporting defective alarms or extinguishers, and participating actively in drills — are not just compliance behaviors. They are the foundation of emergency prevention.",
+    "drills-exercises": "**Drills, Tabletop Exercises, and Full-Scale Exercises — OSHA 29 CFR 1910.38**\n\nEmergency drills and exercises are how organizations test their plans, train their people, and discover problems before a real emergency reveals them. There are three common types. Tabletop exercises are structured discussions where key personnel walk through a hypothetical scenario verbally, identifying decision points, gaps in procedures, and communication challenges. Live drills are physical rehearsals of evacuation, shelter-in-place, or response procedures, conducted with actual employees under simulated conditions. Full-scale exercises involve multiple teams, departments, or agencies and simulate a complex emergency response across the entire facility.\n\nEach type of exercise serves a different purpose. Tabletop exercises are low-cost, low-disruption, and effective for identifying policy gaps. Live drills reveal how long evacuations actually take, whether assembly areas are sufficient, and how employees behave under the noise and confusion of an actual alarm. Full-scale exercises reveal coordination failures between teams and departments that tabletop exercises cannot surface.\n\nAfter any drill or exercise, a structured review should identify what worked well and what needs improvement. Findings should be documented and used to update the EAP, retrain employees, or modify procedures. An exercise that reveals a problem is a success — it found the problem before someone was hurt. Employees should participate honestly and seriously in all drills, not as a compliance obligation but as an opportunity to practice the responses that may protect their lives.",
+    "media-communications": "**Media, Visitors, Contractors, and Outside Responders — OSHA 29 CFR 1910.38**\n\nDuring an emergency, the facility is not occupied only by trained employees. Visitors, contractors, delivery personnel, and members of the media may be present, each with different familiarity with the site, different needs, and different roles. The EAP should address how these groups are accounted for, directed, and communicated with during an emergency.\n\nVisitors and contractors should be informed of emergency procedures at the time they enter the facility — which alarms to listen for, where the exits are, and where the assembly area is located. During an emergency, they should be accompanied by their host employee or directed by a warden to the appropriate exit and assembly location. They must be included in the head count.\n\nMedia representatives who arrive during an emergency should be kept outside the response perimeter and directed to the organization's designated communications representative. Employees should not speak with media on behalf of the organization, speculate about causes, describe conditions inside the facility, or provide information that may be inaccurate, sensitive, or damaging. A single well-prepared spokesperson communicates consistently and avoids the confusion that comes from multiple unofficial accounts. Outside emergency responders — fire, police, hazmat, EMS — should be given immediate, accurate information and full cooperation. When professional responders arrive, they take command of the scene and employee response teams defer to their direction.",
+    "facility-maintenance": "**Facility Changes, Maintenance, and Plan Updates — OSHA 29 CFR 1910.38**\n\nAn Emergency Action Plan is only as accurate as the facility it describes. When layouts change, new equipment is installed, chemical inventories shift, access roads are modified, or construction temporarily blocks exits or assembly areas, the EAP may no longer reflect how the facility actually works. Outdated plans can direct employees to exits that no longer exist, to assembly areas that are now occupied, or through routes that have become impassable.\n\nEmployees can help keep the EAP current by reporting facility changes and maintenance issues through established procedures. A security door that will not latch near a hazardous area, a fire extinguisher that has been moved without notice, a new piece of equipment blocking a corridor, or a parking lot under construction that affects emergency vehicle access — all of these are relevant to emergency response and should be reported so they can be evaluated and addressed.\n\nEmployers and safety managers must review and update the EAP whenever significant facility changes occur. Preventive maintenance on alarm systems, sprinkler systems, emergency lighting, exit signs, and fire suppression equipment is also essential — these systems must work correctly when they are needed. An EAP that has not been reviewed after facility changes may give employees false confidence in procedures that no longer accurately reflect how to get out safely."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "An Emergency Action Plan is most valuable to employees when:",
+      "options": [
+        { "id": "a", "text": "It is read for the first time after an evacuation alarm sounds" },
+        { "id": "b", "text": "It is understood, practiced, and ready to apply before an emergency occurs" },
+        { "id": "c", "text": "It is stored in the safety manager's office for quick retrieval during emergencies" },
+        { "id": "d", "text": "It is updated once every five years regardless of facility changes" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "2": {
+      "id": 102,
+      "topic": "emergency-prevention",
+      "difficulty": "easy",
+      "questionText": "Why is preventing an emergency from spreading or triggering secondary hazards so important?",
+      "options": [
+        { "id": "a", "text": "Secondary hazards are generally less serious than the original incident" },
+        { "id": "b", "text": "OSHA only requires documentation of the original incident, not secondary events" },
+        { "id": "c", "text": "A secondary event can significantly increase injuries, damage, and the complexity of the emergency response" },
+        { "id": "d", "text": "Secondary events are automatically covered by the Emergency Action Plan without additional planning" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "3": {
+      "id": 103,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "Which OSHA regulation establishes the requirements for Emergency Action Plans in general industry workplaces?",
+      "options": [
+        { "id": "a", "text": "29 CFR 1910.1200 — Hazard Communication" },
+        { "id": "b", "text": "29 CFR 1910.38 — Emergency Action Plans" },
+        { "id": "c", "text": "29 CFR 1910.147 — Control of Hazardous Energy" },
+        { "id": "d", "text": "29 CFR 1910.119 — Process Safety Management" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "4": {
+      "id": 104,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "A company is developing its first Emergency Action Plan. Which elements does OSHA 1910.38 require to be included?",
+      "options": [
+        { "id": "a", "text": "Procedures for reporting fires and emergencies to outside services" },
+        { "id": "b", "text": "Evacuation procedures and exit route assignments" },
+        { "id": "c", "text": "Procedures to account for all employees after evacuation" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "5": {
+      "id": 105,
+      "topic": "evacuation",
+      "difficulty": "easy",
+      "questionText": "Why should employees learn evacuation routes during normal operations rather than waiting for an actual emergency?",
+      "options": [
+        { "id": "a", "text": "OSHA requires memorization of routes but not practice before emergencies" },
+        { "id": "b", "text": "Familiarity with routes allows employees to evacuate quickly and confidently without hesitation" },
+        { "id": "c", "text": "Emergency routes change so frequently that learning them in advance has little practical value" },
+        { "id": "d", "text": "Supervisors are responsible for leading all employees out, so individual route knowledge is not necessary" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "6": {
+      "id": 106,
+      "topic": "evacuation",
+      "difficulty": "medium",
+      "questionText": "While evacuating due to a fire alarm, you reach a stairwell and find it filled with smoke. What is the safest next action?",
+      "options": [
+        { "id": "a", "text": "Return to your desk and call 911 from there" },
+        { "id": "b", "text": "Move through the smoke quickly to keep the evacuation moving" },
+        { "id": "c", "text": "Use the nearest alternate exit, proceed to the assembly area, and notify emergency responders of the blocked route" },
+        { "id": "d", "text": "Wait at the top of the stairwell for the smoke to clear" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "7": {
+      "id": 107,
+      "topic": "alarms-communication",
+      "difficulty": "easy",
+      "questionText": "Your facility uses different alarm tones for fire evacuation and for shelter-in-place emergencies. What is the purpose of using distinct signals for each?",
+      "options": [
+        { "id": "a", "text": "To increase the overall loudness of the alarm system in larger facilities" },
+        { "id": "b", "text": "To help employees take the correct action based on the type of emergency being signaled" },
+        { "id": "c", "text": "To prevent all types of workplace emergencies from occurring" },
+        { "id": "d", "text": "To satisfy an aesthetic design requirement of OSHA alarm regulations" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.165"
+    },
+    "8": {
+      "id": 108,
+      "topic": "employee-roles",
+      "difficulty": "easy",
+      "questionText": "During an evacuation, a coworker suggests you help rescue a colleague who may be trapped elsewhere in the building. What should you do?",
+      "options": [
+        { "id": "a", "text": "Go immediately since any employee can assist in a rescue during an emergency" },
+        { "id": "b", "text": "Only attempt rescue if you are specifically trained and assigned to perform rescue duties under the EAP" },
+        { "id": "c", "text": "Attempt the rescue since helping coworkers is every employee's duty regardless of training" },
+        { "id": "d", "text": "Ignore the situation and wait at the assembly area without notifying anyone" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "9": {
+      "id": 109,
+      "topic": "facility-maintenance",
+      "difficulty": "medium",
+      "questionText": "After a facility renovation, an emergency exit near the new addition has been temporarily blocked by construction materials. What is the correct action?",
+      "options": [
+        { "id": "a", "text": "Use the blocked exit anyway since the blockage is temporary" },
+        { "id": "b", "text": "Leave a note on the exit door explaining it is blocked" },
+        { "id": "c", "text": "Report it so the obstruction can be removed and the Emergency Action Plan updated to reflect the change" },
+        { "id": "d", "text": "Assume the contractor is responsible and take no further action" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "10": {
+      "id": 110,
+      "topic": "evacuation",
+      "difficulty": "easy",
+      "questionText": "After an emergency evacuation, employees gather at the designated assembly area. What is the primary reason for conducting a head count there?",
+      "options": [
+        { "id": "a", "text": "To document who arrived on time for HR and payroll records" },
+        { "id": "b", "text": "To confirm all employees are accounted for and identify anyone who may still be inside the building" },
+        { "id": "c", "text": "To determine whose actions contributed to the emergency" },
+        { "id": "d", "text": "To organize employees for return to work once the alarm stops" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "11": {
+      "id": 111,
+      "topic": "drills-exercises",
+      "difficulty": "easy",
+      "questionText": "What is one key benefit of conducting emergency drills and tabletop exercises before a real emergency occurs?",
+      "options": [
+        { "id": "a", "text": "They eliminate the need to update the Emergency Action Plan going forward" },
+        { "id": "b", "text": "They replace the legal requirement for on-site emergency responders" },
+        { "id": "c", "text": "They allow the organization to find and fix gaps in the plan while the consequences are manageable" },
+        { "id": "d", "text": "They are only beneficial for employees in high-hazard or emergency response roles" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "12": {
+      "id": 112,
+      "topic": "media-communications",
+      "difficulty": "medium",
+      "questionText": "During an emergency response, a television crew arrives and a reporter asks you for details about what happened. What is the correct response?",
+      "options": [
+        { "id": "a", "text": "Describe what you observed in as much detail as possible to support public awareness" },
+        { "id": "b", "text": "Decline to comment and direct the reporter to the organization's designated spokesperson" },
+        { "id": "c", "text": "Share who you believe is responsible to help the public understand the situation" },
+        { "id": "d", "text": "Invite the reporter inside the facility to document the emergency response" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "13": {
+      "id": 113,
+      "topic": "eap-basics",
+      "difficulty": "easy",
+      "questionText": "An employer adds a new chemical storage area to the facility. What is required regarding the Emergency Action Plan?",
+      "options": [
+        { "id": "a", "text": "No update is needed until the next scheduled annual review" },
+        { "id": "b", "text": "The plan should be reviewed and updated to reflect any changes that affect emergency response procedures" },
+        { "id": "c", "text": "Only the local fire marshal needs to be notified; the EAP itself can remain unchanged" },
+        { "id": "d", "text": "Updates are required only if OSHA issues a citation related to the new storage area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "14": {
+      "id": 114,
+      "topic": "facility-maintenance",
+      "difficulty": "easy",
+      "questionText": "A company installs large new equipment that blocks a corridor previously used as an evacuation path. What is the primary safety concern?",
+      "options": [
+        { "id": "a", "text": "The new equipment may require additional operator training" },
+        { "id": "b", "text": "The blocked corridor may compromise required exit route access and must be corrected before the area is occupied" },
+        { "id": "c", "text": "The new equipment's power draw may overload the facility's electrical system" },
+        { "id": "d", "text": "No safety concern — temporary equipment placement is always acceptable under OSHA standards" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "15": {
+      "id": 115,
+      "topic": "emergency-prevention",
+      "difficulty": "easy",
+      "questionText": "Which of the following employee behaviors consistently supports emergency preparedness on a daily basis?",
+      "options": [
+        { "id": "a", "text": "Reporting damaged emergency equipment such as fire extinguishers or alarms" },
+        { "id": "b", "text": "Keeping assigned exit routes and emergency access points clear of obstructions" },
+        { "id": "c", "text": "Participating actively in drills and exercises" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.38"
+    }
+  }
+}
