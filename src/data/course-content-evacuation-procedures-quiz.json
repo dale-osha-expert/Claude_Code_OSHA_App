@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "courseId": "evacuation-procedures",
+    "title": "Evacuation Procedures: Exit Routes and Emergency Planning",
+    "oshaStandard": "OSHA 29 CFR 1910 Subpart E (§§1910.34–1910.39)",
+    "passingGrade": 0.70,
+    "totalQuestions": 12
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "What is an exit route?",
+      "options": [
+        { "id": "a", "text": "Any door that leads to a hallway" },
+        { "id": "b", "text": "A continuous and unobstructed path from the workplace to a place of safety" },
+        { "id": "c", "text": "A map posted near the time clock" },
+        { "id": "d", "text": "A stairway used only by supervisors during emergencies" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.34"
+    },
+    {
+      "id": 2,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "True or False: Exit doors may be locked from the inside as long as supervisors have a key.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.36"
+    },
+    {
+      "id": 3,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "Which of the following is part of an exit route?",
+      "options": [
+        { "id": "a", "text": "Exit access" },
+        { "id": "b", "text": "Exit" },
+        { "id": "c", "text": "Exit discharge" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.34"
+    },
+    {
+      "id": 4,
+      "topic": "exit-route-maintenance",
+      "difficulty": "easy",
+      "questionText": "True or False: Temporary storage is acceptable in an exit route if it will be removed before the end of the shift.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.37"
+    },
+    {
+      "id": 5,
+      "topic": "emergency-action-plan",
+      "difficulty": "easy",
+      "questionText": "An Emergency Action Plan must include procedures for:",
+      "options": [
+        { "id": "a", "text": "Reporting a fire or other emergency" },
+        { "id": "b", "text": "Emergency evacuation" },
+        { "id": "c", "text": "Accounting for employees after evacuation" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.38"
+    },
+    {
+      "id": 6,
+      "topic": "assembly-areas",
+      "difficulty": "medium",
+      "questionText": "During a drill, several employees gather directly outside the exit discharge door. Why is this a problem?",
+      "options": [
+        { "id": "a", "text": "Employees are not permitted to be outside the building during a drill" },
+        { "id": "b", "text": "Gathering near the exit discharge can block others from exiting and interfere with emergency responders" },
+        { "id": "c", "text": "The assembly location must be pre-approved by the fire marshal before anyone can stand there" },
+        { "id": "d", "text": "OSHA requires employees to remain inside until a supervisor signals all-clear" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.38"
+    },
+    {
+      "id": 7,
+      "topic": "exit-route-maintenance",
+      "difficulty": "easy",
+      "questionText": "Which condition should be reported immediately?",
+      "options": [
+        { "id": "a", "text": "A burned-out exit sign" },
+        { "id": "b", "text": "Boxes stacked in an exit corridor" },
+        { "id": "c", "text": "A door marked \"Exit\" that will not open" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.37"
+    },
+    {
+      "id": 8,
+      "topic": "fire-prevention-plan",
+      "difficulty": "easy",
+      "questionText": "True or False: A Fire Prevention Plan should identify major fire hazards, ignition sources, and control procedures.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.39"
+    },
+    {
+      "id": 9,
+      "topic": "exit-route-maintenance",
+      "difficulty": "medium",
+      "questionText": "A maintenance project blocks one of the normal exit routes. What should happen before employees continue working in that area?",
+      "options": [
+        { "id": "a", "text": "Employees can be told verbally to use another route and work may continue immediately" },
+        { "id": "b", "text": "Temporary blockage of an exit route is acceptable if the maintenance takes less than one shift" },
+        { "id": "c", "text": "The employer must ensure equivalent alternate exits remain available and employees are informed of the change" },
+        { "id": "d", "text": "The maintenance crew is solely responsible for managing access around the blocked route" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.37"
+    },
+    {
+      "id": 10,
+      "topic": "emergency-action-plan",
+      "difficulty": "easy",
+      "questionText": "When must an Emergency Action Plan be reviewed with an employee?",
+      "options": [
+        { "id": "a", "text": "When the plan is developed or the employee is initially assigned to a job" },
+        { "id": "b", "text": "When the employee's responsibilities under the plan change" },
+        { "id": "c", "text": "When the plan changes" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.38"
+    },
+    {
+      "id": 11,
+      "topic": "assembly-areas",
+      "difficulty": "easy",
+      "questionText": "True or False: Employees should re-enter the building after evacuation once they believe the emergency is over.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.38"
+    },
+    {
+      "id": 12,
+      "topic": "fire-prevention-plan",
+      "difficulty": "medium",
+      "questionText": "An employee notices that oily rags are piling up near heat-producing equipment. What should the employee do?",
+      "options": [
+        { "id": "a", "text": "Move the rags to a corner of the room where they are out of the way" },
+        { "id": "b", "text": "Leave them since housekeeping is not part of the employee's daily duties" },
+        { "id": "c", "text": "Follow established procedures to place waste in approved containers and report the hazard so it can be corrected" },
+        { "id": "d", "text": "Wait until the end of the shift when the cleaning crew arrives" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.39"
+    }
+  ],
+  "lessons": {
+    "exit-routes": "**Understanding Exit Routes — OSHA 1910 Subpart E (§§1910.34–1910.36)**\n\nAn exit route is a continuous and unobstructed path of exit travel from any point within a workplace to a place of safety. It is not simply a door or a hallway — it is the complete path an employee must travel to reach safety during an emergency. Under OSHA 1910 Subpart E, every exit route consists of three connected components: the exit access (the portion of the route leading to an exit — aisles, corridors, and passageways), the exit itself (the portion separated from all other areas by fire-resistant construction — typically a marked door, stairwell, or enclosed path), and the exit discharge (the portion leading from the exit to a place of safety outside the building).\n\nExit routes must be permanent. They must be of sufficient number, size, and arrangement to ensure that all employees can evacuate quickly and safely. At least two exit routes must be available in most workplaces so that if one is blocked by fire, smoke, or a structural failure, employees can use another. Exit doors must be unlocked and operable from the inside at all times during occupied hours — no key, tool, or special knowledge should be required to open an exit door from the inside, regardless of what locking device is used on the outside.\n\nExit signs must mark every exit and every path to an exit that is not immediately visible. Lighting must be provided for exit routes during all conditions of use, including power failures in some circumstances. Employees should know where all exit routes from their work area lead and should be familiar with both their primary and alternate routes.",
+    "exit-route-maintenance": "**Maintaining Safe Exit Routes — OSHA 1910.37**\n\nExit routes must be kept clear and unobstructed at all times. This means no storage — permanent or temporary — in exit corridors, no materials stacked against exit doors, no equipment parked in aisles that reduce the usable width of an exit path, and no decorations, signage, or fixtures that could mislead employees about the direction of travel. The phrase \"temporary\" is not a defense under OSHA — a box in an exit corridor is a violation regardless of how briefly it is expected to be there.\n\nExit signs, emergency lighting, and exit doors must be maintained in good working condition. Burned-out exit signs, non-functioning emergency lights, jammed or improperly latching exit doors, and corridors narrowed below minimum width requirements are all conditions that must be corrected immediately. Employees who observe any of these conditions should report them through established procedures so they can be addressed before they matter during an emergency.\n\nWhen maintenance, construction, or renovation temporarily affects exit routes, employers must ensure that alternate routes of equivalent capacity are available and that employees are notified of any route changes before they are needed. A maintenance crew that blocks an exit corridor for a few hours without providing an alternate route and notifying workers has created an unacceptable evacuation risk. Supervisors and safety managers should verify exit route integrity before the start of any shift affected by maintenance work.",
+    "emergency-action-plan": "**Emergency Action Plans — OSHA 29 CFR 1910.38**\n\nAn Emergency Action Plan (EAP) is a written document describing how the organization will respond to workplace emergencies. OSHA 29 CFR 1910.38 identifies the required elements of an EAP, including: procedures for reporting fires and other emergencies, evacuation procedures with exit route assignments for different types of emergencies, procedures to account for all employees after evacuation is complete, procedures for employees who remain to perform critical operations before evacuating, rescue and medical duties for designated employees, and names or titles of persons who can be contacted for further information.\n\nThe EAP must be reviewed with employees when the plan is first developed, when a new employee is assigned to a job covered by the plan, when an employee's responsibilities under the plan change, and whenever the plan itself changes. An EAP that employees have never read or practiced is not effective protection. Employees must know what the alarm signals mean, which route to use for different emergency types, where to assemble, and who to report to.\n\nFor facilities with ten or fewer employees, the plan may be communicated verbally rather than maintained as a written document. For larger facilities, the written plan must be kept at the workplace and made available to employees on request. Exit route assignments described in the EAP must be consistent with the physical exit route infrastructure — plans should be updated any time a renovation, equipment addition, or layout change affects the routes described.",
+    "assembly-areas": "**Assembly Areas and Post-Evacuation Conduct — OSHA 29 CFR 1910.38**\n\nDesignated assembly areas — also called marshalling points or muster points — are the locations where employees report after evacuating. They serve two critical functions: keeping evacuated employees safe and away from the emergency, and enabling an accurate accounting of all personnel. Assembly areas must be located far enough from the building and from exit discharge points to keep evacuated employees clear of emergency operations, to prevent blocking of exit doors or access lanes, and to allow emergency vehicles to approach and position without obstruction.\n\nAfter arriving at the assembly area, employees must remain there until an official all-clear is given by qualified emergency personnel. Re-entering the building based on personal assumption that the emergency is over is dangerous — conditions inside may not be visible from outside, emergency responders may still be operating, and structural hazards may exist that are not immediately apparent. No employee, regardless of seniority, should authorize re-entry except at the direction of qualified fire, rescue, or safety personnel.\n\nHead counts at assembly areas are an essential accountability tool. Employees should report to their designated area promptly, make themselves visible to their supervisor or warden, and immediately notify their warden if they are aware of any coworker who is unaccounted for. Missing persons must be reported to emergency responders with as much information as possible about the last known location. Accountability is not a bureaucratic formality — it can direct rescue resources to the right place.",
+    "fire-prevention-plan": "**Fire Prevention Plans and Housekeeping — OSHA 29 CFR 1910.39**\n\nA Fire Prevention Plan (FPP) is a written program required by OSHA 1910.39 that identifies the major workplace fire hazards and the procedures for controlling them. Required elements include: a list of major fire hazards and their handling and storage procedures, a list of all potential ignition sources and the procedures to control them, the type of fire protection equipment or systems that will control a fire involving each hazard, names or titles of persons responsible for maintaining equipment and systems, and names or titles of persons responsible for controlling fuel-source hazards.\n\nEffective fire prevention is largely about housekeeping and hazard control. Combustible waste — oily rags, paper scraps, sawdust, solvent-soaked materials — must be collected in approved, covered metal containers and removed from the work area regularly. Allowing combustible waste to accumulate near heat sources, ignition sources, or flammable materials creates a recognized fire hazard that the FPP is designed to prevent. Employees who observe accumulating combustible waste, improperly stored flammable materials, or potential ignition sources should report them through established procedures immediately.\n\nEmployers must train employees designated to maintain fire protection equipment and systems in how to do so properly. Employees must be informed about fire hazards in their work areas. The FPP must be kept at the workplace and made available to employees. Like the Emergency Action Plan, the Fire Prevention Plan is a living document — it must be updated when new hazards are introduced, when processes change, or when equipment is added that affects fire risk in the workplace."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "Under OSHA 1910 Subpart E, an exit route is best described as:",
+      "options": [
+        { "id": "a", "text": "Any door in the facility labeled with an exit sign" },
+        { "id": "b", "text": "A continuous, unobstructed path of travel from any point in a workplace to a place of safety" },
+        { "id": "c", "text": "A route used only when a fire alarm is activated" },
+        { "id": "d", "text": "A hallway designated by management for emergency-only access" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.34"
+    },
+    "2": {
+      "id": 102,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "An employer installs a deadbolt on an exit door to prevent after-hours entry from outside. The deadbolt can only be unlocked from inside with a key held by supervisors. Is this acceptable under OSHA?",
+      "options": [
+        { "id": "a", "text": "Yes — as long as a supervisor with a key is always present during occupied hours" },
+        { "id": "b", "text": "Yes — as long as a spare key is stored near the door" },
+        { "id": "c", "text": "No — exit doors must be operable from the inside at all times without a key, tool, or special knowledge" },
+        { "id": "d", "text": "Yes — if the facility has at least two additional alternate exit routes" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.36"
+    },
+    "3": {
+      "id": 103,
+      "topic": "exit-routes",
+      "difficulty": "easy",
+      "questionText": "Which three components together form a complete exit route under OSHA 1910 Subpart E?",
+      "options": [
+        { "id": "a", "text": "Hallway, stairwell, and lobby" },
+        { "id": "b", "text": "Exit access, exit, and exit discharge" },
+        { "id": "c", "text": "Fire door, exit sign, and assembly area" },
+        { "id": "d", "text": "Main corridor, emergency door, and parking lot" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.34"
+    },
+    "4": {
+      "id": 104,
+      "topic": "exit-route-maintenance",
+      "difficulty": "easy",
+      "questionText": "A receiving shipment overflows the storage area, so boxes are placed in an exit corridor. The supervisor says they will be moved by end of shift. Is this acceptable under OSHA?",
+      "options": [
+        { "id": "a", "text": "Yes — temporary storage in exit routes is permitted if cleared before the next shift" },
+        { "id": "b", "text": "Yes — partial blockage is acceptable as long as one person can still pass through" },
+        { "id": "c", "text": "No — exit routes must remain clear and unobstructed at all times, even briefly" },
+        { "id": "d", "text": "Yes — only permanent storage in exit corridors is prohibited by OSHA" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.37"
+    },
+    "5": {
+      "id": 105,
+      "topic": "emergency-action-plan",
+      "difficulty": "easy",
+      "questionText": "Which of the following is required in an Emergency Action Plan under OSHA 29 CFR 1910.38?",
+      "options": [
+        { "id": "a", "text": "Procedures for reporting emergencies to outside services" },
+        { "id": "b", "text": "Evacuation procedures with exit route assignments by emergency type" },
+        { "id": "c", "text": "Procedures for accounting for all employees after evacuation" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.38"
+    },
+    "6": {
+      "id": 106,
+      "topic": "assembly-areas",
+      "difficulty": "medium",
+      "questionText": "After a real emergency evacuation, employees at the assembly area are crowding close to the building entrance. What is the safety concern?",
+      "options": [
+        { "id": "a", "text": "Employees may get cold if they stand too close to the building structure" },
+        { "id": "b", "text": "Crowding near the exit discharge can block others still evacuating and prevent emergency responders from accessing the building" },
+        { "id": "c", "text": "OSHA requires employees to face the building to watch for fire spread" },
+        { "id": "d", "text": "Employees standing near the entrance may be missed during the head count" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.38"
+    },
+    "7": {
+      "id": 107,
+      "topic": "exit-route-maintenance",
+      "difficulty": "easy",
+      "questionText": "Which of the following exit route conditions requires immediate reporting?",
+      "options": [
+        { "id": "a", "text": "A malfunctioning or burned-out exit sign" },
+        { "id": "b", "text": "Materials stacked in a corridor that reduce the usable exit path width" },
+        { "id": "c", "text": "An exit door that is jammed and will not open from the inside" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.37"
+    },
+    "8": {
+      "id": 108,
+      "topic": "fire-prevention-plan",
+      "difficulty": "easy",
+      "questionText": "Which of the following does OSHA require a Fire Prevention Plan to address?",
+      "options": [
+        { "id": "a", "text": "Major fire hazards present in the workplace" },
+        { "id": "b", "text": "Potential ignition sources and procedures to control them" },
+        { "id": "c", "text": "The type of fire protection equipment that will control each hazard" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.39"
+    },
+    "9": {
+      "id": 109,
+      "topic": "exit-route-maintenance",
+      "difficulty": "medium",
+      "questionText": "Work crews are replacing flooring in the main exit corridor from a production area. Employees in the production area need to continue their shift. What is required?",
+      "options": [
+        { "id": "a", "text": "Employees can step around the work crew carefully and production may continue" },
+        { "id": "b", "text": "The maintenance supervisor should post a notice on the corridor and work may proceed" },
+        { "id": "c", "text": "The employer must provide a clear, safe alternate exit route and inform affected employees before production continues" },
+        { "id": "d", "text": "Production in that area must stop entirely until the corridor is fully restored" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.37"
+    },
+    "10": {
+      "id": 110,
+      "topic": "emergency-action-plan",
+      "difficulty": "easy",
+      "questionText": "An employee is promoted to team lead and now has new evacuation responsibilities under the facility's Emergency Action Plan. When must the plan be reviewed with this employee?",
+      "options": [
+        { "id": "a", "text": "At the employee's next annual performance review" },
+        { "id": "b", "text": "During the next scheduled department safety meeting" },
+        { "id": "c", "text": "Immediately, because the employee's responsibilities under the plan have changed" },
+        { "id": "d", "text": "No review is needed unless the employee specifically requests it" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.38"
+    },
+    "11": {
+      "id": 111,
+      "topic": "assembly-areas",
+      "difficulty": "easy",
+      "questionText": "Employees have evacuated to the assembly area following a fire alarm. The alarm has stopped sounding. One employee says it is probably safe to go back in. What should happen?",
+      "options": [
+        { "id": "a", "text": "Employees may re-enter once the alarm stops since that signals the all-clear" },
+        { "id": "b", "text": "The team lead may authorize re-entry after completing the head count" },
+        { "id": "c", "text": "No one should re-enter the building until qualified emergency personnel provide an official all-clear" },
+        { "id": "d", "text": "An employee may re-enter briefly to retrieve medication or personal items" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.38"
+    },
+    "12": {
+      "id": 112,
+      "topic": "fire-prevention-plan",
+      "difficulty": "medium",
+      "questionText": "During a walkthrough, a safety committee member spots a waste bin near a welding station overflowing with solvent-soaked rags and combustible scraps. What is the concern?",
+      "options": [
+        { "id": "a", "text": "Overflowing containers must be reported to OSHA within 24 hours of discovery" },
+        { "id": "b", "text": "The overflowing bin is an obstacle that could slow evacuation from the welding area" },
+        { "id": "c", "text": "Accumulation of combustible waste near ignition sources is a recognized fire hazard that must be corrected immediately" },
+        { "id": "d", "text": "Overflowing waste bins automatically generate a written OSHA citation for the employer" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.39"
+    }
+  }
+}
