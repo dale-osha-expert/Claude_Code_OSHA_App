@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "courseId": "osha-general-industry-intro",
+    "title": "Introduction to OSHA: General Industry",
+    "oshaStandard": "OSHA 29 CFR Part 1910 / 29 CFR Part 1904",
+    "passingGrade": 0.70,
+    "totalQuestions": 10
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "osha-overview",
+      "difficulty": "easy",
+      "questionText": "What is OSHA's primary mission?",
+      "options": [
+        { "id": "a", "text": "To sell safety equipment to employers" },
+        { "id": "b", "text": "To help ensure safe and healthful working conditions" },
+        { "id": "c", "text": "To replace company supervisors with government-appointed safety officers" },
+        { "id": "d", "text": "To investigate only fatal workplace accidents" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    {
+      "id": 2,
+      "topic": "general-industry-standards",
+      "difficulty": "easy",
+      "questionText": "True or False: OSHA standards for general industry are found in 29 CFR Part 1910.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    {
+      "id": 3,
+      "topic": "recordkeeping",
+      "difficulty": "easy",
+      "questionText": "Which OSHA regulation area is associated with injury and illness recordkeeping?",
+      "options": [
+        { "id": "a", "text": "29 CFR Part 1904" },
+        { "id": "b", "text": "29 CFR Part 1926" },
+        { "id": "c", "text": "29 CFR Part 1915" },
+        { "id": "d", "text": "29 CFR Part 1908" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR Part 1904"
+    },
+    {
+      "id": 4,
+      "topic": "employee-rights",
+      "difficulty": "easy",
+      "questionText": "True or False: Employees have the right to speak up about unsafe working conditions without retaliation.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "OSH Act Section 11(c)"
+    },
+    {
+      "id": 5,
+      "topic": "employer-responsibilities",
+      "difficulty": "easy",
+      "questionText": "Which of the following is an employer responsibility under OSHA?",
+      "options": [
+        { "id": "a", "text": "Ignore minor hazards unless employees formally complain" },
+        { "id": "b", "text": "Provide a workplace free from serious recognized hazards" },
+        { "id": "c", "text": "Prevent employees from reporting injuries to avoid high incident rates" },
+        { "id": "d", "text": "Keep safety procedures informal so they are easier to follow" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "General Duty Clause, Section 5(a)(1)"
+    },
+    {
+      "id": 6,
+      "topic": "general-industry-standards",
+      "difficulty": "medium",
+      "questionText": "An employee sees a damaged electrical cord in a work area. What is the most appropriate response?",
+      "options": [
+        { "id": "a", "text": "Continue using the equipment and note the damage in a personal log" },
+        { "id": "b", "text": "Report it to a coworker but continue working in the area" },
+        { "id": "c", "text": "Stop using or avoid the damaged equipment and report the hazard according to workplace procedures" },
+        { "id": "d", "text": "Wait until the end of the shift to report it so work is not disrupted" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    {
+      "id": 7,
+      "topic": "inspections-enforcement",
+      "difficulty": "easy",
+      "questionText": "OSHA inspections may occur because of:",
+      "options": [
+        { "id": "a", "text": "Complaints" },
+        { "id": "b", "text": "Fatalities or catastrophes" },
+        { "id": "c", "text": "Follow-up inspections" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR Part 1903"
+    },
+    {
+      "id": 8,
+      "topic": "recordkeeping",
+      "difficulty": "easy",
+      "questionText": "True or False: Recordkeeping helps employers identify injury trends and prevent future incidents.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR Part 1904"
+    },
+    {
+      "id": 9,
+      "topic": "employee-rights",
+      "difficulty": "hard",
+      "questionText": "A supervisor tells employees not to report a minor injury because it will \"make the numbers look bad.\" What is the primary safety concern with this instruction?",
+      "options": [
+        { "id": "a", "text": "It may increase administrative workload for the HR department" },
+        { "id": "b", "text": "It could violate OSHA reporting expectations, hide hazards, and prevent corrective action" },
+        { "id": "c", "text": "It may reduce the employee's eligibility for safety incentive rewards" },
+        { "id": "d", "text": "It could delay the supervisor's performance review" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR Part 1904 / OSH Act Section 11(c)"
+    },
+    {
+      "id": 10,
+      "topic": "safety-culture",
+      "difficulty": "easy",
+      "questionText": "What is one sign of a strong workplace safety culture?",
+      "options": [
+        { "id": "a", "text": "Employees hide near misses to avoid blame" },
+        { "id": "b", "text": "Hazards are corrected only after OSHA inspections" },
+        { "id": "c", "text": "Workers report concerns early and supervisors respond promptly" },
+        { "id": "d", "text": "PPE use is considered optional" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR Part 1910"
+    }
+  ],
+  "lessons": {
+    "osha-overview": "**What OSHA Is and Why It Exists — 29 CFR Part 1910**\n\nOSHA — the Occupational Safety and Health Administration — was created under the Occupational Safety and Health Act of 1970 (OSH Act). Congress passed the Act in response to rising rates of workplace injuries, illnesses, and fatalities. Before OSHA, there was no uniform federal system to ensure employers maintained safe conditions. The OSH Act gave the federal government the authority to set standards and enforce them.\n\nOSHA's mission is to help ensure safe and healthful working conditions by setting and enforcing standards, and by providing training, outreach, education, and compliance assistance. OSHA is not solely an enforcement agency — it also partners with employers and workers through consultation programs, voluntary protection programs, and educational initiatives.\n\nOSHA covers most private sector employers and their employees, as well as some public sector employers. OSHA's standards apply to many industries, including general industry (manufacturing, warehousing, services, healthcare, and maintenance), construction, maritime, and agriculture. Understanding what OSHA is and why it exists helps every worker recognize their own role in supporting a safer and healthier workplace.",
+    "general-industry-standards": "**General Industry Standards and Workplace Hazards — 29 CFR Part 1910**\n\nOSHA's general industry standards are found in Title 29 of the Code of Federal Regulations (CFR), Part 1910. Part 1910 contains standards that address a wide range of workplace hazards in manufacturing, warehousing, services, maintenance, healthcare, and other general industry settings. These standards define minimum requirements for physical safeguards, equipment, training, procedures, and documentation.\n\nPart 1910 covers many topics, including walking-working surfaces, emergency action plans, hazardous materials, machine guarding, lockout/tagout, electrical safety, personal protective equipment, fire protection, and more. When a hazard exists in a general industry workplace, there is often a specific 1910 standard that defines exactly how it must be controlled. Compliance with Part 1910 is the baseline expectation — employers who meet OSHA standards are meeting the minimum legal requirement.\n\nWhen workers recognize a hazard, they should take immediate safe action: stop using unsafe equipment, warn coworkers, report the hazard to a supervisor, and follow established workplace procedures. Reporting is not a disruption — it is how hazards get corrected before someone is seriously hurt.",
+    "employee-rights": "**Employee Rights Under OSHA — OSH Act Section 11(c)**\n\nThe OSH Act gives workers important rights that support their ability to participate in workplace safety. Employees have the right to a safe and healthful workplace — one where recognized hazards have been identified and controlled. They have the right to receive information and training about hazards in a language they understand. They have the right to review workplace injury and illness records, and to request an OSHA inspection if they believe hazardous conditions exist.\n\nOne of the most important protections under the OSH Act is the prohibition on retaliation. Section 11(c) makes it illegal for employers to discharge, discriminate against, or take adverse action against any employee because they reported a hazard, filed an OSHA complaint, participated in an inspection, or exercised any other right protected by the Act. Employees who experience retaliation have the right to file a complaint with OSHA within 30 days.\n\nThese rights only function when workers feel safe using them. A workplace where employees fear consequences for speaking up is a workplace where hazards go unreported and incidents go unaddressed. Supervisors and managers play a critical role in creating an environment where raising a safety concern is seen as a contribution, not a problem.",
+    "employer-responsibilities": "**Employer Responsibilities Under OSHA — General Duty Clause, Section 5(a)(1)**\n\nOSHA's General Duty Clause requires every employer to provide employees with a workplace that is free from recognized hazards that are causing or likely to cause death or serious physical harm. This obligation exists even when no specific OSHA standard covers the hazard in question — employers cannot avoid responsibility simply because a hazard is not explicitly listed in a regulation.\n\nBeyond the General Duty Clause, employers must comply with all applicable OSHA standards, examine workplace conditions to verify they conform to standards, ensure employees have and use required PPE, and provide required training in the hazards and controls relevant to each worker's job. Employers must also maintain required records, post the OSHA poster where workers can see it, report severe injuries (hospitalizations, amputations, or loss of an eye) to OSHA within 24 hours, and report work-related fatalities within 8 hours.\n\nCompliance requires action — not just written policies. Hazard control programs, training schedules, inspection routines, and accountability structures are all part of what it means to meet employer obligations under the OSH Act. Supervisors who overlook known hazards, discourage reporting, or fail to follow up on safety concerns are not meeting the employer's obligation.",
+    "inspections-enforcement": "**OSHA Inspections, Complaints, and Enforcement — 29 CFR Part 1903**\n\nOSHA enforces its standards through workplace inspections conducted by Compliance Safety and Health Officers (CSHOs). Inspections may be triggered by workplace fatalities or catastrophes, formal employee complaints, referrals from other agencies, programmed targeting of high-hazard industries, or follow-up visits to verify that previously cited hazards have been corrected. OSHA prioritizes inspections based on the severity and imminence of the hazard.\n\nWhen an inspection occurs, the CSHO may conduct opening and closing conferences, review records and written programs, interview employees privately, and walk the facility to identify hazards. Employees have the right to accompany the inspector during the walkthrough and to speak with the inspector confidentially. Employers have the right to require a warrant if OSHA arrives unannounced, though most employers cooperate without one.\n\nIf violations are found, OSHA may issue citations requiring employers to correct the hazard within a set timeframe and pay a penalty. Violations are classified by severity — other than serious, serious, willful, repeat, and failure to abate. The goal of enforcement is not punishment alone — it is to ensure that hazardous conditions are corrected so that workers are not harmed. The best outcome is that an inspection finds no violations because the employer is already managing hazards proactively.",
+    "recordkeeping": "**Injury and Illness Recordkeeping — 29 CFR Part 1904**\n\nOSHA's recordkeeping standard, 29 CFR Part 1904, requires most employers with 11 or more employees to maintain a log of work-related injuries and illnesses. The primary forms are the OSHA 300 Log (log of work-related injuries and illnesses), the OSHA 300A (annual summary), and the OSHA 301 (incident report). The 300A must be posted in the workplace from February 1 through April 30 each year.\n\nNot every work-related injury or illness is recordable. An injury or illness must be recorded if it results in days away from work, restricted duty, transfer to another job, medical treatment beyond first aid, loss of consciousness, or a diagnosis of a significant injury or illness by a healthcare professional. Employers must record these cases within seven calendar days of learning about them.\n\nAccurate recordkeeping is not just a compliance obligation — it is a hazard identification tool. Reviewing injury and illness trends helps employers and safety managers see where hazards are concentrated, what types of incidents are most common, and whether corrective actions are working. Suppressing or failing to record injuries hides the very information needed to improve safety. OSHA prohibits employers from discouraging or retaliating against employees for reporting work-related injuries and illnesses.",
+    "safety-culture": "**Safety Culture and Shared Responsibility — 29 CFR Part 1910**\n\nA safety culture is the shared set of values, beliefs, and behaviors that define how an organization approaches workplace safety. In a strong safety culture, safety is not just a compliance requirement — it is a core value that drives every decision, from how work is designed to how hazards are reported and corrected. Organizations with strong safety cultures consistently experience lower injury rates, fewer near misses that go unreported, and more proactive hazard identification.\n\nKey indicators of a strong safety culture include: employees reporting concerns early without fear of retaliation, supervisors responding promptly and without blame, near misses being treated as learning opportunities rather than embarrassments, training being current and meaningful rather than a checkbox, and accountability flowing both up and down the organization. When these behaviors are present, hazards are addressed before they cause harm.\n\nEvery employee contributes to safety culture through their daily choices — whether to report a hazard or ignore it, whether to follow a safety procedure or take a shortcut, whether to speak up or stay silent. OSHA supports safety culture through its Voluntary Protection Programs (VPP) and through recognition of workplaces that go beyond minimum compliance. Building a positive safety culture is ongoing work, not a one-time initiative."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "osha-overview",
+      "difficulty": "easy",
+      "questionText": "Which of the following best describes OSHA's core function in American workplaces?",
+      "options": [
+        { "id": "a", "text": "Selling certified safety equipment to employers at discounted rates" },
+        { "id": "b", "text": "Setting and enforcing workplace safety and health standards, and providing training and assistance" },
+        { "id": "c", "text": "Assigning government safety supervisors to all general industry employers" },
+        { "id": "d", "text": "Investigating only workplace fatalities and catastrophic accidents" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    "2": {
+      "id": 102,
+      "topic": "general-industry-standards",
+      "difficulty": "easy",
+      "questionText": "Where would an employer look to find OSHA's safety and health standards that apply to a manufacturing or warehousing facility?",
+      "options": [
+        { "id": "a", "text": "29 CFR Part 1926 — Construction" },
+        { "id": "b", "text": "29 CFR Part 1904 — Recordkeeping" },
+        { "id": "c", "text": "29 CFR Part 1910 — General Industry" },
+        { "id": "d", "text": "29 CFR Part 1915 — Maritime" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    "3": {
+      "id": 103,
+      "topic": "recordkeeping",
+      "difficulty": "easy",
+      "questionText": "An employer needs to determine whether a work-related injury must be logged in the facility's injury record. Which OSHA regulation provides the criteria for recording and reporting?",
+      "options": [
+        { "id": "a", "text": "29 CFR Part 1910 — General Industry Standards" },
+        { "id": "b", "text": "29 CFR Part 1904 — Recording and Reporting Occupational Injuries and Illnesses" },
+        { "id": "c", "text": "29 CFR Part 1926 — Construction Safety" },
+        { "id": "d", "text": "29 CFR Part 1900 — General OSHA Procedures" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR Part 1904"
+    },
+    "4": {
+      "id": 104,
+      "topic": "employee-rights",
+      "difficulty": "easy",
+      "questionText": "Under the OSH Act, an employer who fires an employee for filing an OSHA complaint is:",
+      "options": [
+        { "id": "a", "text": "Within their legal rights if performance issues are also documented" },
+        { "id": "b", "text": "Required to notify OSHA but otherwise permitted to take that action" },
+        { "id": "c", "text": "Engaging in retaliation that is prohibited under Section 11(c) of the OSH Act" },
+        { "id": "d", "text": "Acting within acceptable industry practice if the complaint was unverified" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "OSH Act Section 11(c)"
+    },
+    "5": {
+      "id": 105,
+      "topic": "employer-responsibilities",
+      "difficulty": "easy",
+      "questionText": "Under OSHA's General Duty Clause, employers are required to:",
+      "options": [
+        { "id": "a", "text": "Correct hazards only when cited by an OSHA inspector" },
+        { "id": "b", "text": "Provide a workplace free from recognized hazards that are likely to cause death or serious physical harm" },
+        { "id": "c", "text": "Allow employees to determine which safety standards apply to their own tasks" },
+        { "id": "d", "text": "Document hazards and address them only if budget allows" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "General Duty Clause, Section 5(a)(1)"
+    },
+    "6": {
+      "id": 106,
+      "topic": "general-industry-standards",
+      "difficulty": "medium",
+      "questionText": "You discover a frayed power cord on equipment you have been assigned to use. Which response best reflects OSHA-aligned safe work behavior?",
+      "options": [
+        { "id": "a", "text": "Wrap the frayed area with electrical tape and continue working" },
+        { "id": "b", "text": "Inspect it more closely at the end of the shift before deciding what to do" },
+        { "id": "c", "text": "Ask a coworker to watch for sparks while you complete the task" },
+        { "id": "d", "text": "Stop using the equipment and immediately report the hazard to the appropriate person" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR Part 1910"
+    },
+    "7": {
+      "id": 107,
+      "topic": "inspections-enforcement",
+      "difficulty": "easy",
+      "questionText": "Which of the following may trigger an OSHA workplace inspection?",
+      "options": [
+        { "id": "a", "text": "A formal employee complaint about a workplace hazard" },
+        { "id": "b", "text": "A reported workplace fatality or serious injury requiring hospitalization" },
+        { "id": "c", "text": "A follow-up visit to verify correction of a previously cited violation" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR Part 1903"
+    },
+    "8": {
+      "id": 108,
+      "topic": "recordkeeping",
+      "difficulty": "easy",
+      "questionText": "What is the primary benefit of OSHA's injury and illness recordkeeping requirements for employers?",
+      "options": [
+        { "id": "a", "text": "To penalize employers with the highest injury rates" },
+        { "id": "b", "text": "To give employees leverage during collective bargaining" },
+        { "id": "c", "text": "To help identify hazard trends and drive corrective actions that prevent future injuries" },
+        { "id": "d", "text": "To replace the need for OSHA inspections in low-risk facilities" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR Part 1904"
+    },
+    "9": {
+      "id": 109,
+      "topic": "employee-rights",
+      "difficulty": "hard",
+      "questionText": "A worker sustains a cut that requires medical treatment, but decides not to report it after a supervisor hints it would reflect poorly on the team. What is the most significant consequence of this outcome?",
+      "options": [
+        { "id": "a", "text": "The worker may be responsible for their own medical costs" },
+        { "id": "b", "text": "A recordable injury goes unrecorded, the underlying hazard remains uncorrected, and OSHA reporting requirements may be violated" },
+        { "id": "c", "text": "The supervisor will need to file a separate exemption report with OSHA" },
+        { "id": "d", "text": "The worker forfeits their right to file a future workers' compensation claim" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR Part 1904 / OSH Act Section 11(c)"
+    },
+    "10": {
+      "id": 110,
+      "topic": "safety-culture",
+      "difficulty": "easy",
+      "questionText": "Which of the following behaviors is most consistent with a strong workplace safety culture?",
+      "options": [
+        { "id": "a", "text": "Employees handle hazards on their own without telling supervisors to avoid slowing work down" },
+        { "id": "b", "text": "Supervisors discourage reporting to keep the facility's incident rate low" },
+        { "id": "c", "text": "Near-miss incidents are only discussed during the annual safety meeting" },
+        { "id": "d", "text": "Employees report concerns without fear of retaliation, and supervisors take prompt corrective action" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR Part 1910"
+    }
+  }
+}
