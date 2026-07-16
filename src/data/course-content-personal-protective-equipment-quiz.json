@@ -1,0 +1,455 @@
+{
+  "meta": {
+    "courseId": "personal-protective-equipment",
+    "title": "Personal Protective Equipment",
+    "oshaStandard": "OSHA 29 CFR 1910.132–1910.138",
+    "passingGrade": 0.70,
+    "totalQuestions": 15
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "ppe-basics",
+      "difficulty": "easy",
+      "questionText": "What is the primary purpose of PPE?",
+      "options": [
+        { "id": "a", "text": "To make workers look professional" },
+        { "id": "b", "text": "To prevent or reduce exposure to workplace hazards" },
+        { "id": "c", "text": "To replace all other safety procedures" },
+        { "id": "d", "text": "To allow employees to work faster" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    {
+      "id": 2,
+      "topic": "ppe-requirements",
+      "difficulty": "easy",
+      "questionText": "Under OSHA's general PPE requirements, PPE must be:",
+      "options": [
+        { "id": "a", "text": "Appropriate for the work conditions" },
+        { "id": "b", "text": "Properly maintained" },
+        { "id": "c", "text": "Sanitary" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    {
+      "id": 3,
+      "topic": "ppe-requirements",
+      "difficulty": "easy",
+      "questionText": "Which OSHA standard contains general PPE requirements?",
+      "options": [
+        { "id": "a", "text": "29 CFR 1910.132" },
+        { "id": "b", "text": "29 CFR 1910.1200" },
+        { "id": "c", "text": "29 CFR 1910.147" },
+        { "id": "d", "text": "29 CFR 1910.151" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    {
+      "id": 4,
+      "topic": "eye-face-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: Safety glasses always provide enough protection against chemical splashes.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.133"
+    },
+    {
+      "id": 5,
+      "topic": "eye-face-protection",
+      "difficulty": "medium",
+      "questionText": "Why are side shields important on safety glasses?",
+      "options": [
+        { "id": "a", "text": "They make glasses more comfortable" },
+        { "id": "b", "text": "They protect against side impact hazards" },
+        { "id": "c", "text": "They replace the need for lenses" },
+        { "id": "d", "text": "They are used only for welding" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.133"
+    },
+    {
+      "id": 6,
+      "topic": "respiratory-protection",
+      "difficulty": "medium",
+      "questionText": "What must respirator cartridges be selected according to?",
+      "options": [
+        { "id": "a", "text": "Color preference" },
+        { "id": "b", "text": "The contaminant or hazard present" },
+        { "id": "c", "text": "The worker's job title only" },
+        { "id": "d", "text": "The lowest cost option" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.134"
+    },
+    {
+      "id": 7,
+      "topic": "respiratory-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: A respirator with a poor seal may allow contaminants to enter.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.134"
+    },
+    {
+      "id": 8,
+      "topic": "head-protection",
+      "difficulty": "easy",
+      "questionText": "Which type of PPE is generally required where falling objects may strike the head?",
+      "options": [
+        { "id": "a", "text": "Bump cap" },
+        { "id": "b", "text": "Hair net" },
+        { "id": "c", "text": "Hard hat" },
+        { "id": "d", "text": "Safety vest" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    {
+      "id": 9,
+      "topic": "head-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: Bump caps provide the same level of protection as hard hats.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    {
+      "id": 10,
+      "topic": "foot-protection",
+      "difficulty": "medium",
+      "questionText": "Which foot hazard may require puncture-resistant footwear?",
+      "options": [
+        { "id": "a", "text": "Sharp objects such as nails or scrap metal" },
+        { "id": "b", "text": "Loud noise" },
+        { "id": "c", "text": "Bright light" },
+        { "id": "d", "text": "Airborne dust" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.136"
+    },
+    {
+      "id": 11,
+      "topic": "electrical-ppe",
+      "difficulty": "medium",
+      "questionText": "Which condition would require electrical protective gloves to be removed from service?",
+      "options": [
+        { "id": "a", "text": "A puncture" },
+        { "id": "b", "text": "Ozone cracking" },
+        { "id": "c", "text": "Embedded foreign material" },
+        { "id": "d", "text": "Any of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "29 CFR 1910.137"
+    },
+    {
+      "id": 12,
+      "topic": "hand-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: The same glove can safely protect against every hand hazard.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.138"
+    },
+    {
+      "id": 13,
+      "topic": "hand-protection",
+      "difficulty": "hard",
+      "questionText": "A worker is assigned to handle a corrosive liquid. The worker finds only cloth gloves nearby. What should the worker do?",
+      "options": [
+        { "id": "a", "text": "Use the cloth gloves because some protection is better than none" },
+        { "id": "b", "text": "Double the cloth gloves" },
+        { "id": "c", "text": "Stop and request the correct chemical-resistant gloves" },
+        { "id": "d", "text": "Handle the chemical quickly without gloves" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.138"
+    },
+    {
+      "id": 14,
+      "topic": "ppe-maintenance",
+      "difficulty": "medium",
+      "questionText": "A worker notices a cracked hard hat shell before entering an overhead work area. What is the correct action?",
+      "options": [
+        { "id": "a", "text": "Use it carefully" },
+        { "id": "b", "text": "Tape the crack and continue working" },
+        { "id": "c", "text": "Remove it from service and get proper replacement protection" },
+        { "id": "d", "text": "Wear a bump cap instead" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    {
+      "id": 15,
+      "topic": "ppe-requirements",
+      "difficulty": "hard",
+      "questionText": "An employee has completed PPE training but repeatedly wears required eye protection on top of the head instead of over the eyes. What may be needed?",
+      "options": [
+        { "id": "a", "text": "No action because PPE is present" },
+        { "id": "b", "text": "Retraining and correction of unsafe behavior" },
+        { "id": "c", "text": "Removal of all PPE requirements" },
+        { "id": "d", "text": "Waiting until an injury occurs" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.132"
+    }
+  ],
+  "lessons": {
+    "ppe-basics": {
+      "title": "Understanding PPE and Workplace Hazards",
+      "content": "Personal protective equipment (PPE) is anything worn to help prevent or reduce workplace injury or illness. PPE is the last line of defense between a worker and a hazard — it does not eliminate the hazard itself. Under OSHA 29 CFR 1910.132, employers must assess the workplace to identify hazards and select appropriate PPE. PPE must match the specific task, environment, and exposure level. Damaged, inappropriate, or improperly used PPE can create a false sense of security without providing real protection."
+    },
+    "ppe-requirements": {
+      "title": "General PPE Requirements and Training",
+      "content": "OSHA 29 CFR 1910.132 requires employers to assess hazards, select appropriate PPE, and train all employees before they use it. Training must cover when PPE is necessary, what equipment is required, how to properly wear and adjust it, its limitations, and how to care for, maintain, and dispose of it. Employees must demonstrate understanding before using PPE on the job. Retraining is required when workplace conditions change, new equipment is introduced, or an employee shows inadequate knowledge. Employers remain responsible even when employees provide their own PPE."
+    },
+    "eye-face-protection": {
+      "title": "Eye and Face Protection",
+      "content": "OSHA 29 CFR 1910.133 requires suitable eye and face protection when employees face hazards from flying particles, sparks, chemical splashes, or intense light. Safety glasses protect against impact hazards; side shields are required when side impact is possible. Chemical splash hazards typically require goggles because they seal around the eyes, unlike safety glasses. Face shields add protection for arc flash, chemical splash, and heat but are generally worn over goggles, not instead of them. Welding and intense light tasks require filter lenses with appropriate shade numbers. Prescription eyewear is not a substitute unless designed for safety use."
+    },
+    "respiratory-protection": {
+      "title": "Respiratory Protection",
+      "content": "OSHA 29 CFR 1910.134 requires respirators when engineering controls alone cannot reduce airborne contaminants to safe levels. Respirator type must be matched to the specific contaminant, its concentration, and oxygen levels in the work area. Cartridges must be selected for the specific hazard — a cartridge rated for organic vapors will not protect against acid gases. Tight-fitting respirators require a proper seal; workers must pass fit testing before use. Medical clearance may be required. A poor seal allows contaminants to bypass the filter entirely, making respirator use ineffective."
+    },
+    "head-protection": {
+      "title": "Head Protection",
+      "content": "OSHA 29 CFR 1910.135 requires protective helmets where there is a risk of head injury from falling objects, bumps, or electrical hazards. Hard hats must meet ANSI/ISEA Z89.1 standards and must be inspected before each use for cracks, dents, fraying suspension, or discoloration. Hard hats should be replaced after any significant impact even if no visible damage is present. Bump caps protect only against minor bumps and scrapes in confined areas — they must never be substituted for hard hats where falling object hazards exist. Stickers, paint, and drill holes can compromise a hard hat's structural integrity."
+    },
+    "foot-protection": {
+      "title": "Foot Protection",
+      "content": "OSHA 29 CFR 1910.136 requires protective footwear when employees are exposed to hazards such as falling or rolling objects, sharp objects, slippery surfaces, chemical splash, or electrical hazards. Safety shoes or boots with steel toes protect against impact and compression. Puncture-resistant midsoles are required where sharp objects such as nails or scrap metal may be underfoot. Slip-resistant soles are important on wet, oily, or icy surfaces. Chemical-resistant footwear is needed when handling corrosive or hazardous liquids. Foot protection must meet ASTM F2412 and F2413 standards."
+    },
+    "electrical-ppe": {
+      "title": "Electrical Protective Equipment",
+      "content": "OSHA 29 CFR 1910.137 governs rubber insulating gloves, sleeves, and other electrical protective equipment. These items must be tested and certified per ASTM standards before use and at regular intervals. Any defect — including punctures, cuts, ozone cracking, embedded foreign material, or swelling — requires the item to be removed from service immediately and sent for testing or disposal. Electrical protective equipment must be used with appropriate leather protectors over rubber gloves to prevent mechanical damage. Workers using electrical PPE must be trained on its limitations, inspection procedures, and care requirements."
+    },
+    "hand-protection": {
+      "title": "Hand Protection",
+      "content": "OSHA 29 CFR 1910.138 requires suitable hand protection when employees' hands face hazards such as skin absorption of harmful substances, cuts, lacerations, abrasions, punctures, burns, or extreme temperatures. No single glove material protects against all hazards — gloves must be selected for the specific chemical, temperature, or mechanical risk. Workers handling corrosive liquids must use chemically compatible gloves tested for that specific substance. Loose gloves must not be worn near rotating machinery where they could be caught. Gloves should be inspected before use and replaced when contaminated, damaged, or no longer effective."
+    },
+    "ppe-maintenance": {
+      "title": "Inspecting, Maintaining, and Storing PPE",
+      "content": "All PPE must be inspected before each use. Any item that shows damage — cracks, tears, discoloration, missing components, contamination, or signs of wear — must be removed from service immediately and replaced. PPE should be cleaned per the manufacturer's instructions and stored away from heat, ultraviolet light, chemicals, and physical damage. Disposable PPE must not be reused. Storage areas should be clean, dry, and accessible. Workers should never assume PPE is functional because it was previously used without incident. Reporting missing or defective PPE to a supervisor is both a right and a responsibility."
+    }
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "ppe-basics",
+      "difficulty": "easy",
+      "questionText": "Which statement best describes the role of PPE in the workplace?",
+      "options": [
+        { "id": "a", "text": "It eliminates workplace hazards entirely" },
+        { "id": "b", "text": "It reduces or prevents exposure to hazards when worn correctly" },
+        { "id": "c", "text": "It makes up for inadequate work practices" },
+        { "id": "d", "text": "It is only needed in chemical environments" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    "2": {
+      "id": 102,
+      "topic": "ppe-requirements",
+      "difficulty": "easy",
+      "questionText": "OSHA's general PPE standards require that protective equipment must be which of the following?",
+      "options": [
+        { "id": "a", "text": "Inexpensive and readily available" },
+        { "id": "b", "text": "Appropriate, properly maintained, and sanitary" },
+        { "id": "c", "text": "Worn only when a supervisor is present" },
+        { "id": "d", "text": "Stored at all times and never worn until a formal inspection" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    "3": {
+      "id": 103,
+      "topic": "ppe-requirements",
+      "difficulty": "easy",
+      "questionText": "An employer conducting a PPE hazard assessment is complying with requirements under which regulation?",
+      "options": [
+        { "id": "a", "text": "29 CFR 1910.147" },
+        { "id": "b", "text": "29 CFR 1910.138" },
+        { "id": "c", "text": "29 CFR 1910.132" },
+        { "id": "d", "text": "29 CFR 1910.1200" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.132"
+    },
+    "4": {
+      "id": 104,
+      "topic": "eye-face-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: Goggles are preferred over safety glasses for chemical splash hazards because goggles seal around the eyes.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.133"
+    },
+    "5": {
+      "id": 105,
+      "topic": "eye-face-protection",
+      "difficulty": "medium",
+      "questionText": "A worker is grinding metal and notices debris flying from the sides. Which feature of safety glasses helps protect against this hazard?",
+      "options": [
+        { "id": "a", "text": "Tinted lenses" },
+        { "id": "b", "text": "Anti-fog coating" },
+        { "id": "c", "text": "Side shields" },
+        { "id": "d", "text": "Adjustable nose bridge" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.133"
+    },
+    "6": {
+      "id": 106,
+      "topic": "respiratory-protection",
+      "difficulty": "medium",
+      "questionText": "A maintenance technician works near chlorine fumes. What is the most critical factor when selecting a respirator cartridge?",
+      "options": [
+        { "id": "a", "text": "The cartridge color" },
+        { "id": "b", "text": "The specific contaminant present" },
+        { "id": "c", "text": "The most affordable option available" },
+        { "id": "d", "text": "The worker's personal preference" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.134"
+    },
+    "7": {
+      "id": 107,
+      "topic": "respiratory-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: A respirator that fails to achieve a proper facial seal during fit testing may still provide adequate protection.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.134"
+    },
+    "8": {
+      "id": 108,
+      "topic": "head-protection",
+      "difficulty": "easy",
+      "questionText": "Workers at a construction site are exposed to overhead falling objects. Which PPE is required?",
+      "options": [
+        { "id": "a", "text": "Bump cap" },
+        { "id": "b", "text": "Hard hat" },
+        { "id": "c", "text": "Hair covering" },
+        { "id": "d", "text": "Safety glasses" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    "9": {
+      "id": 109,
+      "topic": "head-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: A bump cap may be substituted for a hard hat in areas where falling objects present a hazard.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    "10": {
+      "id": 110,
+      "topic": "foot-protection",
+      "difficulty": "medium",
+      "questionText": "A worker regularly walks through areas where nails and sharp scrap metal are on the floor. Which footwear feature offers the most relevant protection?",
+      "options": [
+        { "id": "a", "text": "Slip-resistant soles" },
+        { "id": "b", "text": "Insulated liners" },
+        { "id": "c", "text": "Puncture-resistant midsoles" },
+        { "id": "d", "text": "Steel toe caps" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.136"
+    },
+    "11": {
+      "id": 111,
+      "topic": "electrical-ppe",
+      "difficulty": "medium",
+      "questionText": "During a pre-use inspection, a supervisor notices a small crack in a rubber electrical insulating glove. What is the correct action?",
+      "options": [
+        { "id": "a", "text": "Use it for low-voltage tasks only" },
+        { "id": "b", "text": "Tape the crack and re-inspect weekly" },
+        { "id": "c", "text": "Remove it from service immediately" },
+        { "id": "d", "text": "Allow the worker to assess the risk personally" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.137"
+    },
+    "12": {
+      "id": 112,
+      "topic": "hand-protection",
+      "difficulty": "easy",
+      "questionText": "True or False: A single pair of latex gloves provides adequate protection against all hand hazards, including chemicals, heat, and cuts.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.138"
+    },
+    "13": {
+      "id": 113,
+      "topic": "hand-protection",
+      "difficulty": "hard",
+      "questionText": "A worker needs to handle a strong acid but finds only cloth utility gloves at the workstation. Which action is correct?",
+      "options": [
+        { "id": "a", "text": "Use the cloth gloves since they offer some protection" },
+        { "id": "b", "text": "Wear two pairs of cloth gloves for extra protection" },
+        { "id": "c", "text": "Do not begin work until proper chemical-resistant gloves are obtained" },
+        { "id": "d", "text": "Use bare hands quickly to minimize total exposure time" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.138"
+    },
+    "14": {
+      "id": 114,
+      "topic": "ppe-maintenance",
+      "difficulty": "medium",
+      "questionText": "A worker discovers a visible crack in the outer shell of a hard hat before entering an area with overhead hazards. What should the worker do?",
+      "options": [
+        { "id": "a", "text": "Wear the cracked hat carefully" },
+        { "id": "b", "text": "Cover the crack with tape before use" },
+        { "id": "c", "text": "Remove the hat from service and obtain an undamaged replacement" },
+        { "id": "d", "text": "Swap it for a bump cap" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.135"
+    },
+    "15": {
+      "id": 115,
+      "topic": "ppe-requirements",
+      "difficulty": "hard",
+      "questionText": "An employee consistently pushes safety glasses up on the forehead during hazardous tasks despite completing PPE training. What is the appropriate supervisor response?",
+      "options": [
+        { "id": "a", "text": "No response is needed since the PPE is physically present" },
+        { "id": "b", "text": "Immediate retraining and correction of the unsafe behavior" },
+        { "id": "c", "text": "Allow the behavior if no injuries have yet occurred" },
+        { "id": "d", "text": "Remove all PPE requirements for that employee" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.132"
+    }
+  }
+}
