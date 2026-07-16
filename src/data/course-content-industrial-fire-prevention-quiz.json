@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "courseId": "industrial-fire-prevention",
+    "title": "Industrial Fire Prevention",
+    "oshaStandard": "OSHA 29 CFR 1910.38 / 1910.39 / 1910.157 / Subpart H",
+    "passingGrade": 0.70,
+    "totalQuestions": 12
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "fire-triangle",
+      "difficulty": "easy",
+      "questionText": "What three elements are required for a fire to occur?",
+      "options": [
+        { "id": "a", "text": "Smoke, flame, and water" },
+        { "id": "b", "text": "Heat, fuel, and oxygen" },
+        { "id": "c", "text": "Gas, liquid, and solid" },
+        { "id": "d", "text": "Sparks, alarms, and sprinklers" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.39"
+    },
+    {
+      "id": 2,
+      "topic": "fire-triangle",
+      "difficulty": "easy",
+      "questionText": "True or False: Removing any one side of the fire triangle can stop a fire.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.39"
+    },
+    {
+      "id": 3,
+      "topic": "flammables-combustibles",
+      "difficulty": "easy",
+      "questionText": "What is a flashpoint?",
+      "options": [
+        { "id": "a", "text": "The point at which a fire alarm activates" },
+        { "id": "b", "text": "The temperature at which a material gives off vapors that can ignite" },
+        { "id": "c", "text": "The temperature at which water boils" },
+        { "id": "d", "text": "The maximum temperature allowed in a workplace" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910 Subpart H"
+    },
+    {
+      "id": 4,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "Which class of fire involves energized electrical equipment?",
+      "options": [
+        { "id": "a", "text": "Class A" },
+        { "id": "b", "text": "Class B" },
+        { "id": "c", "text": "Class C" },
+        { "id": "d", "text": "Class D" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    {
+      "id": 5,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "Why should water not be used on a flammable liquid fire?",
+      "options": [
+        { "id": "a", "text": "It may freeze before reaching the flames" },
+        { "id": "b", "text": "It may spread the burning liquid" },
+        { "id": "c", "text": "It removes oxygen too quickly" },
+        { "id": "d", "text": "It makes smoke disappear before the fire is out" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    {
+      "id": 6,
+      "topic": "extinguishers",
+      "difficulty": "easy",
+      "questionText": "Which of the following is part of the P.A.S.S. method for using a fire extinguisher?",
+      "options": [
+        { "id": "a", "text": "Push, Alert, Stop, Spray" },
+        { "id": "b", "text": "Pull, Aim, Squeeze, Sweep" },
+        { "id": "c", "text": "Point, Activate, Shake, Spray" },
+        { "id": "d", "text": "Prepare, Attack, Secure, Stop" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    {
+      "id": 7,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "True or False: Employees should use any nearby fire extinguisher regardless of the fire class.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    {
+      "id": 8,
+      "topic": "ignition-sources",
+      "difficulty": "medium",
+      "questionText": "A worker is about to fill a container with a flammable liquid. What should be done to help prevent static discharge?",
+      "options": [
+        { "id": "a", "text": "Shake the container first to release built-up pressure" },
+        { "id": "b", "text": "Keep the container insulated from the ground" },
+        { "id": "c", "text": "Ground or bond the container as required" },
+        { "id": "d", "text": "Fill the container near a fan to disperse vapors" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910 Subpart H"
+    },
+    {
+      "id": 9,
+      "topic": "hot-work-hazards",
+      "difficulty": "medium",
+      "questionText": "During welding, combustibles cannot be moved out of the area. What should be done?",
+      "options": [
+        { "id": "a", "text": "Continue as long as the welding task is brief" },
+        { "id": "b", "text": "Cover or shield combustibles with fire-resistant materials and follow hot work controls" },
+        { "id": "c", "text": "Wet the floor only and proceed with the work" },
+        { "id": "d", "text": "Turn off the lights to reduce heat in the area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.252"
+    },
+    {
+      "id": 10,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "True or False: If a fire alarm sounds, employees should evacuate immediately according to the Emergency Action Plan.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 11,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "What should you do if a closed door feels hot during evacuation?",
+      "options": [
+        { "id": "a", "text": "Open it quickly and run through without stopping" },
+        { "id": "b", "text": "Use an elevator instead to avoid the area" },
+        { "id": "c", "text": "Do not open it; find another escape route" },
+        { "id": "d", "text": "Break a nearby window and wait in that room" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    {
+      "id": 12,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "What should you do if your clothing catches fire?",
+      "options": [
+        { "id": "a", "text": "Run to find the nearest water source" },
+        { "id": "b", "text": "Wave your arms rapidly to cool the flames" },
+        { "id": "c", "text": "Stop, drop, and roll" },
+        { "id": "d", "text": "Remove your shoes first to prevent the fire from spreading" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    }
+  ],
+  "lessons": {
+    "fire-triangle": "**The Fire Triangle — OSHA 29 CFR 1910.39**\n\nEvery fire requires three elements to start and continue burning: heat, fuel, and oxygen. Together these form the fire triangle. Heat provides the energy needed to raise a material to its ignition temperature. Fuel is any combustible material — wood, paper, fabric, flammable liquids, gases, or even certain metals. Oxygen, which makes up about 21% of the air we breathe, supports the chemical reaction that sustains combustion.\n\nThe fire triangle is not just a concept — it is a practical tool for fire prevention and suppression. Removing any one of the three sides will stop a fire. Water cools a fire by removing heat. Carbon dioxide and dry chemical agents displace oxygen. Cutting off fuel supply — shutting off a gas valve, removing combustible materials — eliminates the fuel source. Fire suppression systems, extinguishing agents, and fire prevention controls all work by attacking one or more sides of the triangle.\n\nFire prevention means preventing the triangle from completing. Controlling ignition sources keeps heat away from fuel. Proper storage keeps flammable materials away from heat sources. Good ventilation management prevents vapor accumulation near oxygen. Understanding the fire triangle gives every employee a foundation for recognizing fire risk and taking meaningful preventive action.",
+    "flammables-combustibles": "**Flashpoints, Flammables, and Combustibles — OSHA 29 CFR 1910 Subpart H**\n\nA flashpoint is the lowest temperature at which a liquid gives off enough vapor to ignite when exposed to an ignition source. It does not mean the liquid itself burns — it means the vapors above the liquid's surface can ignite. Flammable liquids have flashpoints below 100°F (38°C), which means they can produce ignitable vapors at or near room temperature. Combustible liquids have flashpoints at or above 100°F and are generally less immediately dangerous but still require careful handling.\n\nCommon workplace flammable liquids include gasoline, acetone, alcohol, paint thinner, and many solvents. These materials must be stored in approved containers, kept away from ignition sources, handled in ventilated areas, and dispensed in controlled quantities. Safety data sheets (SDS) provide flashpoint information and safe handling guidance for every hazardous chemical — employees should consult the SDS before working with unfamiliar materials.\n\nVapors from flammable liquids are often heavier than air and can travel along floors, collect in low-lying areas, or accumulate in confined spaces — far from where the liquid was used. This makes vapor control a critical part of flammable liquid safety. Never use flammable liquids near open flames, hot surfaces, or sparking equipment. Keep containers closed when not in use and return excess materials to approved storage.",
+    "fire-classes": "**Classes of Fire and Extinguishing Agents — OSHA 29 CFR 1910.157**\n\nFires are classified by the type of fuel involved, and the correct extinguishing agent depends entirely on the fire class. Using the wrong agent can be ineffective or can make the fire significantly worse. There are five recognized fire classes in the United States: Class A (ordinary combustibles — wood, paper, fabric, rubber, plastics), Class B (flammable and combustible liquids and gases), Class C (energized electrical equipment), Class D (combustible metals such as magnesium, titanium, or sodium), and Class K (cooking oils and fats, typically in commercial kitchens).\n\nWater is effective on Class A fires but must never be used on Class B fires — it scatters burning liquid and spreads the fire. Water must never be used on Class C fires — it conducts electricity and can cause electrocution. Class D fires require specialized dry powder agents matched to the specific metal. Class K fires require wet chemical agents designed for high-temperature cooking oils.\n\nEvery employee who may encounter a fire should know which extinguisher types are present in their work area and which fire classes each is rated for. This information is printed on the extinguisher label. Before attempting to fight any fire, employees must ensure: they are trained to use the extinguisher, the fire is small and contained, their escape route is clear, and the extinguisher matches the fire class. If any of these conditions are not met, evacuate immediately.",
+    "extinguishers": "**Fire Extinguishers and the P.A.S.S. Method — OSHA 29 CFR 1910.157**\n\nPortable fire extinguishers are the first line of defense for small, incipient-stage fires. OSHA requires employers to provide fire extinguishers appropriate to the hazards in the workplace, maintain them in working condition, and train employees in their use. Employees must be trained annually on the general principles of extinguisher use and the hazards of incipient-stage firefighting.\n\nThe P.A.S.S. method is the standard technique for using a portable fire extinguisher. Pull the pin at the top of the extinguisher — this unlocks the handle and allows the agent to discharge. Aim the nozzle or hose at the base of the fire, not at the flames. Squeeze the handle to release the extinguishing agent. Sweep the nozzle from side to side at the base of the fire until it is out, working from the edge toward the center.\n\nBefore using any extinguisher, verify it is rated for the class of fire you are fighting. Know the location of all extinguishers in your work area and confirm they have been inspected. Do not attempt to fight a fire if it has grown beyond an incipient stage, if you do not have a clear escape route behind you, if you are not confident in your ability to operate the extinguisher, or if the fire involves hazardous materials that require specialized response. When in doubt, evacuate and let trained emergency responders handle it.",
+    "ignition-sources": "**Static Electricity and Hidden Ignition Sources — OSHA 29 CFR 1910 Subpart H**\n\nIgnition sources are not always as visible as open flames or sparks from grinding. Static electricity is one of the most common hidden ignition sources in workplaces that handle flammable liquids and gases. Static charge builds up when materials move against each other — liquid flowing through a pipe, liquid being poured or pumped into a container, or even a person walking across a non-conductive floor. When that charge discharges as a spark near flammable vapors, it can cause a fire or explosion.\n\nGrounding and bonding are the primary controls for static electricity during flammable liquid transfer. Bonding involves connecting two containers together with a conductive wire so they reach the same electrical potential, eliminating the voltage difference that causes sparks. Grounding connects the container to the earth, providing a path for static charge to dissipate safely. Both controls must be in place before liquid transfer begins.\n\nOther hidden ignition sources include friction heat from slipping belts or bearings, overheated electrical components, pilot lights, hot surfaces, and sparks from tools or equipment in areas where flammable vapors may be present. Any ignition source in a flammable atmosphere is a fire risk. Employees should report overheating equipment, ensure no ignition sources are active in flammable vapor areas, and follow area classification rules for electrical equipment used near flammable materials.",
+    "hot-work-hazards": "**Hot Work, Welding, and Combustible Controls — OSHA 29 CFR 1910.252**\n\nHot work refers to any operation that produces sparks, open flames, or heat sufficient to ignite nearby combustibles. This includes welding, cutting, brazing, grinding, and soldering. Hot work is one of the leading causes of industrial fires because sparks can travel significant distances, penetrate small openings, and ignite materials that appear to be safely out of the work zone.\n\nA hot work permit system is the standard control for managing hot work hazards. Before hot work begins, the area is inspected for combustible materials, the permit documents the hazard controls in place, and a fire watch is assigned to monitor the area during and after the work. Combustibles within the hot work area should be removed or relocated whenever possible. When materials cannot be moved, they must be covered or shielded with fire-resistant blankets, curtains, or shields to prevent ignition.\n\nFire watches must remain in the area during hot work and for a minimum of 30 minutes after work is complete — many fires start from smoldering materials that ignite after the welder has left the area. Employees performing hot work must be trained in the permit system, hazard recognition, and fire response procedures. Hot work should never be performed without a permit in areas where flammable materials or vapors may be present.",
+    "emergency-response": "**Fire Alarms, Evacuation, and Emergency First Aid — OSHA 29 CFR 1910.38**\n\nWhen a fire alarm activates, the immediate and correct response is to evacuate according to the Emergency Action Plan — not to investigate, not to collect belongings, not to wait for confirmation. Seconds matter in a fire. Smoke inhalation incapacitates faster than the fire itself, and exits that are clear at the moment the alarm sounds may become blocked within minutes.\n\nDuring evacuation, feel doors before opening them. If a door handle or door surface is hot, fire is likely burning on the other side. Do not open it — heat and flames can flash through instantly. Find an alternate route, close doors behind you as you go (closed doors significantly slow the spread of fire and smoke), and proceed to the designated assembly area. Do not use elevators during a fire. If smoke is in the corridor, stay low where air is cleaner and move quickly to the nearest exit.\n\nIf clothing catches fire, the correct response is stop, drop, and roll. Running feeds oxygen to the flames and makes them worse. Dropping to the ground prevents flames from reaching the face. Rolling smothers the fire by cutting off its oxygen supply. After the flames are out, cool the burned area with cool (not ice cold) water for several minutes and seek medical attention. Do not apply butter, oil, or home remedies to burns. For fires involving others, a fire blanket or CO2 extinguisher can be used to smother flames — never use a dry chemical extinguisher directly on a person."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "fire-triangle",
+      "difficulty": "easy",
+      "questionText": "Which combination of elements makes up the fire triangle?",
+      "options": [
+        { "id": "a", "text": "Smoke, fuel, and pressure" },
+        { "id": "b", "text": "Heat, fuel, and oxygen" },
+        { "id": "c", "text": "Electricity, gas, and flame" },
+        { "id": "d", "text": "Sparks, chemicals, and wood" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.39"
+    },
+    "2": {
+      "id": 102,
+      "topic": "fire-triangle",
+      "difficulty": "easy",
+      "questionText": "A fire suppression system releases an agent that displaces oxygen in the space. Why is this effective at extinguishing the fire?",
+      "options": [
+        { "id": "a", "text": "Because the agent cools the heat source below ignition temperature" },
+        { "id": "b", "text": "Because oxygen is not actually necessary for fire to continue burning" },
+        { "id": "c", "text": "Because eliminating any one element of the fire triangle stops combustion" },
+        { "id": "d", "text": "Because the agent replaces the fuel with a non-combustible substitute" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.39"
+    },
+    "3": {
+      "id": 103,
+      "topic": "flammables-combustibles",
+      "difficulty": "easy",
+      "questionText": "A safety data sheet lists the flashpoint of a solvent as 73°F. What does this mean for handling the material?",
+      "options": [
+        { "id": "a", "text": "The solvent will spontaneously ignite at 73°F without any ignition source" },
+        { "id": "b", "text": "The solvent gives off enough vapor at 73°F to ignite if exposed to an ignition source" },
+        { "id": "c", "text": "The solvent becomes non-flammable at temperatures above 73°F" },
+        { "id": "d", "text": "The solvent must be stored at temperatures below 73°F to remain chemically stable" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910 Subpart H"
+    },
+    "4": {
+      "id": 104,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "A fire starts inside a live electrical control panel. Which class does this fire belong to?",
+      "options": [
+        { "id": "a", "text": "Class A" },
+        { "id": "b", "text": "Class B" },
+        { "id": "c", "text": "Class C" },
+        { "id": "d", "text": "Class K" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    "5": {
+      "id": 105,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "Why is water generally an unsafe extinguishing agent for a Class B flammable liquid fire?",
+      "options": [
+        { "id": "a", "text": "Water is too expensive to use as a suppression agent in industrial settings" },
+        { "id": "b", "text": "Water has no cooling effect on flammable liquid fires" },
+        { "id": "c", "text": "Water can scatter the burning liquid, spreading the fire to a larger area" },
+        { "id": "d", "text": "Water reacts chemically with most flammable liquids to produce toxic gases" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    "6": {
+      "id": 106,
+      "topic": "extinguishers",
+      "difficulty": "easy",
+      "questionText": "What does the letter 'A' represent in the P.A.S.S. fire extinguisher technique?",
+      "options": [
+        { "id": "a", "text": "Activate the building's suppression system" },
+        { "id": "b", "text": "Aim the nozzle at the base of the fire" },
+        { "id": "c", "text": "Alert nearby workers before beginning discharge" },
+        { "id": "d", "text": "Assess whether it is safe to fight the fire" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    "7": {
+      "id": 107,
+      "topic": "fire-classes",
+      "difficulty": "easy",
+      "questionText": "A worker grabs a CO2 extinguisher to fight a Class A fire involving burning cardboard boxes. Why is this not ideal?",
+      "options": [
+        { "id": "a", "text": "CO2 extinguishers are too heavy to use effectively on ordinary combustibles" },
+        { "id": "b", "text": "Each fire class requires an appropriate extinguishing agent; using the wrong type may be ineffective or unsafe" },
+        { "id": "c", "text": "CO2 is only approved for outdoor use under OSHA regulations" },
+        { "id": "d", "text": "Workers may not use extinguishers without a certification specific to that extinguisher type" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.157"
+    },
+    "8": {
+      "id": 108,
+      "topic": "ignition-sources",
+      "difficulty": "medium",
+      "questionText": "Why is bonding or grounding required when transferring flammable liquids between containers?",
+      "options": [
+        { "id": "a", "text": "To prevent pressure buildup that could cause sealed containers to rupture" },
+        { "id": "b", "text": "To equalize electrical potential between containers and prevent static sparks near flammable vapors" },
+        { "id": "c", "text": "To slow the transfer rate so vapors have time to disperse" },
+        { "id": "d", "text": "To comply with weight and labeling requirements for hazardous materials" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910 Subpart H"
+    },
+    "9": {
+      "id": 109,
+      "topic": "hot-work-hazards",
+      "difficulty": "medium",
+      "questionText": "A hot work permit has been issued for cutting work in an area with nearby combustible materials that cannot be relocated. Before work begins, what is the most important control?",
+      "options": [
+        { "id": "a", "text": "Turn off all overhead lighting to reduce heat sources in the area" },
+        { "id": "b", "text": "Schedule the work during off-hours to minimize the number of employees nearby" },
+        { "id": "c", "text": "Shield combustibles with fire-resistant materials and assign a trained fire watch before and after the work" },
+        { "id": "d", "text": "Increase ventilation airflow to disperse smoke immediately during cutting" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.252"
+    },
+    "10": {
+      "id": 110,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "During a shift, the fire alarm activates in your building. You are not in an assigned emergency response role. What should you do?",
+      "options": [
+        { "id": "a", "text": "First determine whether the alarm is real before taking any action" },
+        { "id": "b", "text": "Immediately evacuate according to the Emergency Action Plan without waiting for confirmation" },
+        { "id": "c", "text": "Gather personal belongings and then proceed to the nearest exit" },
+        { "id": "d", "text": "Alert coworkers by phone and wait in place for a supervisor's instruction" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "11": {
+      "id": 111,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "During a fire evacuation, you reach an exit door and the door handle feels very hot. What does this indicate and what should you do?",
+      "options": [
+        { "id": "a", "text": "The door's heat sensor has activated — push it open and run through quickly" },
+        { "id": "b", "text": "Fire or heavy smoke is likely on the other side — do not open it and immediately find an alternate exit" },
+        { "id": "c", "text": "The handle is warm from the building's heating system — use gloves and proceed" },
+        { "id": "d", "text": "Alert facilities maintenance about the hot door handle after completing the evacuation" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "29 CFR 1910.38"
+    },
+    "12": {
+      "id": 112,
+      "topic": "emergency-response",
+      "difficulty": "easy",
+      "questionText": "A coworker's sleeve catches fire near a welding station. After calling for help, what is the correct procedure for the coworker?",
+      "options": [
+        { "id": "a", "text": "Run to the nearest fire extinguisher and spray the sleeve" },
+        { "id": "b", "text": "Wave the arm rapidly to cool the flames and reduce burning" },
+        { "id": "c", "text": "Stop moving, drop to the ground, and roll to smother the flames" },
+        { "id": "d", "text": "Remove the shirt as quickly as possible before the fire spreads to the skin" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "29 CFR 1910.38"
+    }
+  }
+}
