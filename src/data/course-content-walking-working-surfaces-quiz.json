@@ -1,0 +1,351 @@
+{
+  "meta": {
+    "courseId": "walking-working-surfaces",
+    "title": "Walking and Working Surfaces",
+    "oshaStandard": "OSHA 29 CFR 1910 Subpart D (§§1910.21–1910.30)",
+    "passingGrade": 0.70,
+    "totalQuestions": 12
+  },
+  "questions": [
+    {
+      "id": 1,
+      "topic": "surface-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following is considered a walking-working surface?",
+      "options": [
+        { "id": "a", "text": "Only floors inside buildings" },
+        { "id": "b", "text": "Any horizontal or vertical surface where an employee walks, works, or gains access to a work area" },
+        { "id": "c", "text": "Only ladders and scaffolds" },
+        { "id": "d", "text": "Only outdoor work areas" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.21"
+    },
+    {
+      "id": 2,
+      "topic": "surface-basics",
+      "difficulty": "easy",
+      "questionText": "True or False: Walking-working surfaces should be kept clean, orderly, sanitary, and dry where feasible.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.22"
+    },
+    {
+      "id": 3,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "What should happen to a ladder with structural defects?",
+      "options": [
+        { "id": "a", "text": "Use it only for short or lightweight jobs" },
+        { "id": "b", "text": "Repair it with tape and mark it for light duty only" },
+        { "id": "c", "text": "Tag it \"Dangerous: Do Not Use\" or similar wording and remove it from service until repaired or replaced" },
+        { "id": "d", "text": "Store it in the same area so others know to avoid it" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.23"
+    },
+    {
+      "id": 4,
+      "topic": "hazard-recognition",
+      "difficulty": "medium",
+      "questionText": "An employee sees a spill in a busy walkway. What should the employee do first?",
+      "options": [
+        { "id": "a", "text": "Walk around the spill and continue with current work" },
+        { "id": "b", "text": "Follow workplace procedures to warn others and report the spill so it can be cleaned or guarded" },
+        { "id": "c", "text": "Clean it up only if a mop is immediately available in the area" },
+        { "id": "d", "text": "Post a sign at the far end of the hallway and leave the area" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.22"
+    },
+    {
+      "id": 5,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "When climbing a ladder, an employee should:",
+      "options": [
+        { "id": "a", "text": "Face away from the ladder to see the work area" },
+        { "id": "b", "text": "Carry heavy tools in both hands to keep them secure" },
+        { "id": "c", "text": "Face the ladder and use at least one hand to grasp it" },
+        { "id": "d", "text": "Move the ladder to a new position while standing on it" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.23"
+    },
+    {
+      "id": 6,
+      "topic": "dockboards",
+      "difficulty": "easy",
+      "questionText": "True or False: A dockboard must be capable of supporting the maximum intended load.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.26"
+    },
+    {
+      "id": 7,
+      "topic": "fall-protection",
+      "difficulty": "easy",
+      "questionText": "For many general industry walking-working surfaces, employees exposed to an unprotected side or edge 4 feet or more above a lower level must be protected by:",
+      "options": [
+        { "id": "a", "text": "Guardrails, safety nets, or personal fall protection systems" },
+        { "id": "b", "text": "Verbal warnings from a designated spotter" },
+        { "id": "c", "text": "A caution sign posted at the edge" },
+        { "id": "d", "text": "Any available ladder positioned nearby" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.28"
+    },
+    {
+      "id": 8,
+      "topic": "fall-protection",
+      "difficulty": "medium",
+      "questionText": "A floor opening has been created for maintenance work, but the repair cannot be completed immediately. What should be done?",
+      "options": [
+        { "id": "a", "text": "Leave the area as-is since maintenance personnel are aware of it" },
+        { "id": "b", "text": "Post a verbal warning with coworkers and lock the area at the end of the shift" },
+        { "id": "c", "text": "Guard or cover the opening according to workplace procedures so employees cannot fall into it" },
+        { "id": "d", "text": "Mark the edges with paint and allow foot traffic with awareness" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.28 / 1910.29"
+    },
+    {
+      "id": 9,
+      "topic": "fall-protection",
+      "difficulty": "easy",
+      "questionText": "Which item is an example of falling object protection?",
+      "options": [
+        { "id": "a", "text": "Toeboards" },
+        { "id": "b", "text": "Screens" },
+        { "id": "c", "text": "Barricades" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.28 / 1910.29"
+    },
+    {
+      "id": 10,
+      "topic": "training",
+      "difficulty": "easy",
+      "questionText": "True or False: Training must be provided in a manner employees understand.",
+      "options": [
+        { "id": "a", "text": "True" },
+        { "id": "b", "text": "False" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.30"
+    },
+    {
+      "id": 11,
+      "topic": "training",
+      "difficulty": "medium",
+      "questionText": "A new fall protection system is installed in the workplace. Employees were trained on the old system but not the new one. What should happen before they use the new system?",
+      "options": [
+        { "id": "a", "text": "Nothing — prior fall protection training applies to all systems" },
+        { "id": "b", "text": "Employees should be retrained because a change in equipment can make previous training inadequate" },
+        { "id": "c", "text": "Employees should read the manufacturer's manual and self-certify their understanding" },
+        { "id": "d", "text": "Retraining is only required if an employee is injured using the new system" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.30"
+    },
+    {
+      "id": 12,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a safe ladder practice?",
+      "options": [
+        { "id": "a", "text": "Use the ladder only for the purpose for which it was designed" },
+        { "id": "b", "text": "Place the ladder on boxes to gain additional height" },
+        { "id": "c", "text": "Stand on the top cap of a stepladder to reach higher" },
+        { "id": "d", "text": "Shift the ladder while another employee is standing on it" }
+      ],
+      "correctOptionId": "a",
+      "oshaClause": "1910.23"
+    }
+  ],
+  "lessons": {
+    "surface-basics": "**Walking-Working Surfaces: Scope and General Requirements — OSHA 1910.21–1910.22**\n\nWalking-working surfaces are defined broadly under OSHA 1910 Subpart D to include any horizontal or vertical surface on or through which an employee walks, works, or gains access to a work area or egress route. This includes floors, aisles, passageways, stairs, ladders, ramps, runways, platforms, dockboards, rooftops, and elevated walkways — in short, nearly every surface employees encounter during a workday.\n\nOSHA 1910.22 requires that all walking-working surfaces be kept in a clean, orderly, and sanitary condition. Work areas must be kept clean and free of hazards, including standing water, spills, debris, protruding objects, loose materials, snow, ice, and corrosion. Where wet processes are used, surfaces must be sloped for drainage or covered with anti-fatigue mats or similar materials. Walking-working surfaces must also be capable of supporting the maximum load they may be required to bear without structural failure.\n\nMaintaining walking-working surfaces is an ongoing responsibility shared by employers and employees. Employers must inspect and maintain surfaces, repair hazards, and ensure safe access and egress. Employees must keep their work areas clean, avoid creating hazards, and report damaged or unsafe surfaces immediately. Most falls start with something simple — a spill, a loose board, a cluttered aisle — that could have been corrected before anyone was hurt.",
+    "hazard-recognition": "**Recognizing and Reporting Walking-Working Surface Hazards — OSHA 1910.22**\n\nSlips, trips, and falls are among the most common causes of workplace injury. They can happen anywhere, at any elevation, and to experienced workers who have performed the same task hundreds of times. Hazards are often created gradually — by spills that go uncleaned, by clutter that accumulates in aisles, by wear on stair treads that is never repaired, or by weather conditions that are not addressed promptly.\n\nHazard recognition means actively looking for conditions that increase the risk of slips, trips, and falls, including wet or oily floors, cluttered aisles and work areas, uneven or damaged surfaces, missing or damaged handrails, uncovered floor holes and openings, poor lighting, and surfaces that are slippery due to material buildup or condensation. When a hazard is spotted, the appropriate response is to take immediate, reasonable action to protect others — warning coworkers, blocking off the area — and then report the hazard so it can be corrected.\n\nReporting surface hazards promptly is not optional. Hazards that go unreported go uncorrected. Employees who spot a spill and walk around it without warning others or reporting it have left the next person at risk. A few seconds of action — a spoken warning, a text to a supervisor, a report to the safety office — can prevent a fall that causes serious injury. Every employee who recognizes and reports a hazard is actively contributing to workplace safety.",
+    "ladder-safety": "**Safe Ladder Use — OSHA 1910.23**\n\nPortable ladders and fixed ladders are among the most commonly used and most misused pieces of equipment in general industry workplaces. Falls from ladders cause a significant share of workplace injuries every year, and the majority of these falls involve ladders that were damaged, placed incorrectly, or used in ways they were not designed for.\n\nBefore using any ladder, inspect it for defects: cracked, bent, broken, or missing rungs; damaged side rails; loose or missing hardware; and slippery feet or damaged non-slip pads. A ladder with any structural defect must be immediately tagged \"Dangerous: Do Not Use\" or with equivalent wording, removed from service, and either repaired by a qualified person or destroyed so it cannot be returned to use. Do not tape or patch a damaged load-bearing component.\n\nWhen using a ladder: face the ladder and maintain at least one hand on the rungs while climbing and descending. Do not carry materials that could cause you to lose balance — use a tool belt, a rope, or a coworker to hand materials up. Never stand on the top cap or top step of a stepladder. Do not move a ladder while someone is on it. Set portable ladders on stable, level surfaces — never on boxes, barrels, or unstable materials. Use ladders only for the purpose they were designed for, and within their rated load capacity.",
+    "dockboards": "**Dockboards and Loading Area Safety — OSHA 1910.26**\n\nDockboards — also called bridge plates — span the gap between a loading dock and a transport vehicle to allow material handling equipment and workers to move safely between the two surfaces. Dockboard hazards include shifting during use, overloading, run-off at the edges, and vehicle movement while the board is in place.\n\nOSHA 1910.26 requires that dockboards be capable of supporting the maximum intended load that will be placed on them. They must be secured in place before use so they do not shift or slide when a forklift or pallet jack crosses. Run-off protection must be provided to prevent equipment from sliding off the sides. Transport vehicles must be secured — prevented from moving — while a dockboard is in use. Wheel chocks, dock locks, or vehicle restraints are common controls.\n\nEmployees working in loading dock areas should verify that the dockboard is properly positioned and secured before use, confirm that the vehicle is not moving before crossing, and avoid overloading the board beyond its rated capacity. If a dockboard is damaged, bent, or missing its edge protection, it should be removed from service and reported. Loading dock areas frequently involve the simultaneous movement of people and equipment — clear procedures, communication between workers and drivers, and consistent use of controls are essential to preventing serious incidents.",
+    "fall-protection": "**Fall Protection and Falling Object Protection — OSHA 1910.28–1910.29**\n\nOSHA 1910.28 establishes the employer's duty to provide fall protection and falling object protection. For most general industry walking-working surfaces, employees exposed to an unprotected side, edge, or opening 4 feet or more above a lower level must be protected. Fall protection options include guardrail systems, safety nets, personal fall arrest systems, positioning systems, travel restraint systems, and designated area protection depending on the specific situation.\n\nFloor holes and openings — skylights, hatch openings, floor drains, ladder access openings, and temporary openings created during maintenance — must be covered or guarded whenever employees could step into or fall through them. Covers must be secured so they cannot shift, and must be capable of supporting the maximum intended load. When a hole is created temporarily and cannot be immediately repaired, it must be guarded before the area is accessible to anyone other than the workers performing the task.\n\nFalling object hazards are equally important. When work is performed above others, tools, materials, and debris can fall and cause serious injuries. Toeboards, screens, netting, guardrails, canopies, barricades, and restricting materials from unprotected edges are all methods recognized by OSHA for falling object protection. Head protection may also be required where falling object hazards cannot be fully eliminated. Employees working at elevation should keep tools tethered or in pouches, materials set back from edges, and never throw objects down from elevated surfaces.",
+    "training": "**Training and Retraining Requirements — OSHA 1910.30**\n\nOSHA 1910.30 requires employers to train employees before they are exposed to fall hazards and before they use equipment covered by Subpart D. Training must be provided by a qualified person where required and must cover the nature of the fall hazards employees may encounter, procedures for minimizing those hazards, and how to use and maintain the equipment they will use. Employees using personal fall protection systems must understand proper installation, inspection, operation, hook-up, anchor point selection, use limitations, and storage.\n\nTraining must be provided in a language and manner the employee understands. Written materials in a language the employee cannot read, or instruction delivered faster than an employee can process, do not satisfy the training requirement. If there is any question about whether a worker understood the training, additional instruction must be provided.\n\nRetraining is required whenever the employer has reason to believe that a previously trained employee does not have the understanding or skill necessary to work safely — for example, when workplace conditions change, when new equipment or systems are introduced, when a worker is observed using equipment incorrectly, or when inspection reveals a knowledge gap. The installation of a new fall protection system, the use of a new ladder type, or a change in the work environment that introduces new hazards are all triggers for retraining affected employees before they work with the new conditions or equipment."
+  },
+  "rephrasedQuestions": {
+    "1": {
+      "id": 101,
+      "topic": "surface-basics",
+      "difficulty": "easy",
+      "questionText": "Which of the following would be classified as a walking-working surface under OSHA 1910 Subpart D?",
+      "options": [
+        { "id": "a", "text": "Only indoor floors and carpeted office areas" },
+        { "id": "b", "text": "Floors, stairs, ladders, ramps, platforms, runways, and other surfaces employees walk, work, or travel on" },
+        { "id": "c", "text": "Only outdoor rooftops and loading platforms" },
+        { "id": "d", "text": "Only surfaces that have a specific OSHA standard written for them" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.21"
+    },
+    "2": {
+      "id": 102,
+      "topic": "surface-basics",
+      "difficulty": "easy",
+      "questionText": "Under OSHA 1910.22, which of the following conditions must employers maintain on walking-working surfaces?",
+      "options": [
+        { "id": "a", "text": "Warm temperature and visually uniform color scheme" },
+        { "id": "b", "text": "Clean, orderly, properly maintained, and dry where feasible" },
+        { "id": "c", "text": "Painted with OSHA safety colors and inspected only quarterly" },
+        { "id": "d", "text": "Completely dry at all times regardless of process requirements" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.22"
+    },
+    "3": {
+      "id": 103,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "You inspect a portable ladder before use and find a cracked side rail. What is the correct action?",
+      "options": [
+        { "id": "a", "text": "Use it carefully for lightweight tasks only" },
+        { "id": "b", "text": "Reinforce the crack with heavy-duty tape and mark it for light duty" },
+        { "id": "c", "text": "Tag it out of service and report it so it can be repaired or replaced before anyone uses it" },
+        { "id": "d", "text": "Store it in a visible location so coworkers know to avoid it" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.23"
+    },
+    "4": {
+      "id": 104,
+      "topic": "hazard-recognition",
+      "difficulty": "medium",
+      "questionText": "You notice oil has dripped onto a frequently traveled floor aisle and you don't have a mop immediately available. What should you do?",
+      "options": [
+        { "id": "a", "text": "Notify your supervisor at the end of the shift" },
+        { "id": "b", "text": "Step around it and assume someone else will notice it" },
+        { "id": "c", "text": "Immediately warn coworkers and report the hazard so it can be cleaned or guarded right away" },
+        { "id": "d", "text": "Cover it with a piece of cardboard and continue working" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.22"
+    },
+    "5": {
+      "id": 105,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "Which of the following is a required ladder safety practice under OSHA 1910.23?",
+      "options": [
+        { "id": "a", "text": "Face away from the ladder while climbing to keep your eyes on the work area" },
+        { "id": "b", "text": "Carry all tools in both hands while climbing to protect them" },
+        { "id": "c", "text": "Face the ladder and maintain at least one hand on it while climbing and descending" },
+        { "id": "d", "text": "Stand on the top step of a stepladder to gain extra reach when needed" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.23"
+    },
+    "6": {
+      "id": 106,
+      "topic": "dockboards",
+      "difficulty": "easy",
+      "questionText": "A dockboard is bridging the gap between a loading dock and a delivery truck. Which requirement must be met?",
+      "options": [
+        { "id": "a", "text": "The dockboard only needs to support the weight of one person at a time" },
+        { "id": "b", "text": "The dockboard must support the maximum intended load and be secured so it cannot shift during use" },
+        { "id": "c", "text": "Dockboards may be used without securing as long as the truck engine is off" },
+        { "id": "d", "text": "Load rating requirements apply only to powered industrial trucks crossing the dockboard" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.26"
+    },
+    "7": {
+      "id": 107,
+      "topic": "fall-protection",
+      "difficulty": "easy",
+      "questionText": "An employee is working on an elevated platform with an unguarded side 5 feet above the floor below. What does OSHA require?",
+      "options": [
+        { "id": "a", "text": "A verbal warning to others working nearby" },
+        { "id": "b", "text": "A caution sign posted at the base of the platform" },
+        { "id": "c", "text": "Fall protection such as guardrails, a safety net, or a personal fall protection system" },
+        { "id": "d", "text": "A spotter stationed below to watch for falls" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.28"
+    },
+    "8": {
+      "id": 108,
+      "topic": "fall-protection",
+      "difficulty": "medium",
+      "questionText": "A floor hole is cut during a maintenance project but cannot be repaired before the workday ends. What is required?",
+      "options": [
+        { "id": "a", "text": "Post a verbal warning with coworkers and lock the building overnight" },
+        { "id": "b", "text": "Leave the hole as is since it is a temporary maintenance condition" },
+        { "id": "c", "text": "Install a secured cover or guardrail that prevents anyone from falling into the hole" },
+        { "id": "d", "text": "Mark the edges with paint and allow foot traffic with awareness" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.28 / 1910.29"
+    },
+    "9": {
+      "id": 109,
+      "topic": "fall-protection",
+      "difficulty": "easy",
+      "questionText": "Which of the following methods may protect workers from objects falling from an elevated work area?",
+      "options": [
+        { "id": "a", "text": "Toeboards along elevated platform edges" },
+        { "id": "b", "text": "Screens or netting to catch dropped materials" },
+        { "id": "c", "text": "Barricades below the elevated work zone" },
+        { "id": "d", "text": "All of the above" }
+      ],
+      "correctOptionId": "d",
+      "oshaClause": "1910.28 / 1910.29"
+    },
+    "10": {
+      "id": 110,
+      "topic": "training",
+      "difficulty": "easy",
+      "questionText": "An employee whose primary language is not English joins a crew that works near fall hazards. What must be true about their required training?",
+      "options": [
+        { "id": "a", "text": "Written materials in English are sufficient regardless of the employee's language" },
+        { "id": "b", "text": "A brief verbal orientation from an experienced coworker satisfies the requirement" },
+        { "id": "c", "text": "Training must be provided in a language and manner the employee can understand" },
+        { "id": "d", "text": "Training is only required after the employee completes a 90-day probationary period" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.30"
+    },
+    "11": {
+      "id": 111,
+      "topic": "training",
+      "difficulty": "medium",
+      "questionText": "A supervisor observes that an employee is consistently connecting their personal fall arrest system to an unapproved anchor point. What should happen?",
+      "options": [
+        { "id": "a", "text": "Issue one verbal reminder and monitor to see if it improves on its own" },
+        { "id": "b", "text": "Retrain the employee because a demonstrated knowledge gap requires retraining under OSHA 1910.30" },
+        { "id": "c", "text": "Update the written fall protection procedure and give the employee a copy" },
+        { "id": "d", "text": "No additional action is needed since the employee has already completed initial training" }
+      ],
+      "correctOptionId": "b",
+      "oshaClause": "1910.30"
+    },
+    "12": {
+      "id": 112,
+      "topic": "ladder-safety",
+      "difficulty": "easy",
+      "questionText": "An employee needs extra reach and considers standing on the top cap of a stepladder. What does safe ladder practice and OSHA say about this?",
+      "options": [
+        { "id": "a", "text": "Standing on the top cap is acceptable for brief tasks under five minutes" },
+        { "id": "b", "text": "The top cap may be used if a coworker is holding the base of the ladder" },
+        { "id": "c", "text": "Standing on the top cap or top step of a stepladder is unsafe and should not be done" },
+        { "id": "d", "text": "It is acceptable if the stepladder is rated heavy-duty and placed on a level surface" }
+      ],
+      "correctOptionId": "c",
+      "oshaClause": "1910.23"
+    }
+  }
+}
