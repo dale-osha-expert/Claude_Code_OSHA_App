@@ -36,6 +36,7 @@ const COURSES = [
   { id: "hazardous-materials-labels", title: "Hazardous Materials Labels", questions: 15, standard: "29 CFR 1910.1200 / DOT 49 CFR" },
   { id: "hazardous-spills", title: "Dealing with Hazardous Spills", questions: 15, standard: "29 CFR 1910.120" },
   { id: "materials-handling-safety", title: "Materials Handling Safety", questions: 15, standard: "1910 Subpart N / 1910.176" },
+  { id: "warehouse-safety", title: "Warehouse Safety: Storage, Rigging & Waste Disposal", questions: 15, standard: "29 CFR 1926 Subpart H" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
