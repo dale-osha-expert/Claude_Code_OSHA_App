@@ -37,6 +37,7 @@ const COURSES = [
   { id: "hazardous-spills", title: "Dealing with Hazardous Spills", questions: 15, standard: "29 CFR 1910.120" },
   { id: "materials-handling-safety", title: "Materials Handling Safety", questions: 15, standard: "1910 Subpart N / 1910.176" },
   { id: "warehouse-safety", title: "Warehouse Safety: Storage, Rigging & Waste Disposal", questions: 15, standard: "29 CFR 1926 Subpart H" },
+  { id: "machine-guard-safety", title: "Machine Guard Safety", questions: 15, standard: "29 CFR 1910 Subpart O / 1910.212" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
