@@ -32,6 +32,10 @@ const COURSES = [
   { id: "personal-protective-equipment", title: "Personal Protective Equipment", questions: 15, standard: "29 CFR 1910.132–138" },
   { id: "safety-orientation-accident-investigation", title: "Accident Investigation (v2)", questions: 15, standard: "29 CFR 1960.29" },
   { id: "walking-working-surfaces", title: "Walking and Working Surfaces", questions: 12, standard: "29 CFR 1910 Subpart D" },
+  { id: "hazard-communication", title: "Hazard Communication", questions: 15, standard: "29 CFR 1910.1200" },
+  { id: "hazardous-materials-labels", title: "Hazardous Materials Labels", questions: 15, standard: "29 CFR 1910.1200 / DOT 49 CFR" },
+  { id: "hazardous-spills", title: "Dealing with Hazardous Spills", questions: 15, standard: "29 CFR 1910.120" },
+  { id: "materials-handling-safety", title: "Materials Handling Safety", questions: 15, standard: "1910 Subpart N / 1910.176" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
