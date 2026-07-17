@@ -7,6 +7,8 @@ interface ResultsScreenProps {
   isCompleting?: boolean;
   completionError?: string | null;
   onRetryComplete?: () => void;
+  courseTitle?: string;
+  onBackToCourses?: () => void;
 }
 
 export default function ResultsScreen({
@@ -16,6 +18,8 @@ export default function ResultsScreen({
   isCompleting,
   completionError,
   onRetryComplete,
+  courseTitle,
+  onBackToCourses,
 }: ResultsScreenProps) {
   const percentage = Math.round((score / totalQuestions) * 100);
   const passed = percentage >= 70;
@@ -32,7 +36,7 @@ export default function ResultsScreen({
           {passed ? "Certification Passed!" : "Certification Not Achieved"}
         </h2>
         <p className="text-white/80 mt-1">
-          OSHA 1910.178 — Powered Industrial Trucks
+          {courseTitle ?? "OSHA 1910.178 — Powered Industrial Trucks"}
         </p>
       </div>
 
@@ -82,6 +86,15 @@ export default function ResultsScreen({
         >
           {passed ? "Retake Exam" : "Try Again"}
         </button>
+
+        {onBackToCourses && (
+          <button
+            onClick={onBackToCourses}
+            className="mt-3 w-full bg-industrial-700 hover:bg-industrial-800 text-white font-semibold py-3 px-6 rounded-xl transition-colors"
+          >
+            ← Back to Courses
+          </button>
+        )}
       </div>
     </div>
   );

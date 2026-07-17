@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useCallback, useRef, useEffect, Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { ExamState, RemediationPayload, CourseContent } from "@/lib/types";
 import { simulateRemediation } from "@/lib/remediation";
 import {
@@ -15,7 +15,37 @@ import QuestionCard from "@/components/QuestionCard";
 import RemediationModal from "@/components/RemediationModal";
 import ResultsScreen from "@/components/ResultsScreen";
 
-// ── Loading screen ────────────────────────────────────────────────────────
+// ── Course catalogue for test picker ─────────────────────────────────────
+
+const COURSES = [
+  { id: "accident-investigation", title: "Accident Investigation", questions: 12, standard: "29 CFR 1960.29" },
+  { id: "back-safety", title: "Back Safety", questions: 12, standard: "OSHA Back Safety" },
+  { id: "bloodborne-pathogens", title: "Bloodborne Pathogens", questions: 15, standard: "29 CFR 1910.1030" },
+  { id: "electrical-safety", title: "Electrical Safety", questions: 12, standard: "29 CFR 1910 Subpart S" },
+  { id: "emergency-planning", title: "Emergency Planning", questions: 15, standard: "29 CFR 1910.38" },
+  { id: "evacuation-procedures", title: "Evacuation Procedures", questions: 12, standard: "29 CFR 1910 Subpart E" },
+  { id: "industrial-fire-prevention", title: "Industrial Fire Prevention", questions: 12, standard: "29 CFR 1910.157" },
+  { id: "industrial-lso", title: "Industrial LSO Master Quiz", questions: 68, standard: "ANSI Z136" },
+  { id: "industrial-laser-tech", title: "Industrial Laser Tech", questions: 43, standard: "ANSI Z136" },
+  { id: "osha-1910-178", title: "Forklift Safety", questions: 43, standard: "29 CFR 1910.178" },
+  { id: "osha-general-industry-intro", title: "Introduction to OSHA: General Industry", questions: 10, standard: "29 CFR Part 1910" },
+  { id: "personal-protective-equipment", title: "Personal Protective Equipment", questions: 15, standard: "29 CFR 1910.132–138" },
+  { id: "safety-orientation-accident-investigation", title: "Accident Investigation (v2)", questions: 15, standard: "29 CFR 1960.29" },
+  { id: "walking-working-surfaces", title: "Walking and Working Surfaces", questions: 12, standard: "29 CFR 1910 Subpart D" },
+];
+
+// ── Local course loader (test mode — no session required) ─────────────────
+
+async function loadLocalCourse(courseId: string): Promise<CourseContent> {
+  const res = await fetch(`/api/course/local?courseId=${encodeURIComponent(courseId)}`);
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({}));
+    throw new Error((body as { error?: string }).error ?? `HTTP ${res.status}`);
+  }
+  return res.json() as Promise<CourseContent>;
+}
+
+// ── Shared screens ────────────────────────────────────────────────────────
 
 function LoadingScreen({ message }: { message: string }) {
   return (
@@ -28,8 +58,6 @@ function LoadingScreen({ message }: { message: string }) {
   );
 }
 
-// ── Error screen ──────────────────────────────────────────────────────────
-
 function ErrorScreen({ message }: { message: string }) {
   return (
     <main className="min-h-screen bg-industrial-50 flex items-center justify-center">
@@ -37,6 +65,52 @@ function ErrorScreen({ message }: { message: string }) {
         <span className="text-4xl mb-4 block">&#9888;</span>
         <h2 className="text-xl font-bold text-industrial-900 mb-2">Unable to load course</h2>
         <p className="text-industrial-600 text-sm">{message}</p>
+      </div>
+    </main>
+  );
+}
+
+// ── Home screen ───────────────────────────────────────────────────────────
+
+function HomeScreen({ onSelect }: { onSelect: (courseId: string) => void }) {
+  return (
+    <main className="min-h-screen bg-industrial-50">
+      <header className="bg-industrial-900 text-white px-6 py-5 shadow-md">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex items-center gap-3">
+            <span className="text-3xl">&#9888;</span>
+            <div>
+              <h1 className="font-bold text-xl leading-tight">OSHA Course Test Environment</h1>
+              <p className="text-industrial-400 text-sm">Select a course to preview</p>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div className="max-w-5xl mx-auto px-4 py-8">
+        <p className="text-industrial-500 text-sm mb-6">
+          {COURSES.length} courses available &mdash; session authentication is bypassed in test mode
+        </p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {COURSES.map((course) => (
+            <button
+              key={course.id}
+              onClick={() => onSelect(course.id)}
+              className="bg-white rounded-2xl border border-industrial-100 shadow-sm hover:shadow-md hover:border-safety-orange/40 transition-all text-left p-5 group"
+            >
+              <div className="flex items-start justify-between gap-2 mb-3">
+                <h2 className="font-semibold text-industrial-900 text-base leading-snug group-hover:text-safety-orange transition-colors">
+                  {course.title}
+                </h2>
+                <span className="shrink-0 bg-industrial-100 text-industrial-600 text-xs font-medium px-2 py-0.5 rounded-full">
+                  {course.questions}Q
+                </span>
+              </div>
+              <p className="text-industrial-400 text-xs">{course.standard}</p>
+            </button>
+          ))}
+        </div>
       </div>
     </main>
   );
@@ -58,11 +132,10 @@ function getInitialState(): ExamState {
   };
 }
 
-// ── Main exam component ───────────────────────────────────────────────────
+// ── Exam component ────────────────────────────────────────────────────────
 
-function ExamPage() {
-  const searchParams = useSearchParams();
-  const session = searchParams.get("session") ?? "";
+function ExamPage({ session, courseId, onBack }: { session: string; courseId: string; onBack: () => void }) {
+  const isTestMode = !session;
 
   const [courseContent, setCourseContent] = useState<CourseContent | null>(null);
   const [courseError, setCourseError] = useState<string | null>(null);
@@ -83,29 +156,30 @@ function ExamPage() {
     return () => window.removeEventListener("message", handleMessage);
   }, []);
 
-  // ── Load course on mount ────────────────────────────────────────────────
+  // ── Load course on mount ──────────────────────────────────────────────
   useEffect(() => {
-    if (!session) {
-      setCourseError("No session provided. Please access this course through the correct link.");
-      return;
+    if (isTestMode) {
+      loadLocalCourse(courseId)
+        .then(setCourseContent)
+        .catch((err: Error) => setCourseError(err.message));
+    } else {
+      loadCourse(session)
+        .then(setCourseContent)
+        .catch((err: Error) => setCourseError(err.message));
     }
-
-    loadCourse(session)
-      .then(setCourseContent)
-      .catch((err: Error) => setCourseError(err.message));
-  }, [session]);
+  }, [isTestMode, session, courseId]);
 
   const questions = courseContent?.questions ?? [];
   const totalQuestions = questions.length;
-  const courseId = courseContent?.meta.courseId ?? "";
+  const resolvedCourseId = courseContent?.meta.courseId ?? courseId;
   const currentQuestion = questions[state.currentQuestionIndex];
 
-  // ── Select an answer option ───────────────────────────────────────────
+  // ── Select an answer option ─────────────────────────────────────────
   const handleSelectAnswer = useCallback((answerId: string) => {
     setState((prev) => ({ ...prev, selectedAnswerId: answerId }));
   }, []);
 
-  // ── Submit the selected answer ────────────────────────────────────────
+  // ── Submit the selected answer ──────────────────────────────────────
   const handleSubmit = useCallback(async () => {
     if (!state.selectedAnswerId || !currentQuestion) return;
 
@@ -117,13 +191,13 @@ function ExamPage() {
     if (isCorrect) {
       const answeredSoFar = state.currentQuestionIndex + 1;
       const scoreSoFar = state.score + 1;
-      sendCourseEvent(attemptIdRef.current, "question_correct", session, courseId, {
+      sendCourseEvent(attemptIdRef.current, "question_correct", session, resolvedCourseId, {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
         correctCount: scoreSoFar,
         totalQuestions: answeredSoFar,
       });
-      sendCourseEvent(attemptIdRef.current, "page_next", session, courseId, {
+      sendCourseEvent(attemptIdRef.current, "page_next", session, resolvedCourseId, {
         pageId: `q-${currentQuestion.id}`,
         correctCount: scoreSoFar,
         totalQuestions: answeredSoFar,
@@ -131,7 +205,7 @@ function ExamPage() {
 
       const nextIndex = state.currentQuestionIndex + 1;
       if (nextIndex >= totalQuestions) {
-        sendCourseEvent(attemptIdRef.current, "exam_submitted", session, courseId, {
+        sendCourseEvent(attemptIdRef.current, "exam_submitted", session, resolvedCourseId, {
           correctCount: state.score + 1,
           totalQuestions,
         });
@@ -154,7 +228,7 @@ function ExamPage() {
         }));
       }
     } else {
-      sendCourseEvent(attemptIdRef.current, "question_incorrect", session, courseId, {
+      sendCourseEvent(attemptIdRef.current, "question_incorrect", session, resolvedCourseId, {
         pageId: `q-${currentQuestion.id}`,
         questionId: currentQuestion.id,
         correctCount: state.score,
@@ -177,11 +251,11 @@ function ExamPage() {
         selectedAnswerId: null,
       }));
     }
-  }, [state, currentQuestion, session, courseId, courseContent, totalQuestions]);
+  }, [state, currentQuestion, session, resolvedCourseId, courseContent, totalQuestions]);
 
-  // ── Remediation: answered correctly ──────────────────────────────────
+  // ── Remediation: answered correctly ────────────────────────────────
   const handleRemediationCorrect = useCallback(() => {
-    sendCourseEvent(attemptIdRef.current, "page_next", session, courseId, {
+    sendCourseEvent(attemptIdRef.current, "page_next", session, resolvedCourseId, {
       pageId: `q-${currentQuestion?.id}`,
       correctCount: state.score,
       totalQuestions: state.currentQuestionIndex + 1,
@@ -189,7 +263,7 @@ function ExamPage() {
 
     const nextIndex = state.currentQuestionIndex + 1;
     if (nextIndex >= totalQuestions) {
-      sendCourseEvent(attemptIdRef.current, "exam_submitted", session, courseId, {
+      sendCourseEvent(attemptIdRef.current, "exam_submitted", session, resolvedCourseId, {
         correctCount: state.score,
         totalQuestions,
       });
@@ -209,9 +283,9 @@ function ExamPage() {
         answeredCorrectly: [...prev.answeredCorrectly, false],
       }));
     }
-  }, [state.currentQuestionIndex, state.score, totalQuestions, session, courseId, currentQuestion]);
+  }, [state.currentQuestionIndex, state.score, totalQuestions, session, resolvedCourseId, currentQuestion]);
 
-  // ── Remediation: answered incorrectly ────────────────────────────────
+  // ── Remediation: answered incorrectly ──────────────────────────────
   const handleRemediationIncorrect = useCallback(() => {
     setState((prev) => ({
       ...prev,
@@ -222,8 +296,9 @@ function ExamPage() {
     }));
   }, []);
 
-  // ── Complete the course ───────────────────────────────────────────────
+  // ── Complete the course ─────────────────────────────────────────────
   const handleComplete = useCallback(async () => {
+    if (isTestMode) return; // test mode: just show results, no API call
     if (completionSentRef.current) return;
     completionSentRef.current = true;
     setIsCompleting(true);
@@ -235,7 +310,7 @@ function ExamPage() {
         state.score,
         totalQuestions,
         session,
-        courseId,
+        resolvedCourseId,
       );
       window.location.href = redirectUrl;
     } catch (err) {
@@ -244,13 +319,13 @@ function ExamPage() {
       setIsCompleting(false);
       setCompletionError("Failed to complete course. Please try again.");
     }
-  }, [state.score, totalQuestions, session, courseId]);
+  }, [isTestMode, state.score, totalQuestions, session, resolvedCourseId]);
 
   useEffect(() => {
     if (state.isComplete) handleComplete();
   }, [state.isComplete, handleComplete]);
 
-  // ── Restart ───────────────────────────────────────────────────────────
+  // ── Restart ─────────────────────────────────────────────────────────
   const handleRestart = useCallback(() => {
     attemptIdRef.current = generateAttemptId();
     completionSentRef.current = false;
@@ -259,7 +334,7 @@ function ExamPage() {
     setState(getInitialState());
   }, []);
 
-  // ── Render: loading / error / exam ────────────────────────────────────
+  // ── Render ──────────────────────────────────────────────────────────
   if (courseError) return <ErrorScreen message={courseError} />;
   if (!courseContent) return <LoadingScreen message="Loading your course..." />;
 
@@ -272,6 +347,15 @@ function ExamPage() {
       <header className="bg-industrial-900 text-white px-6 py-4 shadow-md">
         <div className="max-w-2xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
+            {isTestMode && (
+              <button
+                onClick={onBack}
+                className="text-industrial-400 hover:text-white transition-colors mr-1 text-sm"
+                title="Back to course list"
+              >
+                &#8592;
+              </button>
+            )}
             <span className="text-2xl">&#9888;</span>
             <div>
               <h1 className="font-bold text-lg leading-tight">{courseTitle}</h1>
@@ -297,6 +381,8 @@ function ExamPage() {
               isCompleting={isCompleting}
               completionError={completionError}
               onRetryComplete={handleComplete}
+              courseTitle={courseTitle}
+              onBackToCourses={isTestMode ? onBack : undefined}
             />
           ) : (
             <>
@@ -346,12 +432,41 @@ function ExamPage() {
   );
 }
 
+// ── App router — home vs exam ─────────────────────────────────────────────
+
+function AppContent() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+
+  const session = searchParams.get("session") ?? "";
+  const courseId = searchParams.get("courseId") ?? "";
+
+  const handleSelect = useCallback(
+    (id: string) => router.push(`/?courseId=${encodeURIComponent(id)}`),
+    [router],
+  );
+
+  const handleBack = useCallback(() => router.push("/"), [router]);
+
+  if (!session && !courseId) {
+    return <HomeScreen onSelect={handleSelect} />;
+  }
+
+  return (
+    <ExamPage
+      session={session}
+      courseId={courseId}
+      onBack={handleBack}
+    />
+  );
+}
+
 // ── Root export — Suspense required for useSearchParams ───────────────────
 
 export default function Page() {
   return (
-    <Suspense fallback={<LoadingScreen message="Loading your course..." />}>
-      <ExamPage />
+    <Suspense fallback={<LoadingScreen message="Loading..." />}>
+      <AppContent />
     </Suspense>
   );
 }
