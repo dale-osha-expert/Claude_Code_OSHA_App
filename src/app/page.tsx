@@ -40,6 +40,7 @@ const COURSES = [
   { id: "machine-guard-safety", title: "Machine Guard Safety", questions: 15, standard: "29 CFR 1910 Subpart O / 1910.212" },
   { id: "industrial-hygiene", title: "Introduction to Industrial Hygiene", questions: 15, standard: "OSHA Industrial Hygiene / General Duty Clause" },
   { id: "bloodborne-pathogens-commercial", title: "Bloodborne Pathogens: Commercial & Industrial", questions: 15, standard: "29 CFR 1910.1030" },
+  { id: "industrial-ergonomics", title: "Industrial Ergonomics", questions: 15, standard: "29 CFR 1910.900 / General Duty Clause" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
