@@ -27,6 +27,7 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "bloodborne-pathogens-commercial": "course-content-bloodborne-pathogens-commercial-quiz.json",
   "industrial-ergonomics": "course-content-industrial-ergonomics-quiz.json",
   "office-ergonomics": "course-content-office-ergonomics-quiz.json",
+  "injury-illness-prevention": "course-content-injury-illness-prevention-quiz.json",
 };
 
 export async function GET(request: NextRequest) {

@@ -42,6 +42,7 @@ const COURSES = [
   { id: "bloodborne-pathogens-commercial", title: "Bloodborne Pathogens: Commercial & Industrial", questions: 15, standard: "29 CFR 1910.1030" },
   { id: "industrial-ergonomics", title: "Industrial Ergonomics", questions: 15, standard: "29 CFR 1910.900 / General Duty Clause" },
   { id: "office-ergonomics", title: "Office Ergonomics", questions: 15, standard: "29 CFR 1910.900 / General Duty Clause" },
+  { id: "injury-illness-prevention", title: "I2P2: Injury and Illness Prevention Programs", questions: 15, standard: "29 CFR Part 1904" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
