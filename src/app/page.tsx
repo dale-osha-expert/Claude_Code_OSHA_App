@@ -60,6 +60,7 @@ const COURSES = [
   { id: "hand-power-tool-safety-construction", title: "Hand and Power Tool Safety in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart I (1926.300, 1926.301, 1926.302)" },
   { id: "safety-housekeeping-accident-prevention", title: "Safety Housekeeping and Accident Prevention", questions: 15, standard: "29 CFR 1910.151 / 1910.22" },
   { id: "conducting-safety-audits", title: "Conducting Safety Audits", questions: 15, standard: "29 CFR 1910 Subpart H / 1910.119" },
+  { id: "occupational-health-environmental-control", title: "Occupational Health and Environmental Control", questions: 15, standard: "29 CFR 1910 Subpart G (1910.94, 1910.95, 1910.97)" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────

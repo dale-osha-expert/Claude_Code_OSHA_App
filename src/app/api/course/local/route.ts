@@ -45,6 +45,7 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "hand-power-tool-safety-construction": "course-content-hand-power-tool-safety-construction-quiz.json",
   "safety-housekeeping-accident-prevention": "course-content-safety-housekeeping-accident-prevention-quiz.json",
   "conducting-safety-audits": "course-content-conducting-safety-audits-quiz.json",
+  "occupational-health-environmental-control": "course-content-occupational-health-environmental-control-quiz.json",
 };
 
 export async function GET(request: NextRequest) {
