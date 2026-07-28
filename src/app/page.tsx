@@ -59,6 +59,7 @@ const COURSES = [
   { id: "ladder-safety-construction", title: "Ladder Safety in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart X (1926.1053, 1926.1060)" },
   { id: "hand-power-tool-safety-construction", title: "Hand and Power Tool Safety in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart I (1926.300, 1926.301, 1926.302)" },
   { id: "safety-housekeeping-accident-prevention", title: "Safety Housekeeping and Accident Prevention", questions: 15, standard: "29 CFR 1910.151 / 1910.22" },
+  { id: "conducting-safety-audits", title: "Conducting Safety Audits", questions: 15, standard: "29 CFR 1910 Subpart H / 1910.119" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
