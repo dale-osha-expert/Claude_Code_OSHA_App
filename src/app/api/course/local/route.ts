@@ -28,6 +28,7 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "industrial-ergonomics": "course-content-industrial-ergonomics-quiz.json",
   "office-ergonomics": "course-content-office-ergonomics-quiz.json",
   "injury-illness-prevention": "course-content-injury-illness-prevention-quiz.json",
+  "osha-construction-intro": "course-content-osha-construction-intro-quiz.json",
 };
 
 export async function GET(request: NextRequest) {
