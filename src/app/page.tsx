@@ -46,6 +46,7 @@ const COURSES = [
   { id: "osha-construction-intro", title: "Introduction to OSHA for Construction", questions: 15, standard: "29 CFR Part 1926" },
   { id: "safety-orientation-construction", title: "Safety Orientation in Construction Environments", questions: 15, standard: "29 CFR 1926 Subparts C, D, E, F, G, I, J, K, L, M" },
   { id: "electrocution-hazards-construction-1", title: "Electrocution Hazards in Construction Part I: Worksite Safety", questions: 15, standard: "29 CFR 1926 Subpart K / 1926.1408" },
+  { id: "electrocution-hazards-construction-2", title: "Electrocution Hazards in Construction Part II: Employer Responsibilities", questions: 15, standard: "29 CFR 1926 Subpart K / 1926.403, 1926.416, 1926.1408" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
