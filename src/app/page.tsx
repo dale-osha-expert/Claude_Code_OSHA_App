@@ -44,6 +44,7 @@ const COURSES = [
   { id: "office-ergonomics", title: "Office Ergonomics", questions: 15, standard: "29 CFR 1910.900 / General Duty Clause" },
   { id: "injury-illness-prevention", title: "I2P2: Injury and Illness Prevention Programs", questions: 15, standard: "29 CFR Part 1904" },
   { id: "osha-construction-intro", title: "Introduction to OSHA for Construction", questions: 15, standard: "29 CFR Part 1926" },
+  { id: "safety-orientation-construction", title: "Safety Orientation in Construction Environments", questions: 15, standard: "29 CFR 1926 Subparts C, D, E, F, G, I, J, K, L, M" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
