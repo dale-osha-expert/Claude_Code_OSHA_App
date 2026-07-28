@@ -52,6 +52,7 @@ const COURSES = [
   { id: "personal-protective-equipment-construction", title: "Personal Protective Equipment in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart E / 1910.132–136" },
   { id: "hazard-communication-construction", title: "Hazard Communication in Construction Environments", questions: 15, standard: "29 CFR 1910.1200 / 1926.59" },
   { id: "crane-safety-construction", title: "Crane Safety in Construction Environments", questions: 15, standard: "29 CFR 1910.179, 1910.180 / 1926 Subpart CC" },
+  { id: "rigging-safety-construction", title: "Rigging Safety in Construction Environments", questions: 15, standard: "29 CFR 1910.179, 1910.184 / 1926 Subpart CC" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
