@@ -51,6 +51,7 @@ const COURSES = [
   { id: "caught-in-between-hazards-construction", title: "Caught-In/Between Hazards in Construction Environments", questions: 15, standard: "29 CFR 1926 Subparts I, L, O, P, Q, T / 1926.850, 1926.1400" },
   { id: "personal-protective-equipment-construction", title: "Personal Protective Equipment in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart E / 1910.132–136" },
   { id: "hazard-communication-construction", title: "Hazard Communication in Construction Environments", questions: 15, standard: "29 CFR 1910.1200 / 1926.59" },
+  { id: "crane-safety-construction", title: "Crane Safety in Construction Environments", questions: 15, standard: "29 CFR 1910.179, 1910.180 / 1926 Subpart CC" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
