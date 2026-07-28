@@ -55,6 +55,7 @@ const COURSES = [
   { id: "rigging-safety-construction", title: "Rigging Safety in Construction Environments", questions: 15, standard: "29 CFR 1910.179, 1910.184 / 1926 Subpart CC" },
   { id: "trenching-shoring-safety", title: "Trenching and Shoring Safety in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart P (1926.650, 1926.651, 1926.652)" },
   { id: "suspended-scaffolding-safety-construction", title: "Suspended Scaffolding Safety in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart L (1926.451, 1926.454)" },
+  { id: "supported-scaffolding-safety-construction", title: "Supported Scaffolding Safety in Construction Environments", questions: 15, standard: "29 CFR 1910.28, 1910.29 / 1926 Subpart L" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
