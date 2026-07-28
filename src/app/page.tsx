@@ -49,6 +49,7 @@ const COURSES = [
   { id: "electrocution-hazards-construction-2", title: "Electrocution Hazards in Construction Part II: Employer Responsibilities", questions: 15, standard: "29 CFR 1926 Subpart K / 1926.403, 1926.416, 1926.1408" },
   { id: "struck-by-hazards-construction", title: "Struck-By Hazards in Construction Environments", questions: 15, standard: "29 CFR 1910.28" },
   { id: "caught-in-between-hazards-construction", title: "Caught-In/Between Hazards in Construction Environments", questions: 15, standard: "29 CFR 1926 Subparts I, L, O, P, Q, T / 1926.850, 1926.1400" },
+  { id: "personal-protective-equipment-construction", title: "Personal Protective Equipment in Construction Environments", questions: 15, standard: "29 CFR 1926 Subpart E / 1910.132–136" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
