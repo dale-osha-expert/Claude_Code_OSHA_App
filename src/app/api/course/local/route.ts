@@ -32,6 +32,7 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "safety-orientation-construction": "course-content-safety-orientation-construction-quiz.json",
   "electrocution-hazards-construction-1": "course-content-electrocution-hazards-construction-1-quiz.json",
   "electrocution-hazards-construction-2": "course-content-electrocution-hazards-construction-2-quiz.json",
+  "struck-by-hazards-construction": "course-content-struck-by-hazards-construction-quiz.json",
 };
 
 export async function GET(request: NextRequest) {
