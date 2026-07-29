@@ -73,6 +73,8 @@ const COURSES = [
   { id: "respiratory-protection", title: "Respiratory Protection", questions: 15, standard: "29 CFR 1910.134" },
   { id: "slips-trips-falls-construction", title: "Slips, Trips, and Falls (Construction)", questions: 15, standard: "29 CFR 1926 Subpart M" },
   { id: "hearing-conservation", title: "Hearing Conservation and Safety", questions: 15, standard: "29 CFR 1910.95" },
+  { id: "using-fire-extinguishers", title: "Using Fire Extinguishers", questions: 15, standard: "29 CFR 1910.157" },
+  { id: "driving-safety", title: "Driving Safety", questions: 15, standard: "OSHA General Duty Clause, Section 5(a)(1)" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
