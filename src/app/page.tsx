@@ -69,6 +69,10 @@ const COURSES = [
   { id: "lockout-tagout", title: "LockOut/TagOut (Control of Hazardous Energy)", questions: 15, standard: "29 CFR 1910.147" },
   { id: "welding-safety", title: "Welding Safety", questions: 15, standard: "29 CFR 1910 Subpart Q (1910.251–1910.255)" },
   { id: "heat-stress", title: "Heat Stress", questions: 15, standard: "OSHA Heat Illness Prevention Guidelines" },
+  { id: "hand-wrist-finger-safety-construction", title: "Hand, Wrist, and Finger Safety (Construction)", questions: 15, standard: "29 CFR 1910.138 / 29 CFR 1926.95" },
+  { id: "respiratory-protection", title: "Respiratory Protection", questions: 15, standard: "29 CFR 1910.134" },
+  { id: "slips-trips-falls-construction", title: "Slips, Trips, and Falls (Construction)", questions: 15, standard: "29 CFR 1926 Subpart M" },
+  { id: "hearing-conservation", title: "Hearing Conservation and Safety", questions: 15, standard: "29 CFR 1910.95" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────

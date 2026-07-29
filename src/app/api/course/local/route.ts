@@ -54,6 +54,10 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "lockout-tagout": "course-content-lockout-tagout-quiz.json",
   "welding-safety": "course-content-welding-safety-quiz.json",
   "heat-stress": "course-content-heat-stress-quiz.json",
+  "hand-wrist-finger-safety-construction": "course-content-hand-wrist-finger-safety-construction-quiz.json",
+  "respiratory-protection": "course-content-respiratory-protection-quiz.json",
+  "slips-trips-falls-construction": "course-content-slips-trips-falls-construction-quiz.json",
+  "hearing-conservation": "course-content-hearing-conservation-quiz.json",
 };
 
 export async function GET(request: NextRequest) {
