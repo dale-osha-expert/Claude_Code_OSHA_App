@@ -46,6 +46,11 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "safety-housekeeping-accident-prevention": "course-content-safety-housekeeping-accident-prevention-quiz.json",
   "conducting-safety-audits": "course-content-conducting-safety-audits-quiz.json",
   "occupational-health-environmental-control": "course-content-occupational-health-environmental-control-quiz.json",
+  "electrocution-hazards-general-industry": "course-content-electrocution-hazards-general-industry-quiz.json",
+  "ghs-safety-data-sheets": "course-content-ghs-safety-data-sheets-quiz.json",
+  "ghs-container-labeling": "course-content-ghs-container-labeling-quiz.json",
+  "handling-compressed-gas-cylinders": "course-content-handling-compressed-gas-cylinders-quiz.json",
+  "confined-space-entry": "course-content-confined-space-entry-quiz.json",
 };
 
 export async function GET(request: NextRequest) {

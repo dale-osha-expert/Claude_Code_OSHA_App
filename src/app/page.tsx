@@ -61,6 +61,11 @@ const COURSES = [
   { id: "safety-housekeeping-accident-prevention", title: "Safety Housekeeping and Accident Prevention", questions: 15, standard: "29 CFR 1910.151 / 1910.22" },
   { id: "conducting-safety-audits", title: "Conducting Safety Audits", questions: 15, standard: "29 CFR 1910 Subpart H / 1910.119" },
   { id: "occupational-health-environmental-control", title: "Occupational Health and Environmental Control", questions: 15, standard: "29 CFR 1910 Subpart G (1910.94, 1910.95, 1910.97)" },
+  { id: "electrocution-hazards-general-industry", title: "Electrocution Hazards in General Industry", questions: 15, standard: "29 CFR 1910 Subpart S / 1910.147 / 1910.332" },
+  { id: "ghs-safety-data-sheets", title: "GHS Safety Data Sheets", questions: 15, standard: "29 CFR 1910.1200" },
+  { id: "ghs-container-labeling", title: "GHS Container Labeling", questions: 15, standard: "29 CFR 1910.1200" },
+  { id: "handling-compressed-gas-cylinders", title: "Handling Compressed Gas Cylinders", questions: 15, standard: "29 CFR 1910 Subpart H / 1910.101" },
+  { id: "confined-space-entry", title: "Confined Space Entry", questions: 15, standard: "29 CFR 1910.146" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────
