@@ -66,6 +66,9 @@ const COURSES = [
   { id: "ghs-container-labeling", title: "GHS Container Labeling", questions: 15, standard: "29 CFR 1910.1200" },
   { id: "handling-compressed-gas-cylinders", title: "Handling Compressed Gas Cylinders", questions: 15, standard: "29 CFR 1910 Subpart H / 1910.101" },
   { id: "confined-space-entry", title: "Confined Space Entry", questions: 15, standard: "29 CFR 1910.146" },
+  { id: "lockout-tagout", title: "LockOut/TagOut (Control of Hazardous Energy)", questions: 15, standard: "29 CFR 1910.147" },
+  { id: "welding-safety", title: "Welding Safety", questions: 15, standard: "29 CFR 1910 Subpart Q (1910.251–1910.255)" },
+  { id: "heat-stress", title: "Heat Stress", questions: 15, standard: "OSHA Heat Illness Prevention Guidelines" },
 ];
 
 // ── Local course loader (test mode — no session required) ─────────────────

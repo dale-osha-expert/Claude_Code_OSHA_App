@@ -51,6 +51,9 @@ const COURSE_FILE_MAP: Record<string, string> = {
   "ghs-container-labeling": "course-content-ghs-container-labeling-quiz.json",
   "handling-compressed-gas-cylinders": "course-content-handling-compressed-gas-cylinders-quiz.json",
   "confined-space-entry": "course-content-confined-space-entry-quiz.json",
+  "lockout-tagout": "course-content-lockout-tagout-quiz.json",
+  "welding-safety": "course-content-welding-safety-quiz.json",
+  "heat-stress": "course-content-heat-stress-quiz.json",
 };
 
 export async function GET(request: NextRequest) {
